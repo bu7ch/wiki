@@ -5,6 +5,8 @@
     ex : page personelle, ressources d'apprentissage
 	contre-exemple : administratif, volatile (info valable uniquement à très court terme)
 
+	NB : le wiki est un dépôt Git, que vous pouvez « cloner » et éditer hors-ligne avec une éditeur de texte. Son addresse est : git@github.com:ledepot.wiki.
+
 * [Discussions peristantes, idées, feedback](http://simplonco-talk.herokuapp.com) (notre forum de discussion privé)
 
     ex : Y'a pas assez de câbles ethernet, comment en obtenir ?
