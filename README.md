@@ -5,7 +5,7 @@
     ex : page personelle, ressources d'apprentissage
 	contre-exemple : administratif, volatile (info valable uniquement à très court terme)
 
-* [Discussions, idées, feedback](http://simplonco-talk.herokuapp.com) (notre forum de discussion privé)
+* [Discussions peristantes, idées, feedback](http://simplonco-talk.herokuapp.com) (notre forum de discussion privé)
 
     ex : Y'a pas assez de câbles ethernet, comment en obtenir ?
 	contre-exemple : j'ai besoin d'un doc administratif précis avec Erwan
@@ -15,7 +15,7 @@
     ex : signaler un équipement qui manque
 	contre-exemple : un problème administratif précis
 
-* [Discussions diverses](https://simplon.hipchat.com/chat?focus_jid=39514_recrues@conf.hipchat.com) (HipChat) (pensez aussi à télécharger le client « bureau », demandez l'accès à Andrei si vous n'avez pas encore de compte)
+* [Discussions diverses volatiles](https://simplon.hipchat.com/chat?focus_jid=39514_recrues@conf.hipchat.com) (HipChat) (pensez aussi à télécharger le client « bureau », demandez l'accès à Andrei si vous n'avez pas encore de compte)
 
     ex : Qui va bouffer, ou et quand ? J'ai un problème avec X, qui peut m'aider ?
 
