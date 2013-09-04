@@ -41,3 +41,15 @@ Envoyer un mail à toute l'équipe : <team@simplon.co>
 * bibliothèque de screencasts
 * références de livres
 * livres en libre service
+
+# Infos pratiques
+
+* imprimer
+
+    L'imprimante du milieu de l'open space est une imprimante réseau qui fonctionne avec IPP. IPP est un protocole universel, vous trouverez facilement des instructions pour votre plateforme.
+
+	Son addresse IP est `192.168.1.26` et son nom est « Xerox_Phaser_3150 ». Son URL est `http://192.168.1.26/printers/Xerox_Phaser_3150`. Certains OS vont vous parler d'« emplacement » de l'imprimante. Cela fait référence au lieu physique ou elle est placée, pas à son addresse.
+
+* les câbles
+
+    Tout est dans les placards du fond. Pensez à les remettre exactement au même endroit après utilisation (sinon c'est vite le bordel).
