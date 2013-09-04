@@ -31,6 +31,7 @@ Envoyer un mail à toute l'équipe : <team@simplon.co>
 # Ressources d'apprentissage
 
 * [Intro à la Programmation](https://github.com/simplonco/intro-a-la-programmation) : le guide de suivi que nous donnons aux personnes ayant fait les formations courtes (attention, c'est encore en cours rédaction).
+* [écrire en Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) : GitHub utilise le langage Markdown un peu partout (dans le wiki, dans les commentaires, etc.), et c'est le format privilégié pour rédiger des documents chez Simplon.
 
 ## A venir
 
