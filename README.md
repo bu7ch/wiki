@@ -7,7 +7,7 @@
 
 	NB : le wiki est un dépôt Git, que vous pouvez « cloner » et éditer hors-ligne avec une éditeur de texte. Son addresse est : git@github.com:ledepot.wiki.
 
-* [Questions-Réponses, discussions peristantes, idées, feedback](http://simplonco-talk.herokuapp.com) (notre forum de discussion privé)
+* [Questions-Réponses, discussions peristantes, idées, feedback](http://simplonco-talk.herokuapp.com) (Discourse  - notre forum de discussion privé)
 
     ex : Y'a pas assez de câbles ethernet, comment en obtenir ?
 	contre-exemple : j'ai besoin d'un doc administratif précis avec Erwan
