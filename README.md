@@ -54,6 +54,6 @@ Envoyer un mail à toute l'équipe : <team@simplon.co>
 
     Tout est dans les placards du fond. Pensez à les remettre exactement au même endroit après utilisation (sinon c'est vite le bordel).
 
-# « Réglèment intérieur » (dans l'attente d'un meilleur nom)
+# Vivre ensemble
 
 * mettre les portables en mode vibreur (saviez-vous que Montreuil voulait dire « petit monastère » ?)
