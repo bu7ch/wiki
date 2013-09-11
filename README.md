@@ -10,12 +10,12 @@
 * [Questions-Réponses, discussions peristantes, idées, feedback](http://simplonco-talk.herokuapp.com) (Discourse  - notre forum de discussion privé)
 
     ex : Y'a pas assez de câbles ethernet, comment en obtenir ?
-	contre-exemple : j'ai besoin d'un doc administratif précis avec Erwan
+    Contre-exemple : j'ai besoin d'un doc administratif précis avec Erwan
 
 * [Tâches « actionnables »](https://github.com/simplonco/ledepot/issues) (GitHub issues sur ce dépôt).
 
-    ex : signaler un équipement qui manque
-	contre-exemple : un problème administratif précis
+    ex : signaler un équipement qui manque, soumettre un problème ou un état d'avancement administratif à Erwan
+    
 
 * [Discussions diverses volatiles](https://simplon.hipchat.com/chat?focus_jid=39514_recrues@conf.hipchat.com) (HipChat) (pensez aussi à télécharger le client « bureau », demandez l'accès à Andrei si vous n'avez pas encore de compte)
 
