@@ -56,4 +56,9 @@ Envoyer un mail à toute l'équipe : <team@simplon.co>
 
 # Vivre ensemble
 
-* mettre les portables en mode vibreur (saviez-vous que Montreuil voulait dire « petit monastère » ?)
+* mettre les portables en mode vibreur (saviez-vous que Montreuil voulait dire « petit monastère » ?)-Ne rien laisser traîner, changer les sacs poubelles quand ils sont pleins, les jeter, en remettre d'autres...(ils sont rangés dans le secrétaire au fond prêt de la machine à café)
+* Laisser les chiottes propres
+* remettre le matos qui ne sert pas dans les armoires du fond (claviers, écrans, souris, câbles...)
+* passer un coup d'éponge sur la table quand y'en a besoin
+* maintenir le frigo propre (un coup d'éponge si c'est un peu sale...)
+* On peut déplacer autant de choses qu'on veut mais penser à les remettre à la même place. 
