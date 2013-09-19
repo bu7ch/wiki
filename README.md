@@ -54,6 +54,10 @@ Envoyer un mail à toute l'équipe : <team@simplon.co>
 
     Tout est dans les placards du fond. Pensez à les remettre exactement au même endroit après utilisation (sinon c'est vite le bordel).
 
+* salles de réunion
+
+	Utilisez l'agenda partagé « salle de réunion » pour résérver à l'avance et être sûrs de sa dispo.
+
 # Vivre ensemble
 
 * mettre les portables en mode vibreur (saviez-vous que Montreuil voulait dire « petit monastère » ?)-Ne rien laisser traîner, changer les sacs poubelles quand ils sont pleins, les jeter, en remettre d'autres...(ils sont rangés dans le secrétaire au fond prêt de la machine à café)
