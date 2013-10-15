@@ -58,6 +58,10 @@ Envoyer un mail à toute l'équipe : <team@simplon.co>
 
 	Utilisez l'agenda partagé « salle de réunion » pour résérver à l'avance et être sûrs de sa dispo.
 
+* objets perdus, objets non identifiés divers
+
+	Mettre dans la boîte en carton prévue à cet effet.
+
 # Vivre ensemble
 
 * mettre les portables en mode vibreur (saviez-vous que Montreuil voulait dire « petit monastère » ?)
