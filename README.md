@@ -5,7 +5,7 @@
     ex : page personelle, ressources d'apprentissage
 	contre-exemple : administratif, volatile (info valable uniquement à très court terme)
 
-	NB : le wiki est un dépôt Git, que vous pouvez « cloner » et éditer hors-ligne avec une éditeur de texte. Son addresse est : git@github.com:ledepot.wiki.
+	NB : le wiki est un dépôt Git, que vous pouvez « cloner » et éditer hors-ligne avec une éditeur de texte. Son addresse est : git@github.com:simplonco/ledepot.git
 
 * [Questions-Réponses, discussions peristantes, idées, feedback](http://simplonco-talk.herokuapp.com) (Discourse  - notre forum de discussion privé)
 
@@ -60,7 +60,8 @@ Envoyer un mail à toute l'équipe : <team@simplon.co>
 
 # Vivre ensemble
 
-* mettre les portables en mode vibreur (saviez-vous que Montreuil voulait dire « petit monastère » ?)-Ne rien laisser traîner, changer les sacs poubelles quand ils sont pleins, les jeter, en remettre d'autres...(ils sont rangés dans le secrétaire au fond prêt de la machine à café)
+* mettre les portables en mode vibreur (saviez-vous que Montreuil voulait dire « petit monastère » ?)
+* Ne rien laisser traîner, changer les sacs poubelles quand ils sont pleins, les jeter, en remettre d'autres...(ils sont rangés dans le secrétaire au fond prêt de la machine à café)
 * Laisser les chiottes propres
 * remettre le matos qui ne sert pas dans les armoires du fond (claviers, écrans, souris, câbles...)
 * passer un coup d'éponge sur la table quand y'en a besoin
