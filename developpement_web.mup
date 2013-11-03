@@ -1,0 +1,104 @@
+{
+  "title": "développement Web",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "pratiques",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "programmation en binôme (pair programming)",
+          "id": 5
+        },
+        "2": {
+          "title": "gestion de versions",
+          "id": 7
+        },
+        "3": {
+          "title": "débuggage",
+          "id": 8
+        },
+        "4": {
+          "title": "tests",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "tests unitaires",
+              "id": 19,
+              "ideas": {}
+            },
+            "2": {
+              "title": "tests d'intégration",
+              "id": 21
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "programmation",
+      "id": 12,
+      "ideas": {
+        "1": {
+          "title": "algorithmique",
+          "id": 13
+        }
+      }
+    },
+    "3": {
+      "title": "technologies",
+      "id": 22,
+      "ideas": {
+        "1": {
+          "title": "Internet",
+          "id": 23,
+          "ideas": {
+            "1": {
+              "title": "TCP/IP",
+              "id": 31
+            }
+          }
+        },
+        "2": {
+          "title": "systèmes d'éxploitation",
+          "id": 24
+        },
+        "3": {
+          "title": "langages de programmation",
+          "id": 25,
+          "ideas": {
+            "1": {
+              "title": "Ruby",
+              "id": 26
+            }
+          }
+        },
+        "4": {
+          "title": "Web",
+          "id": 28,
+          "ideas": {
+            "1": {
+              "title": "HTTP",
+              "id": 29
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "outils",
+      "id": 10,
+      "ideas": {
+        "1": {
+          "title": "éditeur de texte",
+          "id": 11
+        }
+      }
+    },
+    "-2": {
+      "title": "dévelo",
+      "id": 16
+    }
+  }
+}
