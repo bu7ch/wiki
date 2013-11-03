@@ -44,6 +44,28 @@
               "id": 104
             }
           }
+        },
+        "5": {
+          "title": "cryptographie",
+          "id": 106
+        },
+        "6": {
+          "title": "familles",
+          "id": 107,
+          "ideas": {
+            "1": {
+              "title": "functional (fonctionnels)",
+              "id": 108
+            },
+            "2": {
+              "title": "imperative (impératifs)",
+              "id": 109
+            },
+            "3": {
+              "title": "object-oriented (orienté objet)",
+              "id": 111
+            }
+          }
         }
       }
     },
@@ -98,16 +120,7 @@
                 "5": {
                   "title": "documentation",
                   "id": 77,
-                  "ideas": {
-                    "1": {
-                      "title": "man",
-                      "id": 78
-                    },
-                    "2": {
-                      "title": "apropos",
-                      "id": 79
-                    }
-                  }
+                  "ideas": {}
                 }
               }
             },
@@ -240,6 +253,10 @@
                           }
                         }
                       }
+                    },
+                    "7": {
+                      "title": "AJAX",
+                      "id": 124
                     }
                   }
                 },
@@ -271,6 +288,10 @@
                 "1": {
                   "title": "TCP/IP",
                   "id": 31
+                },
+                "2": {
+                  "title": "DNS",
+                  "id": 125
                 }
               },
               "attr": {
@@ -293,6 +314,42 @@
             "2": {
               "title": "Ruby on Rails",
               "id": 83
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "title": "systems administration (administration systèmes)",
+      "id": 114,
+      "ideas": {
+        "1": {
+          "title": "deployment (mise en ligne)",
+          "id": 115,
+          "ideas": {
+            "1": {
+              "title": "PaaS",
+              "id": 116,
+              "ideas": {
+                "1": {
+                  "title": "Heroku",
+                  "id": 120
+                }
+              }
+            },
+            "2": {
+              "title": "VPS",
+              "id": 118
+            }
+          }
+        },
+        "2": {
+          "title": "monitoring (suivi)",
+          "id": 121,
+          "ideas": {
+            "1": {
+              "title": "New Relic",
+              "id": 122
             }
           }
         }
@@ -333,6 +390,10 @@
         "5": {
           "title": "collaboration",
           "id": 56
+        },
+        "6": {
+          "title": "continuous integration (intégration continue)",
+          "id": 105
         }
       }
     },
@@ -495,6 +556,26 @@
     {
       "ideaIdFrom": 100,
       "ideaIdTo": 26,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 96,
+      "ideaIdTo": 45,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 124,
+      "ideaIdTo": 89,
       "attr": {
         "style": {
           "color": "#FF0000",
