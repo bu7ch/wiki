@@ -3,39 +3,6 @@
   "id": 1,
   "formatVersion": 2,
   "ideas": {
-    "1": {
-      "title": "pratiques",
-      "id": 3,
-      "ideas": {
-        "1": {
-          "title": "programmation en binôme (pair programming)",
-          "id": 5
-        },
-        "2": {
-          "title": "gestion de versions",
-          "id": 7
-        },
-        "3": {
-          "title": "débuggage",
-          "id": 8
-        },
-        "4": {
-          "title": "tests",
-          "id": 18,
-          "ideas": {
-            "1": {
-              "title": "tests unitaires",
-              "id": 19,
-              "ideas": {}
-            },
-            "2": {
-              "title": "tests d'intégration",
-              "id": 21
-            }
-          }
-        }
-      }
-    },
     "2": {
       "title": "programmation",
       "id": 12,
@@ -43,6 +10,40 @@
         "1": {
           "title": "algorithmique",
           "id": 13
+        },
+        "2": {
+          "title": "architecture logicielle",
+          "id": 85,
+          "ideas": {
+            "1": {
+              "title": "Model View Controller (MVC)",
+              "id": 88
+            }
+          }
+        },
+        "3": {
+          "title": "principes",
+          "id": 86,
+          "ideas": {
+            "1": {
+              "title": "Don't Repeat Yourself",
+              "id": 87
+            }
+          }
+        },
+        "4": {
+          "title": "types de langages",
+          "id": 102,
+          "ideas": {
+            "1": {
+              "title": "interprêtés",
+              "id": 103
+            },
+            "2": {
+              "title": "compilés",
+              "id": 104
+            }
+          }
         }
       }
     },
@@ -50,16 +51,6 @@
       "title": "technologies",
       "id": 22,
       "ideas": {
-        "1": {
-          "title": "Internet",
-          "id": 23,
-          "ideas": {
-            "1": {
-              "title": "TCP/IP",
-              "id": 31
-            }
-          }
-        },
         "2": {
           "title": "systèmes d'éxploitation",
           "id": 24,
@@ -70,57 +61,74 @@
               "ideas": {
                 "1": {
                   "title": "philosophie Unix",
-                  "id": 33,
-                  "ideas": {}
+                  "id": 33
                 },
                 "2": {
-                  "title": "environnements graphiques",
+                  "title": "shells",
                   "id": 34,
                   "ideas": {
                     "1": {
-                      "title": "serveur d'environnement graphique (ex. : X11)",
+                      "title": "Bash",
                       "id": 35
                     },
                     "2": {
-                      "title": "gestionnaire de fenêtres (ex. : xmonad)",
+                      "title": "Zsh",
                       "id": 36
                     }
                   }
                 },
                 "3": {
-                  "title": "shell",
-                  "id": 42,
+                  "title": "process management",
+                  "id": 64,
                   "ideas": {
                     "1": {
-                      "title": "Zsh",
-                      "id": 43
+                      "title": "lister les processus",
+                      "id": 65
                     },
                     "2": {
-                      "title": "Bash",
-                      "id": 48
+                      "title": "chercher un processus par port",
+                      "id": 66
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Filesystem Hierarchy Standard",
+                  "id": 76
+                },
+                "5": {
+                  "title": "documentation",
+                  "id": 77,
+                  "ideas": {
+                    "1": {
+                      "title": "man",
+                      "id": 78
+                    },
+                    "2": {
+                      "title": "apropos",
+                      "id": 79
                     }
                   }
                 }
               }
             },
             "2": {
-              "title": "démarrage du système",
-              "id": 37,
-              "ideas": {
-                "1": {
-                  "title": "BIOS",
-                  "id": 38,
-                  "ideas": {}
-                },
-                "2": {
-                  "title": "MBR",
-                  "id": 40
-                }
-              }
+              "title": "process management (gestion de processus)",
+              "id": 62,
+              "ideas": {}
             },
             "3": {
-              "title": "gestion de paquets (ex. : pacman)",
-              "id": 44
+              "title": "systèmes de fichiers",
+              "id": 72,
+              "ideas": {
+                "1": {
+                  "title": "gestion des permissions",
+                  "id": 73
+                },
+                "2": {
+                  "title": "structure des répértoires",
+                  "id": 75
+                }
+              }
             }
           }
         },
@@ -130,68 +138,369 @@
           "ideas": {
             "1": {
               "title": "Ruby",
-              "id": 26
-            }
-          }
-        },
-        "4": {
-          "title": "Web",
-          "id": 28,
-          "ideas": {
-            "1": {
-              "title": "HTTP",
-              "id": 29,
+              "id": 26,
               "ideas": {
                 "1": {
-                  "title": "verbes",
-                  "id": 49,
+                  "title": "tests",
+                  "id": 59,
                   "ideas": {
                     "1": {
-                      "title": "GET",
-                      "id": 54
+                      "title": "Cucumber",
+                      "id": 60
                     },
                     "2": {
-                      "title": "POST",
-                      "id": 55
+                      "title": "Rspec",
+                      "id": 61
                     }
                   }
                 },
                 "2": {
-                  "title": "cycle requête-réponse",
-                  "id": 50
+                  "title": "Rack",
+                  "id": 95
+                }
+              }
+            },
+            "2": {
+              "title": "Javascript",
+              "id": 89,
+              "ideas": {
+                "1": {
+                  "title": "Node.js",
+                  "id": 90
                 },
-                "3": {
-                  "title": "entêtes",
-                  "id": 51
+                "2": {
+                  "title": "jQuery",
+                  "id": 91
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
+        "5": {
+          "title": "réseau",
+          "id": 80,
+          "ideas": {
+            "1": {
+              "title": "Web",
+              "id": 28,
+              "ideas": {
+                "1": {
+                  "title": "HTTP",
+                  "id": 29,
+                  "ideas": {
+                    "1": {
+                      "title": "headers (entêtes)",
+                      "id": 37,
+                      "ideas": {}
+                    },
+                    "2": {
+                      "title": "request-response cycle (cycle requête-réponse)",
+                      "id": 39,
+                      "ideas": {}
+                    },
+                    "3": {
+                      "title": "response body (corps de la réponse)",
+                      "id": 43
+                    },
+                    "4": {
+                      "title": "parameters",
+                      "id": 44
+                    },
+                    "5": {
+                      "title": "verbs",
+                      "id": 45,
+                      "ideas": {
+                        "1": {
+                          "title": "GET",
+                          "id": 46
+                        },
+                        "2": {
+                          "title": "POST",
+                          "id": 47
+                        }
+                      }
+                    },
+                    "6": {
+                      "title": "maintaining state (maintien de l'état)",
+                      "id": 69,
+                      "ideas": {
+                        "1": {
+                          "title": "cookies",
+                          "id": 70,
+                          "ideas": {
+                            "1": {
+                              "title": "session cookies",
+                              "id": 71
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 },
-                "4": {
-                  "title": "corps",
-                  "id": 52
-                },
-                "5": {
-                  "title": "paramètres",
-                  "id": 53
+                "2": {
+                  "title": "HTML",
+                  "id": 92,
+                  "ideas": {
+                    "1": {
+                      "title": "Document Object Model (DOM)",
+                      "id": 93
+                    },
+                    "2": {
+                      "title": "formulaires",
+                      "id": 96
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "2": {
+              "title": "Internet",
+              "id": 23,
+              "ideas": {
+                "1": {
+                  "title": "TCP/IP",
+                  "id": 31
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
                 }
               }
             }
           }
         },
-        "5": {
+        "6": {
           "title": "frameworks",
+          "id": 81,
+          "ideas": {
+            "1": {
+              "title": "Sinatra",
+              "id": 82,
+              "ideas": {}
+            },
+            "2": {
+              "title": "Ruby on Rails",
+              "id": 83
+            }
+          }
+        }
+      }
+    },
+    "-0.5": {
+      "title": "pratiques",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "programmation en binôme (pair programming)",
+          "id": 5
+        },
+        "2": {
+          "title": "gestion de versions",
+          "id": 7,
+          "ideas": {}
+        },
+        "3": {
+          "title": "débuggage",
+          "id": 8
+        },
+        "4": {
+          "title": "tests",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "unit tests (tests unitaires)",
+              "id": 19,
+              "ideas": {}
+            },
+            "2": {
+              "title": "intégration tests (tests d'intégration)",
+              "id": 21
+            }
+          }
+        },
+        "5": {
+          "title": "collaboration",
           "id": 56
         }
       }
     },
-    "-1": {
+    "-10.5": {
       "title": "outils",
       "id": 10,
       "ideas": {
         "1": {
           "title": "éditeur de texte",
-          "id": 11
+          "id": 11,
+          "ideas": {}
+        },
+        "2": {
+          "title": "Git",
+          "id": 49,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            },
+            "position": [
+              58,
+              20,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "remotes",
+              "id": 51
+            },
+            "2": {
+              "title": "commits",
+              "id": 52
+            },
+            "3": {
+              "title": "staging area",
+              "id": 53
+            }
+          }
+        },
+        "3": {
+          "title": "GitHub",
+          "id": 55
+        },
+        "4": {
+          "title": "front-end development (dévellopement côté navigateur)",
+          "id": 57,
+          "ideas": {
+            "1": {
+              "title": "Chrome Developer Tools",
+              "id": 58
+            }
+          }
+        },
+        "5": {
+          "title": "REPL",
+          "id": 98,
+          "ideas": {
+            "1": {
+              "title": "console Javascript dans le navigateur",
+              "id": 99
+            },
+            "2": {
+              "title": "Pry",
+              "id": 100
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
         }
       }
     }
   },
-  "links": []
+  "links": [
+    {
+      "ideaIdFrom": 49,
+      "ideaIdTo": 7,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 56,
+      "ideaIdTo": 55,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 60,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 19,
+      "ideaIdTo": 61,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 82,
+      "ideaIdTo": 29,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 93,
+      "ideaIdTo": 91,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 95,
+      "ideaIdTo": 29,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 88,
+      "ideaIdTo": 83,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 100,
+      "ideaIdTo": 26,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
 }
