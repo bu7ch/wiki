@@ -62,7 +62,67 @@
         },
         "2": {
           "title": "systèmes d'éxploitation",
-          "id": 24
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": "Unix",
+              "id": 32,
+              "ideas": {
+                "1": {
+                  "title": "philosophie Unix",
+                  "id": 33,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "environnements graphiques",
+                  "id": 34,
+                  "ideas": {
+                    "1": {
+                      "title": "serveur d'environnement graphique (ex. : X11)",
+                      "id": 35
+                    },
+                    "2": {
+                      "title": "gestionnaire de fenêtres (ex. : xmonad)",
+                      "id": 36
+                    }
+                  }
+                },
+                "3": {
+                  "title": "shell",
+                  "id": 42,
+                  "ideas": {
+                    "1": {
+                      "title": "Zsh",
+                      "id": 43
+                    },
+                    "2": {
+                      "title": "Bash",
+                      "id": 48
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "démarrage du système",
+              "id": 37,
+              "ideas": {
+                "1": {
+                  "title": "BIOS",
+                  "id": 38,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "MBR",
+                  "id": 40
+                }
+              }
+            },
+            "3": {
+              "title": "gestion de paquets (ex. : pacman)",
+              "id": 44
+            }
+          }
         },
         "3": {
           "title": "langages de programmation",
@@ -80,9 +140,45 @@
           "ideas": {
             "1": {
               "title": "HTTP",
-              "id": 29
+              "id": 29,
+              "ideas": {
+                "1": {
+                  "title": "verbes",
+                  "id": 49,
+                  "ideas": {
+                    "1": {
+                      "title": "GET",
+                      "id": 54
+                    },
+                    "2": {
+                      "title": "POST",
+                      "id": 55
+                    }
+                  }
+                },
+                "2": {
+                  "title": "cycle requête-réponse",
+                  "id": 50
+                },
+                "3": {
+                  "title": "entêtes",
+                  "id": 51
+                },
+                "4": {
+                  "title": "corps",
+                  "id": 52
+                },
+                "5": {
+                  "title": "paramètres",
+                  "id": 53
+                }
+              }
             }
           }
+        },
+        "5": {
+          "title": "frameworks",
+          "id": 56
         }
       }
     },
@@ -95,10 +191,7 @@
           "id": 11
         }
       }
-    },
-    "-2": {
-      "title": "dévelo",
-      "id": 16
     }
-  }
+  },
+  "links": []
 }
