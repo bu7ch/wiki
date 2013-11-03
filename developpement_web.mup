@@ -183,6 +183,11 @@
                     "4": {
                       "title": "prompt (invite de commandes)",
                       "id": 233
+                    },
+                    "5": {
+                      "title": "job control (gestion des tâches)",
+                      "id": 239,
+                      "ideas": {}
                     }
                   }
                 },
