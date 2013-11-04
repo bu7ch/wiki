@@ -188,24 +188,10 @@
                       "title": "job control (gestion des tâches)",
                       "id": 239,
                       "ideas": {}
-                    }
-                  }
-                },
-                "3": {
-                  "title": "process management",
-                  "id": 64,
-                  "ideas": {
-                    "1": {
-                      "title": "lister les processus",
-                      "id": 65
                     },
-                    "2": {
-                      "title": "chercher un processus par port",
-                      "id": 66
-                    },
-                    "3": {
-                      "title": "environment variables (variables d'environnement)",
-                      "id": 196
+                    "6": {
+                      "title": "shell scripting",
+                      "id": 240
                     }
                   }
                 },
@@ -293,6 +279,40 @@
                     "2": {
                       "title": "POSIX",
                       "id": 218
+                    }
+                  }
+                },
+                "10": {
+                  "title": "processus",
+                  "id": 243,
+                  "ideas": {
+                    "1": {
+                      "title": "process management",
+                      "id": 64,
+                      "ideas": {
+                        "1": {
+                          "title": "lister les processus",
+                          "id": 65
+                        },
+                        "2": {
+                          "title": "chercher un processus par port",
+                          "id": 66
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "environment variables (variables d'environnement)",
+                      "id": 196,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
                     }
                   }
                 }
@@ -833,6 +853,10 @@
           "title": "SSH",
           "id": 164,
           "ideas": {}
+        },
+        "7": {
+          "title": "Markdown",
+          "id": 242
         }
       }
     },
