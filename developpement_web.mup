@@ -133,7 +133,7 @@
           }
         },
         "9": {
-          "title": "complexity",
+          "title": "gestion de la complexité",
           "id": 236,
           "ideas": {
             "1": {
@@ -311,6 +311,16 @@
                       "attr": {
                         "style": {
                           "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "file descriptors (descripteurs de fichiers)",
+                      "id": 244,
+                      "ideas": {
+                        "1": {
+                          "title": "STDIN, STDOUT, STDERR",
+                          "id": 245
                         }
                       }
                     }
@@ -606,6 +616,20 @@
             "2": {
               "title": "Vagrant",
               "id": 202
+            }
+          }
+        },
+        "4": {
+          "title": "performance",
+          "id": 251,
+          "ideas": {
+            "1": {
+              "title": "benchmarking",
+              "id": 252
+            },
+            "2": {
+              "title": "database",
+              "id": 253
             }
           }
         }
@@ -947,6 +971,51 @@
               "id": 151
             }
           }
+        },
+        "8": {
+          "title": "design",
+          "id": 249,
+          "ideas": {
+            "1": {
+              "title": "typographie",
+              "id": 246,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              },
+              "ideas": {}
+            },
+            "2": {
+              "title": "layout (mise en page)",
+              "id": 248,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              },
+              "ideas": {}
+            },
+            "3": {
+              "title": "couleurs",
+              "id": 247,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        },
+        "9": {
+          "title": "performance",
+          "id": 255,
+          "ideas": {
+            "1": {
+              "title": "fonctionnement d'un navigateur",
+              "id": 256
+            }
+          }
         }
       }
     }
@@ -1137,6 +1206,16 @@
     {
       "ideaIdFrom": 229,
       "ideaIdTo": 89,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 251,
+      "ideaIdTo": 122,
       "attr": {
         "style": {
           "color": "#FF0000",
