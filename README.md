@@ -50,6 +50,9 @@ Envoyer un mail à toute l'équipe : <team@simplon.co>
 
 	Son addresse IP est `192.168.1.26` et son nom est « Xerox_Phaser_3150 ». Son URL est `http://192.168.1.26:631/printers/Xerox_Phaser_3150`. Certains OS vont vous parler d'« emplacement » de l'imprimante. Cela fait référence au lieu physique ou elle est placée, pas à son addresse.
 
+cette imprimante n'est plus là, quelles sont les IP, nom et URL de la Dell qui est dans la salle de classe et de la HP qui est dans le bureau ?
+
+
 * les câbles
 
     Tout est dans les placards du fond. Pensez à les remettre exactement au même endroit après utilisation (sinon c'est vite le bordel).
