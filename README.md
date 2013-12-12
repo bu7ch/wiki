@@ -74,3 +74,4 @@ cette imprimante n'est plus là, quelles sont les IP, nom et URL de la Dell qui 
 * passer un coup d'éponge sur la table quand y'en a besoin
 * maintenir le frigo propre (un coup d'éponge si c'est un peu sale...)
 * On peut déplacer autant de choses qu'on veut mais penser à les remettre à la même place. 
+* [la charte des Simploniens] (https://docs.google.com/document/d/1EyZcohQpAwU0mxKbH5T5rUdMQhJoazxf2PUIxqzawm4/pub)
