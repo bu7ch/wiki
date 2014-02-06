@@ -1422,6 +1422,78 @@ Blog interressant sur la creation de Codeplayer et du worflow en cours.<br>
 [Tuicool][73]
   
 
+Point intéressant article sur la différence meteor et derby.<br>
+Point a revoir
+[Derby-blog][74]
+
+Fonctionnalité sur laquelle a faire des recherches<br>
+
+```
+script/generate
+
+```
+
+<h3>Teach me to code</h3>
+site interressant a creuser
+[Teach me to code][75]
+
+<h1>Cours Andrei</h1>
+gem autorisation est différentes des gems d'authentification.
+Faire une différence.
+
+Devise==Authentification
+Gem qui fonctionne avec rails
+
+Notions de filtre:<br>
+Devise peut utiliser ses points.<br>
+	before action <br>
+	before conect<br>
+<br>
+On regarde les paramètres au niveau du controller et on verifie si tout est ok ou non.<br>
+Devise est different de OmniAuth qui fait autre.<br>
+<br>
+Ruby toolbox<br>
+	=> voir comment ça s'articule<br>
+	   voir le dernier commit, l'activité.<br>
+	   voir le nombre de watchers et stars<br>
+           Envoi sur le source code<br>
+<br>
+README comme pitch de la gem. L'idée est d'évaluer rapidement.<br>
+<br>
+Onglet > pour gérer Chrome pevent duplicate tab<br>
+Faire son shopping de gem<br>
+Estimer la taille des commits. Utiliser le pulse.<br>
+
+Helpers dans le cadre des authentification == utile<br>
+Exemple utilisation avec gem Monban.<br>
+<br>
+Exemple gem clearance<br>
+CCL:<br>
+Testons le - faisons une application minimale<br>
+
+Nb turbolinks = gestion du javascript de manière plus rapide.<br>
+Oauth <=> comme standard specification.<br>
+
+Bon point quand il y a un tuto.<br>
+Voir nombre de pages sur le wiki de la gem<br>
+Authlogic<br>
+Wiki sous la forme d'un How to <br>
+Possibilité d'utiliser les deux en même temps<br>
+Prendre le moins que l'on a besoin.<br>
+<br>
+Site pour le décryptage des commandes shell
+[Explain-Shell][76]<br>
+<br>
+Token a mettre non en clair<br>
+```
+git diff --cached // Affichage des differences en lignes
+```
+
+Indiquer parfois la commande pour le commit exemple
+```
+git commit -m "$rails g controller welcome"
+```
+
 
   [1]: www.rubymonk.com
   [2]: www.codeacademy.com
@@ -1496,3 +1568,6 @@ Blog interressant sur la creation de Codeplayer et du worflow en cours.<br>
   [71]: http://la-vache-libre.org/bittorrent-sync-proprement/
   [72]: http://askubuntu.com/questions/284683/how-to-run-bittorrent-sync
   [73]: http://www.tuicool.com/articles/IBjAfqQ
+  [74]: http://blog.derbyjs.com/2012/04/14/our-take-on-derby-vs-meteor/
+  [75]: http://teachmetocode.com
+  [76]: http://explainshell.com/
