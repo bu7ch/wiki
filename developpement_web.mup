@@ -1,0 +1,1232 @@
+{
+  "title": "développement Web",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "2": {
+      "title": "programmation",
+      "id": 12,
+      "ideas": {
+        "1": {
+          "title": "algoritms (algorithmique)",
+          "id": 13
+        },
+        "2": {
+          "title": "software architecture (architecture logicielle)",
+          "id": 85,
+          "ideas": {
+            "1": {
+              "title": "Model View Controller (MVC)",
+              "id": 88
+            }
+          }
+        },
+        "3": {
+          "title": "principes",
+          "id": 86,
+          "ideas": {
+            "1": {
+              "title": "Don't Repeat Yourself",
+              "id": 87
+            },
+            "2": {
+              "title": "RTFM",
+              "id": 148
+            }
+          }
+        },
+        "4": {
+          "title": "types",
+          "id": 102,
+          "ideas": {
+            "1": {
+              "title": "interpreted (interprêtés)",
+              "id": 103
+            },
+            "2": {
+              "title": "compiled (compilés)",
+              "id": 104
+            }
+          }
+        },
+        "5": {
+          "title": "cryptographie",
+          "id": 106,
+          "ideas": {
+            "1": {
+              "title": "public-key cryptography",
+              "id": 166
+            }
+          }
+        },
+        "6": {
+          "title": "familles",
+          "id": 107,
+          "ideas": {
+            "1": {
+              "title": "functional (fonctionnels) : ex.  Lisp",
+              "id": 108,
+              "ideas": {}
+            },
+            "2": {
+              "title": "imperative (impératifs) : ex. PHP",
+              "id": 109
+            },
+            "3": {
+              "title": "object-oriented (orienté objet) ex. Ruby",
+              "id": 111
+            }
+          }
+        },
+        "7": {
+          "title": "databases (base de données)",
+          "id": 175,
+          "ideas": {
+            "1": {
+              "title": "relational",
+              "id": 176,
+              "ideas": {
+                "1": {
+                  "title": "SQL",
+                  "id": 182
+                }
+              }
+            },
+            "2": {
+              "title": "object-relational mapping",
+              "id": 177,
+              "ideas": {
+                "1": {
+                  "title": "ActiveRecord",
+                  "id": 178
+                },
+                "2": {
+                  "title": "Datamapper",
+                  "id": 179
+                }
+              }
+            },
+            "3": {
+              "title": "non-relational",
+              "id": 181,
+              "ideas": {
+                "1": {
+                  "title": "MongoDB",
+                  "id": 183
+                }
+              }
+            }
+          }
+        },
+        "8": {
+          "title": "data structures (structures de données)",
+          "id": 230,
+          "ideas": {
+            "1": {
+              "title": "arrays (\"listes ordonnées\")",
+              "id": 231
+            },
+            "2": {
+              "title": "hashes (\"formulaires\")",
+              "id": 232
+            }
+          }
+        },
+        "9": {
+          "title": "gestion de la complexité",
+          "id": 236,
+          "ideas": {
+            "1": {
+              "title": "modularisation",
+              "id": 237
+            },
+            "2": {
+              "title": "abstraction",
+              "id": 238
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "title": "technologies",
+      "id": 22,
+      "ideas": {
+        "2": {
+          "title": "systèmes d'éxploitation",
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": "Unix",
+              "id": 32,
+              "ideas": {
+                "1": {
+                  "title": "philosophie Unix",
+                  "id": 33
+                },
+                "2": {
+                  "title": "shells",
+                  "id": 34,
+                  "ideas": {
+                    "1": {
+                      "title": "Bash",
+                      "id": 35
+                    },
+                    "2": {
+                      "title": "Zsh",
+                      "id": 36
+                    },
+                    "3": {
+                      "title": "dotfiles",
+                      "id": 152
+                    },
+                    "4": {
+                      "title": "prompt (invite de commandes)",
+                      "id": 233
+                    },
+                    "5": {
+                      "title": "job control (gestion des tâches)",
+                      "id": 239,
+                      "ideas": {}
+                    },
+                    "6": {
+                      "title": "shell scripting",
+                      "id": 240
+                    }
+                  }
+                },
+                "5": {
+                  "title": "documentation",
+                  "id": 77,
+                  "ideas": {}
+                },
+                "6": {
+                  "title": "types",
+                  "id": 137,
+                  "ideas": {
+                    "1": {
+                      "title": "BSD",
+                      "id": 138
+                    },
+                    "2": {
+                      "title": "GNU/Linux",
+                      "id": 139,
+                      "ideas": {
+                        "1": {
+                          "title": "distributions",
+                          "id": 140,
+                          "ideas": {
+                            "1": {
+                              "title": "Arch Linux",
+                              "id": 141
+                            },
+                            "2": {
+                              "title": "Ubuntu",
+                              "id": 142
+                            },
+                            "3": {
+                              "title": "Debian",
+                              "id": 143
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "7": {
+                  "title": "terminal",
+                  "id": 144,
+                  "ideas": {
+                    "1": {
+                      "title": "terminal multiplexer (ex. : Tmux)",
+                      "id": 145,
+                      "ideas": {}
+                    }
+                  }
+                },
+                "8": {
+                  "title": "user management (gestion des utilisateurs)",
+                  "id": 171,
+                  "ideas": {
+                    "1": {
+                      "title": "sudo",
+                      "id": 172
+                    },
+                    "2": {
+                      "title": "useradd",
+                      "id": 173
+                    },
+                    "3": {
+                      "title": "root",
+                      "id": 174
+                    }
+                  }
+                },
+                "9": {
+                  "title": "standards",
+                  "id": 217,
+                  "ideas": {
+                    "1": {
+                      "title": "Filesystem Hierarchy Standard",
+                      "id": 76,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "POSIX",
+                      "id": 218
+                    }
+                  }
+                },
+                "10": {
+                  "title": "processus",
+                  "id": 243,
+                  "ideas": {
+                    "1": {
+                      "title": "process management",
+                      "id": 64,
+                      "ideas": {
+                        "1": {
+                          "title": "lister les processus",
+                          "id": 65
+                        },
+                        "2": {
+                          "title": "chercher un processus par port",
+                          "id": 66
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "environment variables (variables d'environnement)",
+                      "id": 196,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "file descriptors (descripteurs de fichiers)",
+                      "id": 244,
+                      "ideas": {
+                        "1": {
+                          "title": "STDIN, STDOUT, STDERR",
+                          "id": 245
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "process management (gestion de processus)",
+              "id": 62,
+              "ideas": {}
+            },
+            "3": {
+              "title": "systèmes de fichiers",
+              "id": 72,
+              "ideas": {
+                "1": {
+                  "title": "gestion des permissions",
+                  "id": 73
+                },
+                "2": {
+                  "title": "structure des répértoires",
+                  "id": 75
+                }
+              }
+            },
+            "4": {
+              "title": "hardware",
+              "id": 227
+            }
+          }
+        },
+        "3": {
+          "title": "langages de programmation",
+          "id": 25,
+          "ideas": {
+            "1": {
+              "title": "Ruby",
+              "id": 26,
+              "ideas": {
+                "1": {
+                  "title": "tests",
+                  "id": 59,
+                  "ideas": {
+                    "1": {
+                      "title": "Cucumber",
+                      "id": 60
+                    },
+                    "2": {
+                      "title": "Rspec",
+                      "id": 61
+                    }
+                  }
+                },
+                "3": {
+                  "title": "gems",
+                  "id": 192,
+                  "ideas": {
+                    "1": {
+                      "title": "Rack",
+                      "id": 95,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "title": "RVM",
+                  "id": 195
+                }
+              }
+            },
+            "2": {
+              "title": "Javascript",
+              "id": 89,
+              "ideas": {
+                "1": {
+                  "title": "Node.js",
+                  "id": 90
+                },
+                "2": {
+                  "title": "jQuery",
+                  "id": 91
+                },
+                "3": {
+                  "title": "CoffeeScript",
+                  "id": 170
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
+        "5": {
+          "title": "réseau",
+          "id": 80,
+          "ideas": {
+            "1": {
+              "title": "Web",
+              "id": 28,
+              "ideas": {
+                "1": {
+                  "title": "HTTP",
+                  "id": 29,
+                  "ideas": {
+                    "1": {
+                      "title": "headers (entêtes)",
+                      "id": 37,
+                      "ideas": {}
+                    },
+                    "2": {
+                      "title": "request-response cycle (cycle requête-réponse)",
+                      "id": 39,
+                      "ideas": {}
+                    },
+                    "3": {
+                      "title": "response body (corps de la réponse)",
+                      "id": 43
+                    },
+                    "4": {
+                      "title": "parameters",
+                      "id": 44
+                    },
+                    "5": {
+                      "title": "verbs",
+                      "id": 45,
+                      "ideas": {
+                        "1": {
+                          "title": "GET",
+                          "id": 46
+                        },
+                        "2": {
+                          "title": "POST",
+                          "id": 47
+                        }
+                      }
+                    },
+                    "6": {
+                      "title": "maintaining state (maintien de l'état)",
+                      "id": 69,
+                      "ideas": {
+                        "1": {
+                          "title": "cookies",
+                          "id": 70,
+                          "ideas": {
+                            "1": {
+                              "title": "session cookies",
+                              "id": 71
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "7": {
+                      "title": "AJAX",
+                      "id": 124,
+                      "ideas": {
+                        "1": {
+                          "title": "JSON",
+                          "id": 229
+                        }
+                      }
+                    },
+                    "8": {
+                      "title": "REST",
+                      "id": 167
+                    }
+                  }
+                },
+                "2": {
+                  "title": "HTML",
+                  "id": 92,
+                  "ideas": {
+                    "1": {
+                      "title": "Document Object Model (DOM)",
+                      "id": 93
+                    },
+                    "2": {
+                      "title": "formulaires",
+                      "id": 96
+                    },
+                    "3": {
+                      "title": "preprocessors",
+                      "id": 168,
+                      "ideas": {
+                        "1": {
+                          "title": "HAML",
+                          "id": 169
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "2": {
+              "title": "Internet",
+              "id": 23,
+              "ideas": {
+                "1": {
+                  "title": "TCP/IP",
+                  "id": 31
+                },
+                "2": {
+                  "title": "DNS",
+                  "id": 125
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        },
+        "6": {
+          "title": "frameworks",
+          "id": 81,
+          "ideas": {
+            "1": {
+              "title": "Sinatra",
+              "id": 82,
+              "ideas": {
+                "1": {
+                  "title": "routes",
+                  "id": 224
+                }
+              }
+            },
+            "2": {
+              "title": "Ruby on Rails",
+              "id": 83
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "title": "systems administration (administration systèmes)",
+      "id": 114,
+      "ideas": {
+        "1": {
+          "title": "deployment (mise en ligne)",
+          "id": 115,
+          "ideas": {
+            "1": {
+              "title": "PaaS",
+              "id": 116,
+              "ideas": {
+                "1": {
+                  "title": "Heroku",
+                  "id": 120
+                }
+              }
+            },
+            "2": {
+              "title": "VPS",
+              "id": 118
+            }
+          }
+        },
+        "2": {
+          "title": "monitoring (suivi)",
+          "id": 121,
+          "ideas": {
+            "1": {
+              "title": "New Relic",
+              "id": 122
+            }
+          }
+        },
+        "3": {
+          "title": "virtualization",
+          "id": 200,
+          "ideas": {
+            "1": {
+              "title": "VirtualBox",
+              "id": 201
+            },
+            "2": {
+              "title": "Vagrant",
+              "id": 202
+            }
+          }
+        },
+        "4": {
+          "title": "performance",
+          "id": 251,
+          "ideas": {
+            "1": {
+              "title": "benchmarking",
+              "id": 252
+            },
+            "2": {
+              "title": "database",
+              "id": 253
+            }
+          }
+        }
+      }
+    },
+    "-0.5": {
+      "title": "pratiques",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "programmation en binôme (pair programming)",
+          "id": 5
+        },
+        "2": {
+          "title": "gestion de versions",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "patch",
+              "id": 128
+            }
+          }
+        },
+        "3": {
+          "title": "débuggage",
+          "id": 8
+        },
+        "4": {
+          "title": "tests",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "unit tests (tests unitaires)",
+              "id": 19,
+              "ideas": {}
+            },
+            "2": {
+              "title": "intégration tests (tests d'intégration)",
+              "id": 21
+            },
+            "3": {
+              "title": "Test-Driven Development (TDD) (développement guidé par des tests)",
+              "id": 208
+            }
+          }
+        },
+        "6": {
+          "title": "continuous integration (intégration continue)",
+          "id": 105,
+          "ideas": {
+            "1": {
+              "title": "Codeship",
+              "id": 228
+            }
+          }
+        },
+        "7": {
+          "title": "documentation",
+          "id": 184,
+          "ideas": {
+            "1": {
+              "title": "Q&A (forums questions-réponses)",
+              "id": 185,
+              "ideas": {
+                "3": {
+                  "title": "StackExchange",
+                  "id": 189,
+                  "ideas": {
+                    "1": {
+                      "title": "StackOverflow",
+                      "id": 186,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "ServerFault",
+                      "id": 187,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Unix & Linux",
+                      "id": 190
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-10.5": {
+      "title": "outils",
+      "id": 10,
+      "ideas": {
+        "1": {
+          "title": "éditeur de texte",
+          "id": 11,
+          "ideas": {
+            "1": {
+              "title": "Sublime Text",
+              "id": 154,
+              "ideas": {
+                "1": {
+                  "title": "plugins",
+                  "id": 159,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Vim",
+              "id": 155,
+              "ideas": {
+                "1": {
+                  "title": "modes",
+                  "id": 205
+                },
+                "2": {
+                  "title": "scripts",
+                  "id": 206
+                }
+              }
+            },
+            "3": {
+              "title": "Emacs",
+              "id": 156
+            },
+            "4": {
+              "title": "syntax highlighting (colorisation de syntaxe)",
+              "id": 158
+            }
+          }
+        },
+        "2": {
+          "title": "Git",
+          "id": 49,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            },
+            "position": [
+              58,
+              20,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "remotes",
+              "id": 51
+            },
+            "2": {
+              "title": "commits",
+              "id": 52,
+              "ideas": {
+                "1": {
+                  "title": "staging area",
+                  "id": 53,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "logs",
+              "id": 160
+            },
+            "5": {
+              "title": "branches",
+              "id": 162
+            },
+            "6": {
+              "title": "tags",
+              "id": 163
+            },
+            "7": {
+              "title": "stash",
+              "id": 204
+            }
+          }
+        },
+        "3": {
+          "title": "GitHub",
+          "id": 55,
+          "ideas": {
+            "1": {
+              "title": "fork",
+              "id": 126
+            },
+            "2": {
+              "title": "pull request",
+              "id": 127
+            },
+            "3": {
+              "title": "issue tracking",
+              "id": 153
+            }
+          }
+        },
+        "4": {
+          "title": "front-end development (dévellopement côté navigateur)",
+          "id": 57,
+          "ideas": {
+            "1": {
+              "title": "Chrome Developer Tools",
+              "id": 58
+            }
+          }
+        },
+        "5": {
+          "title": "Read Print Eval Loop (REPL)",
+          "id": 98,
+          "ideas": {
+            "1": {
+              "title": "console Javascript dans le navigateur",
+              "id": 99
+            },
+            "2": {
+              "title": "Pry",
+              "id": 100
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
+        "6": {
+          "title": "SSH",
+          "id": 164,
+          "ideas": {}
+        },
+        "7": {
+          "title": "Markdown",
+          "id": 242
+        }
+      }
+    },
+    "-11.5": {
+      "title": "webdesign",
+      "id": 129,
+      "ideas": {
+        "1": {
+          "title": "CSS",
+          "id": 130,
+          "ideas": {
+            "1": {
+              "title": "selectors (sélécteurs)",
+              "id": 198,
+              "ideas": {
+                "1": {
+                  "title": "pseudo-selectors",
+                  "id": 209
+                },
+                "2": {
+                  "title": "id & class selectors",
+                  "id": 210
+                },
+                "3": {
+                  "title": "attribute selectors",
+                  "id": 211
+                }
+              }
+            },
+            "2": {
+              "title": "properties (propriétés ou attributs)",
+              "id": 199
+            },
+            "3": {
+              "title": "preprocessors",
+              "id": 212,
+              "ideas": {
+                "1": {
+                  "title": "Sass",
+                  "id": 213,
+                  "ideas": {
+                    "1": {
+                      "title": "variables",
+                      "id": 214
+                    },
+                    "2": {
+                      "title": "mixins",
+                      "id": 215
+                    },
+                    "3": {
+                      "title": "Compass",
+                      "id": 216
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "frameworks",
+          "id": 132,
+          "ideas": {
+            "1": {
+              "title": "Zurb Foundation",
+              "id": 133
+            },
+            "2": {
+              "title": "Twitter Bootstrap",
+              "id": 134
+            }
+          }
+        },
+        "3": {
+          "title": "colors",
+          "id": 135
+        },
+        "4": {
+          "title": "User Experience (UX) (éxperience utilisateur)",
+          "id": 149,
+          "ideas": {
+            "1": {
+              "title": "wireframing",
+              "id": 150
+            },
+            "2": {
+              "title": "prototyping",
+              "id": 151
+            }
+          }
+        },
+        "8": {
+          "title": "design",
+          "id": 249,
+          "ideas": {
+            "1": {
+              "title": "typographie",
+              "id": 246,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              },
+              "ideas": {}
+            },
+            "2": {
+              "title": "layout (mise en page)",
+              "id": 248,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              },
+              "ideas": {}
+            },
+            "3": {
+              "title": "couleurs",
+              "id": 247,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        },
+        "9": {
+          "title": "performance",
+          "id": 255,
+          "ideas": {
+            "1": {
+              "title": "fonctionnement d'un navigateur",
+              "id": 256
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 49,
+      "ideaIdTo": 7,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 60,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 19,
+      "ideaIdTo": 61,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 82,
+      "ideaIdTo": 29,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 93,
+      "ideaIdTo": 91,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 95,
+      "ideaIdTo": 29,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 88,
+      "ideaIdTo": 83,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 100,
+      "ideaIdTo": 26,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 96,
+      "ideaIdTo": 45,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 124,
+      "ideaIdTo": 89,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 49,
+      "ideaIdTo": 55,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 143,
+      "ideaIdTo": 142,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 144,
+      "ideaIdTo": 34,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 51,
+      "ideaIdTo": 55,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 174,
+      "ideaIdTo": 172,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 196,
+      "ideaIdTo": 34,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 58,
+      "ideaIdTo": 99,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 224,
+      "ideaIdTo": 29,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 229,
+      "ideaIdTo": 89,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 251,
+      "ideaIdTo": 122,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ],
+  "attr": {
+    "style": {
+      "background": "#ffff99"
+    }
+  }
+}
