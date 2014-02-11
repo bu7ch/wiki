@@ -7,7 +7,7 @@ Notes personnelles pour le Ruby et le travail à simplon
 C’est une reprise de notes personnelles au propres. L’idée est de réfléchir et de voir l’avancement de ce que j’ai appris.
 Apprendre, appliquer, corriger et réapprendre.
 
-RUBY
+## RUBY ##
 ----
 
  
@@ -16,6 +16,7 @@ L’apprentissage du ruby s’est fait par plusieurs ressources
 
  - [RubyMonk][1]
  - [CodeAcademy][2]
+
 
 Notes générales sur Ruby points importants.
 Tout est objet dans Ruby.
@@ -110,6 +111,25 @@ objet.cook_egg(6).make_milkshake("chocolat")
 
 <h2>Appel de méthodes</h2>
 
+```
+def Bonjour
+  puts "bonjour le monde"
+end
+
+Bonjour() #Cas fonction simple
+
+class Foo
+  def Bonjour
+    puts "bonjour le monde"
+  end
+end
+
+a=Foo.new()
+a.Bonjour #Cas methode classe
+
+``` 
+
+
 <h1>Lambda et Proc </h1>
 
 <h2>Blocks</h2>
@@ -172,7 +192,12 @@ nb_loop.times do
 end
 #La boucle se déroulera 5 fois
 ```
+Boucle "Objet" avec la mtéhode each
 
+```
+a=14
+a.each{|x|, #instructions}
+```
 <h2>Loop Do </h2>
 Existence d'une création de boucle avec le mot loop.
 ```
@@ -290,17 +315,17 @@ Getter et Setter
 
 Attribut self
 
-<h1>Gems</h1>
+## Gems ##
 
 
-SINATRA
+## SINATRA ##
 -------
 
 Utilisation et bases
 
 ActiveRecord
 
-RAILS
+## RAILS ##
 -----
 <h1>Modele MVC </h1>
 
@@ -484,7 +509,7 @@ L'idée est de jouer sur ces deux mise en arrière et avant pour faire ses codes
 Rails et terminal au même endroit.
 <h1>Structure application Rails </h1>
 
-<h2>RSPEC</h2>
+## RSPEC ##
 Rspec permet le test au niveau des applications.<br>
 Rspec travaille sur le dossier des tests.
 ```
@@ -528,7 +553,7 @@ Collections : agit sur l'ensemble de la table
 Member : agit sur une ligne de la table.
 namespace :  regroupe un ensemble de routes (Thématiser un ensemble de lients ) Il faut faire évoluer le controller. <br>
 
-REFLEXIONS
+## REFLEXIONS ##
 ----------
 <h1>Conflits entre les versions et les gems</h1>
 Le problème le plus rencontré est le conflit entre les versions.Visiblement quoi qu'on en dise Ruby n'est pas un langage stable. Les gems qui ne sont rien d'autre que des librairies peuvent entrer en conflits d'ou l'utilisation de gem permettant de gérer ces problèmes tels que : 
@@ -542,7 +567,9 @@ L'utilisation de rvm pour ma part passe par la console par :
 ```
  pour passer en mode rvm.
  
- NB Existence d'un framework pour le développement d'applications mobiles qui s'appelle PhoneGap => Walid travaille dessus/.
+ NB Existence d'un framework pour le développement d'applications mobiles qui s'appelle PhoneGap => Walid travaille dessus/.<br>
+
+ Tony nous a fait une démonstration de phoneGap. Il existe visiblement PhoneGap aussi en version open source qui le projet Apache Cordova
  
  
 
@@ -555,7 +582,7 @@ Installer VIm, GIt, curl, ruby
 AUTRES LANGAGES
 ---------------
 
-<h1>C++</h1>
+## C/C++ ##
 <h2>Compilation en ligne de commande </h2>
 ```
 g++ nomFichier.cpp -o nomFichier  #lancer la compilation
@@ -567,8 +594,8 @@ g++ nomFichier.cpp -o nomFichier  #lancer la compilation
 Le make est un equivalent d'un idle pour c. Il faut noter que c'est un ensemble d'instruction pour la compilation.<br>
 [Makefile Creation gazette linux][6]
 
-<h1>Python</h1>
-<h1>Javascript</h1>
+## Python ##
+## Javascript ##
 <h1>Markdown</h1>
 
 
@@ -637,7 +664,11 @@ sudo add apt-get NomduPPa
 
 ```
 
-##Github/Git commands ##
+## Vim ##
+
+
+
+## Github/Git commands ##
 
 Create a new repository on the command line
 ```
@@ -725,6 +756,19 @@ C'est un processus particulier mais intéressant.
 [TutorielInteressant sur le gitFlow][10]<br>
 [ATLASSIAN GIT Tutoriel][11]
 
+Autres commandes destinées dans git.
+
+```
+git diff --cached // Affichage des differences en lignes
+```
+
+Indiquer parfois la commande pour le commit exemple
+```
+git commit -m "$rails g controller welcome"
+```
+
+
+
 
 ##HEROKU##
 
@@ -769,13 +813,14 @@ CTRL + X + F = autocomplétition de chemin<br>
 [VimCasts][12]
 
 jackDb lecture de base de données en ligneµ.
-Tmux utilitaire pour faire deux terminal dans un terminal. : plutoôt cool :Yacisne
-Existence d'une application linux intéressante Tmate.
 Tinder application<br>
 possibilité de faire des test et exécutions directement sur Sublime
 
-<h2>Utilisation de Tmux</h2>
+## Utilisation de Tmux ##
+
 Permet de travailler sur plusieurs écrans à partir de sa ligne de commande.<br>
+Tmux utilitaire pour faire deux terminal dans un terminal. : <br> plutoôt cool :Yacisne<br>
+Existence d'une application linux intéressante Tmate.<br>
 <ul>
     <li>Ctrl+b "attendre qqes secondes" + % "split de l'écran horizontalement</li>
     <li>Ctrl+b +"" split horizontal</li>
@@ -789,6 +834,116 @@ Permet de travailler sur plusieurs écrans à partir de sa ligne de commande.<br
     <li>Ctrl+r +z = resize de la fenêtre en plus grand. </li>
 </ul>
 [Tmux bases][13]
+
+<h2> Configuration tmux good </h2>
+```
+# status bar
+set-option -g status-utf8 on
+
+
+# https://github.com/seebi/tmux-colors-solarized/blob/master/tmuxcolors-256.conf
+set-option -g status-bg colour235 #base02
+set-option -g status-fg colour136 #yellow
+set-option -g status-attr default
+
+# default window title colors
+set-window-option -g window-status-fg colour244 #base0
+set-window-option -g window-status-bg default
+#set-window-option -g window-status-attr dim
+
+# active window title colors
+set-window-option -g window-status-current-fg colour166 #orange
+set-window-option -g window-status-current-bg default
+#set-window-option -g window-status-current-attr bright
+
+# pane border
+set-option -g pane-border-fg colour235 #base02
+set-option -g pane-active-border-fg colour240 #base01
+
+# message text
+set-option -g message-bg colour235 #base02
+set-option -g message-fg colour166 #orange
+
+# pane number display
+set-option -g display-panes-active-colour colour33 #blue
+set-option -g display-panes-colour colour166 #orange
+# clock
+set-window-option -g clock-mode-colour green #green
+
+
+set -g status-interval 1
+set -g status-justify centre # center align window list
+set -g status-left-length 20
+set -g status-right-length 140
+set -g status-left '#[fg=green]#H #[fg=black]• #[fg=green,bright]#(uname -r | cut -c 1-6)#[default]'
+set -g status-right '#[fg=green,bg=default,bright]#(tmux-mem-cpu-load 1) #[fg=red,dim,bg=default]#(uptime | cut -f 4-5 -d " " | cut -f 1 -d ",") #[fg=white,bg=default]%a%l:%M:%S %p#[default] #[fg=blue]%Y-%m-%d'
+
+# C-b is not acceptable -- Vim uses it
+set-option -g prefix C-a
+bind-key C-a last-window
+
+# Start numbering at 1
+set -g base-index 1
+
+# Allows for faster key repetition
+set -s escape-time 0
+
+# Rather than constraining window size to the maximum size of any client
+# connected to the *session*, constrain window size to the maximum size of any
+# client connected to *that window*. Much more reasonable.
+setw -g aggressive-resize on
+
+# Allows us to use C-a a <command> to send commands to a TMUX session inside
+# another TMUX session
+bind-key a send-prefix
+
+# Activity monitoring
+setw -g monitor-activity on
+set -g visual-activity on
+
+# Highlight active window
+#set-window-option -g window-status-current-bg red
+
+# Vi copypaste mode
+set-window-option -g mode-keys vi
+bind-key -t vi-copy 'v' begin-selection
+bind-key -t vi-copy 'y' copy-selection
+
+# hjkl pane traversal
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
+# reload config
+bind r source-file ~/.tmux.conf \; display-message "Config reloaded..."
+
+# auto window rename
+set-window-option -g automatic-rename
+
+# rm mouse mode fail
+set -g mode-mouse on
+
+# color
+set -g default-terminal "screen-256color"
+```
+TMux et travail en plus
+[TMux blog interressant][44]
+
+
+## Workflow Tmux ##
+
+Workflow intéressant avec Tmux est d'organiser son travail à la manière d'une forle d'IDE soit la configuration suivante.<br>
+
+```
+----------------------------------
+|   VIM                           |
+|                                 |
+----------------------------------
+|   RACKUP        |   GIT/TIG     |
+|                 |               |
+```
+
 
 ##PROJET##
 Faire un proof of concept = meilleur moyen d'exprimer un projet.<br>
@@ -1004,24 +1159,13 @@ Gestion Web semantique sparkle
 
 
 ----------
-## Workflow ##
 
-Workflow intéressant avec Tmux est d'organiser son travail à la manière d'une forle d'IDE soit la configuration suivante.<br>
-
-```
-----------------------------------
-|   VIM                           |
-|                                 |
-----------------------------------
-|   RACKUP        |   GIT/TIG     |
-|                 |               |
-```
 
 json <=> XML pour Ruby géré par la gem json. Définition d'unb mode de communication avec le serveur.
 
 Twilio API recrutement. Codeacademy tutoriel
 
-<h2>Protection des données</h2>
+## Protection des données ##
 Ammaelle giton cours sur la protection de données sur internet
 Web = environnement hostile en ce qui concerne la protection des données de base car il est basé sur le postulat qu'il faut de l'informations pour échange et le fonctionnement d'internet
 amaelle.guiton@technOpolis.net
@@ -1131,7 +1275,7 @@ R: Refresh the tree, useful if files change outside of Vim
 ?: Toggle NERD Tree's quick help
 ```
 
-<h3>W3M</h3>
+## W3M ##
 
 ```
 v : affichage de la source du site
@@ -1147,7 +1291,7 @@ Esc+e = edition de la page courante
 ```
 [w3m manual][21]
 
-<h2>Frabication Html cours assuré par Tony</h2>
+### Frabication Html cours assuré par Tony ###
 Site internet Utilitaire <br>
 [Easel][22]<br> 
 Frabication du stylesheet de votre site internet de manière facile.
@@ -1185,7 +1329,7 @@ Nom clé Informatique
 <ul>
 <li>Bruce schneir</li>
 <li>Paul Graham</li>
-<li>[Ycombinator][34]</li>
+<li>[Ycombinator-hacker news][34]</li>
 </ul>
 
 BLog sur linux 
@@ -1218,98 +1362,7 @@ Point interressant Plugin spf13.vim <br>
 [Spf13][40]
 Plugin vim qui est un ensemble de plugin.
 
-<h2> Configuration tmux good </h2>
-```
-# status bar
-set-option -g status-utf8 on
 
-
-# https://github.com/seebi/tmux-colors-solarized/blob/master/tmuxcolors-256.conf
-set-option -g status-bg colour235 #base02
-set-option -g status-fg colour136 #yellow
-set-option -g status-attr default
-
-# default window title colors
-set-window-option -g window-status-fg colour244 #base0
-set-window-option -g window-status-bg default
-#set-window-option -g window-status-attr dim
-
-# active window title colors
-set-window-option -g window-status-current-fg colour166 #orange
-set-window-option -g window-status-current-bg default
-#set-window-option -g window-status-current-attr bright
-
-# pane border
-set-option -g pane-border-fg colour235 #base02
-set-option -g pane-active-border-fg colour240 #base01
-
-# message text
-set-option -g message-bg colour235 #base02
-set-option -g message-fg colour166 #orange
-
-# pane number display
-set-option -g display-panes-active-colour colour33 #blue
-set-option -g display-panes-colour colour166 #orange
-# clock
-set-window-option -g clock-mode-colour green #green
-
-
-set -g status-interval 1
-set -g status-justify centre # center align window list
-set -g status-left-length 20
-set -g status-right-length 140
-set -g status-left '#[fg=green]#H #[fg=black]• #[fg=green,bright]#(uname -r | cut -c 1-6)#[default]'
-set -g status-right '#[fg=green,bg=default,bright]#(tmux-mem-cpu-load 1) #[fg=red,dim,bg=default]#(uptime | cut -f 4-5 -d " " | cut -f 1 -d ",") #[fg=white,bg=default]%a%l:%M:%S %p#[default] #[fg=blue]%Y-%m-%d'
-
-# C-b is not acceptable -- Vim uses it
-set-option -g prefix C-a
-bind-key C-a last-window
-
-# Start numbering at 1
-set -g base-index 1
-
-# Allows for faster key repetition
-set -s escape-time 0
-
-# Rather than constraining window size to the maximum size of any client
-# connected to the *session*, constrain window size to the maximum size of any
-# client connected to *that window*. Much more reasonable.
-setw -g aggressive-resize on
-
-# Allows us to use C-a a <command> to send commands to a TMUX session inside
-# another TMUX session
-bind-key a send-prefix
-
-# Activity monitoring
-setw -g monitor-activity on
-set -g visual-activity on
-
-# Highlight active window
-#set-window-option -g window-status-current-bg red
-
-# Vi copypaste mode
-set-window-option -g mode-keys vi
-bind-key -t vi-copy 'v' begin-selection
-bind-key -t vi-copy 'y' copy-selection
-
-# hjkl pane traversal
-bind h select-pane -L
-bind j select-pane -D
-bind k select-pane -U
-bind l select-pane -R
-
-# reload config
-bind r source-file ~/.tmux.conf \; display-message "Config reloaded..."
-
-# auto window rename
-set-window-option -g automatic-rename
-
-# rm mouse mode fail
-set -g mode-mouse on
-
-# color
-set -g default-terminal "screen-256color"
-```
 
 <h2>Notes personnelles a propos de reflexions </h2>
 Existence des vimcasts<br>
@@ -1323,8 +1376,7 @@ Article pour augmenter sa productivité en vim<br>
 Existence de vimux, sorte de vim + tmux implementé pour le développement - A regarder de plus près<br>
 [VImux TreeBrain][43]
 
-TMux et travail en plus
-[TMux blog interressant][44]
+
 
 <h2>Installation Ruby sur ubuntu </h2>
 [Stackoverflow - work][45]
@@ -1368,6 +1420,7 @@ SIte internet sur l'apprendissage de RUby a voir peut être
 [Ruby learning][56]
 
 <h1>SPFVIM13</h1>
+Spf13 vim est une installation de vim plugin orienté développement déjà toute prête.<br>
 [Site officiel Spfvim13][57]
 [Site officiel et blog][58]
 
@@ -1446,16 +1499,16 @@ Gem qui fonctionne avec rails
 
 Notions de filtre:<br>
 Devise peut utiliser ses points.<br>
-	before action <br>
-	before conect<br>
+  before action <br>
+  before conect<br>
 <br>
 On regarde les paramètres au niveau du controller et on verifie si tout est ok ou non.<br>
 Devise est different de OmniAuth qui fait autre.<br>
 <br>
 Ruby toolbox<br>
-	=> voir comment ça s'articule<br>
-	   voir le dernier commit, l'activité.<br>
-	   voir le nombre de watchers et stars<br>
+  => voir comment ça s'articule<br>
+     voir le dernier commit, l'activité.<br>
+     voir le nombre de watchers et stars<br>
            Envoi sur le source code<br>
 <br>
 README comme pitch de la gem. L'idée est d'évaluer rapidement.<br>
@@ -1485,13 +1538,106 @@ Site pour le décryptage des commandes shell
 [Explain-Shell][76]<br>
 <br>
 Token a mettre non en clair<br>
+<br>
+Workflow in web development a video by Zach Leathermann<br>
+[Tool/die][77]<br>
+
+Work about how to code, il utilise un vimrc interressant en ce qui concerne le developpement en javascript<br>
+[Rob Levin-howtocode][78] <br>
+
+
+Hackathon DATAJAM  - Informations recuillies - Impressions diverses et reflexions (Synthèse)<br>
+
+magicbox
+
+design modo
+
+webdesignerdepot.com
+
+urbanexpe
+
+
+livingtuts.com
+
+sigmajs
+les surgissantes
+
+linkurious
+
+MOMA = museum of modern art
+
+atelier iceberg
+
+ateliercartographie.wordpress.com
+
+bakbonejs
+
+
+techonmap.fr
+
+lefresnoy.net
+
+Linux silex
+
+homengo.com/datajam
+
+home 'n' go
+
+luminosity = jeu  Ressources Erwann
+
+Travail sur les ressources d'andrei a faire
+    =recherche sur liv intéractif en javascript 
+    =Installation eclipse et autre IDE a envisager.
+    =Travail a faire sur le developpement des apps - travail sur tout ce qui est serveur
+
+Version intéressant du site du hackathon
+file:///home/simplon/Documents/hackaton/DATAJAM/meltingPost/meltingPost/index.html
+
+Pirate pad hackathon
+https://www.piratepad.ca/p/mediaposte
+
+Tutoriel intéressant
+http://fr.livingtuts.com/developpement-web/creer-un-site-d%E2%80%99entreprise-de-a-a-z-23-integration-html5-css3/
+
+tip sublime Ctrl+KB = enleve arborescence
+
+
+## Google chrome webtools ##
+
+[Google Chrome utils][79]
+[Group chrome dev tools][80] 
+[Page googledev sur chrome developper tools][81]
+[Discover School utilities][83]
+
+Brakets a free open editor 
+[Webudp8][84]
+Cloud9 an ide in cloud 
+[Cloud ide][85]
+
+Nide a IDE for mac and others ???
+[Nide a open ide][86]
+
+
+Commande git a revoir 
+
 ```
-git diff --cached // Affichage des differences en lignes
+git checkout -f 'Sha1 ou tag'
 ```
 
-Indiquer parfois la commande pour le commit exemple
+Force le retour a une modification locale<br>
+<br>
+NB Dans un commit possibilité de faire plusieurs saut à la ligne.<br>
+
+PeerJs qui permet de faire le Webrtc
+
+
+Angular a Creuser
+
+
+Nb pour faire le set up d'une variable d'environnement.<br>
 ```
-git commit -m "$rails g controller welcome"
+echo 'export CHROME_BIN="/usr/bin/chromium-browser"' >> ~/.bashrc && source ~/.bashrc
+
 ```
 
 
@@ -1571,3 +1717,11 @@ git commit -m "$rails g controller welcome"
   [74]: http://blog.derbyjs.com/2012/04/14/our-take-on-derby-vs-meteor/
   [75]: http://teachmetocode.com
   [76]: http://explainshell.com/
+  [77]: http://www.youtube.com/watch?v=NkVmhe-vvAo
+  [78]: http://www.youtube.com/watch?v=i9MHigUZKEM
+  [79]: http://www.html5rocks.com/en/tutorials/developertools/part1/
+  [80]: https://code.google.com/p/chromedevtools/
+  [83]: http://discover-devtools.codeschool.com/chapters/1?locale=en
+  [84]: http://www.webupd8.org/2013/11/install-brackets-in-ubuntu-via-ppa-open.html
+  [85]: https://c9.io/
+  [86]: http://coreh.github.io/nide
