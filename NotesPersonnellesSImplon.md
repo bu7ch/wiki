@@ -1640,6 +1640,41 @@ echo 'export CHROME_BIN="/usr/bin/chromium-browser"' >> ~/.bashrc && source ~/.b
 
 ```
 
+Astuce Vim <br>
+Ouverture de plusieurs fichiers avec une syntaxe intérieure
+```
+vim $("ARGS".) 
+```
+
+Nb recherche a faire s'il n'existe pas une gem qui transforme app rails en html classique
+Existence d'une gem kata
+Point a creuser "KATAS a faire "
+
+
+Créer un site internet d'une entreprise
+Créer un site recrutement
+Créer un site intégrant du javascript
+Créer une application téléphone => voir cordova, apache et autre
+Internationaliser son site
+Faire un système d'authentification
+Intégrer du contenu provenant d'autres sources.
+Intégrer une api
+Envoi de mail et gestion
+Faire un jeu navigateur
+Site marchand - étude de cas gem Spree
+Webcrawler -gem mechanize , nokogiri
+Creer un site avec le format haml et slim
+Créer un mini réseau social
+Faire un site internet d'information en temps réel.
+Faire un dashboard intéractif (Web app)
+Faire une application qui transforme le contenu youtube et le met en mp3 sur mon bureau
+Web sémantique
+Créer un site de chat
+Créer ub bot de discussion
+Créer un wireframe en ligne de commande ???
+
+
+
 
   [1]: www.rubymonk.com
   [2]: www.codeacademy.com
