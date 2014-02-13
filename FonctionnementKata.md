@@ -227,7 +227,6 @@ Coder dans account.rb
 
 <code>
 class Account
-
 end
 </code>
 
@@ -245,5 +244,54 @@ coder
 <code>
 $LOAD_PATH << File.expand_path('../../../lib', __FILE__)
 require 'account'
+</code>
+
+
+###FIN KATA Rails Save your bacon -Cucumber
+
+
+## CHAPITRE 3
+
+### Kata developing a real rais app
+
+#### 0
+<code>
+rvm use 1.9.3
+gem install rails
+</code>
+
+#### 0
+<code>
+rails new ticketee
+</code>
+
+
+#### 0
+Entrer dans l'application 
+ 
+#### 0
+
+ Coder le Gemfile
+
+<code>
+
+	source 'http://rubygems.org'
+gem 'rails', '3.1.0'
+gem 'sqlite3'
+group
+gem
+gem
+gem
+end
+:assets do
+'sass-rails', " ~> 3.1.0"
+'coffee-rails', "~> 3.1.0"
+'uglifier'
+gem 'jquery-rails'
+group :test do
+# Pretty printed test output
+gem 'turn', :require => false
+end
+
 
 </code>
