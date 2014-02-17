@@ -1776,14 +1776,6 @@ A useful editor , besoin d'installer le livereload sur google chrome
 
 
 
-## ViM TIPS
-
-mouvements :
-
-- f<caractere> aller sur le caractère
-- t<caractere> aller juste avant le caractère
-- <C-v> séléction verticale
-- <C-v> Séléction verticale + Shift + i + <insertion caractère> + echap = Ajout d'un caractère en début de ligne # utile pour commenter plusieurs lignes
 
 
   [1]: www.rubymonk.com

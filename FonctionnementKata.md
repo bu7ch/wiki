@@ -295,3 +295,59 @@ end
 
 
 </code>
+
+#### 0
+Ajouter dans le Gemfile
+
+<code>
+gem 'cucumber-rails'
+gem 'rspec-rails'
+</code>
+
+#### 0
+Installer le profil des gems
+
+<code>
+
+group :test do 	
+rails g cucumber:install
+rails g rspec:install
+end
+</code>
+
+## Kata sur la création de gems
+
+#### 0
+Créer un dossier gem_perso ; 
+Entrer dans ce dossier 
+
+#### 0
+Lancer la commande 
+rvm use 2.0.0
+
+#### 0
+Creer la configuration pour la creation de la gem 
+bundle gem <nomDeGem>
+
+#### 0
+Créer le Gemfile pour édition de la gem
+bundle init
+
+
+
+Possibilité de faire du graphviz avec la gem ruby-graphviz
+Kata sur la création blog 15minutes
+http://www.reinteractive.net/posts/32-ruby-on-rails-3-2-blog-in-15-minutes-step-by-step
+http://12devs.co.uk/articles/writing-a-web-application-with-ruby-on-rails/
+http://code.tutsplus.com/tutorials/zero-to-sixty-creating-and-deploying-a-rails-app-in-under-an-hour--net-8252
+http://www.webmonkey.com/2010/02/ruby_on_rails_for_beginners/
+http://www.codelearn.org/ruby-on-rails-tutorial
+http://guides.railsgirls.com/devise/
+http://www.softwaredeveloper.com/features/best-ruby-on-rails-061307/
+http://pothibo.com/2013/07/responsive-javascript-in-rails/
+http://guides.railsgirls.com/app/
+https://gitorious.org/rails-app-examples
+https://devblog.toopher.com/2013/11/19/toopher-on-rails-example/
+http://railsgirlsberlin.de/apptutorial/
+http://www.sean.co.uk/a/webdesign/javascript_gamelib/javascript_gamelib.shtm
+http://blog.artenet.fr/2011/09/16/javascript-les-frameworks-de-jeux-videos/
