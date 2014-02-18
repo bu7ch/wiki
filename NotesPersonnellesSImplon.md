@@ -1785,6 +1785,68 @@ mouvements :
 - <C-v> séléction verticale
 - <C-v> Séléction verticale + Shift + i + <insertion caractère> + echap = Ajout d'un caractère en début de ligne # utile pour commenter plusieurs lignes
 
+Questions sur le javascript 
+Yeoman est générateur de site dans une optique statiques.
+Le javascript n'inclue pas la modularisation.
+Node permet la mise en console javascript en shell => creuser
+
+
+## GEM UTILES
+Gems utiles au développement 
+
+[Symbioz gem utiles part1][101]
+[Symbioz gem utiles part2][102]
+[Symbioz créer gem ][103]
+
+
+<h1>rails g task </h1>
+Génération de tache rake en rails
+
+existence de Ultra-Repl en javascript pour gérer son javascript en mode pry
+[Ultra-Repl][104]
+
+Probleme des params
+
+[Probleme du parames][105]
+
+Jquery UI = Framework pour les effets javascript Drag'nDrop
+jquery-uirails
+gem existence act_as_a_list
+
+
+knowledge graph = Outils Freebase
+Existence sous node js d'un paquet freebase
+npm install freebase
+
+Sans clé mais avec quota
+
+amazone scrapper paquet qui rcherche sur amazon résultat de recherches
+
+Animate.css
+
+
+Atelier ANdrei Projet 
+
+Ne pas mettre tout sur la meme page<br>
+Donnez des exemples et inviter des personnes à faire de meme.<br>
+
+Question du dialogue par rapport au visiteur
+Idée principale est de changer sa landing page meme en cours.
+
+Google Analytic est très importante
+
+
+Fidéliser par mail
+VOir selon comportement et selon le flux.
+Avoir le mail des gens est le plus important.
+
+Utilisation d'une clé token
+
+Idee d'être plus parlant
+Question des call to actions
+Login via email
+
+
 
   [1]: www.rubymonk.com
   [2]: www.codeacademy.com
@@ -1875,3 +1937,8 @@ mouvements :
   [89]: http://allists.com/awl51g9vpb
   [90]: http://vysakh.quora.com/Making-a-Facebook-clone-using-Rails-in-minimum-time
   [100]: http://www.youtube.com/watch?v=HZkrlX7jJcg
+  [101]: http://www.synbioz.com/blog/le_kit_du_bon_developpeur_rails_partie_1 
+  [102]: http://www.synbioz.com/blog/le_kit_du_bon_developpeur_rails_partie_2
+  [103]: http://www.synbioz.com/blog/creer_son_gem_et_le_publier
+  [104]: https://github.com/Benvie/Node.js-Ultra-REPL
+  [105]: http://stackoverflow.com/questions/17335329/activemodelforbiddenattributeserror-when-creating-new-user

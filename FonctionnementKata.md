@@ -335,6 +335,56 @@ bundle init
 
 
 
+
+###KATA rails begin
+
+$ rails new blog
+
+$ cd blog
+
+$ rails generate model Article
+
+$ rake db:create
+
+$ rake db:migrate
+
+
+$ rails g scaffold Article title:string body:text published_at:datetime --skip-migration
+
+$ rails s
+
+Ajout d'un champ supplémentaire
+
+$ rails generate migration add_excerpt_and_location_to_articles
+excerpt:string location:string
+
+Coder 
+
+db/migrate/
+
+class AddExcerptAndLocationToArticles < ActiveRecord::Migration
+	def change
+		add_column :articles, :excerpt, :string
+		add_column :articles, :location, :string
+	end
+end
+
+
+Coder dans la vue app/views/article/_forms.html.erb
+
+
+Ajouter des validations
+coder
+
+class Article < ActiveRecord::Base
+	validates_presence_of :title, :body
+end
+
+
+$ rake db:migrate
+
+
+
 Possibilité de faire du graphviz avec la gem ruby-graphviz
 Kata sur la création blog 15minutes
 http://www.reinteractive.net/posts/32-ruby-on-rails-3-2-blog-in-15-minutes-step-by-step
