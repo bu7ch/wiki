@@ -1847,6 +1847,87 @@ Question des call to actions
 Login via email
 
 
+Ressources utilisé pour le templating en vim
+
+[Symbioz utilistaion de vim][106]
+
+
+API Webshell qui permet de combiner les API et de créer du JSON et autre. A creuser<br>
+[Webshell][107]
+
+Node tutoriel du débutant A faire
+[nodeguide.com /beginner][108]
+
+Suckless
+Logigiels écrit de manière minimale<br>
+[suckless][110]
+
+Utilisation de pry en avancé<br>
+[SitePoint -pry][111]
+
+Possibilité de stocker ses données en javascript
+[OpenClassroom jstorage][112]
+
+
+Outils pour mockup site internet 
+PERCH
+
+Outils Cms
+Azure
+
+Blog Hugeen pour utilisation angular notes de développement
+[Hugeen notes de developpement-rails-angular][113]
+
+Creation chat avec node
+[tutoriel chat node][114]
+
+Partie 2
+
+[tutorielChatnode2][115]
+
+Possibilité de faire un .build pour faire un ensemble lié
+Idée est que le controlleur = naviguation 
+Model contient les règles générales impératives.
+
+Sous pry possibilité d'utiliser edit methods pour editer directement sous vim notre code
+Possibilité de faire des opérations classiques sur objet active Record
+
+=> travailler manipulation de Pry
+
+
+VIM 
+
+Utilisation de la commande 'gp'
+Paste à un endroit précis
+
+Libv8 = moteur google chrome
+
+Nb Existence de paris api
+
+gem smartcsv qui permet de parser un tableau en csv
+gem csv_pirates
+
+Transfo de Xml en json => usage d'un hack
+[Stack overflow xml to json][116]
+
+Existence de la gem crack
+Existence sur github apotonick/representabele
+
+Existence de la gem chartkick pour faire des graphs
+
+Mots clés = json parsers
+Mots clés=chart
+
+Gem pour intelligence artificielle en ruby 
+AI4R
+berlin AI
+
+Bouger des lignes sous vim swap lines
+[Deplacement de ligne et navigation - wikia tip][117]
+
+Rendre l'utilisation de Vim plus agréable
+[Petits outils pour Vim et astuces][118]
+
 
   [1]: www.rubymonk.com
   [2]: www.codeacademy.com
@@ -1942,3 +2023,15 @@ Login via email
   [103]: http://www.synbioz.com/blog/creer_son_gem_et_le_publier
   [104]: https://github.com/Benvie/Node.js-Ultra-REPL
   [105]: http://stackoverflow.com/questions/17335329/activemodelforbiddenattributeserror-when-creating-new-user
+  [106]: http://www.synbioz.com/blog/l_utilisation_de_vim_2
+  [107]: http://webshell.io/
+  [109]: http://nodeguide.com/beginner.html#frameworks
+  [110]: http://tools.suckless.org/
+  [111]: http://www.sitepoint.com/pry-friends-rails/ 
+  [112]: http://fr.openclassrooms.com/informatique/cours/un-site-web-dynamique-avec-jquery/stockez-vos-donnees-avec-jstorage
+  [113]: http://hugeen.com/2013/09/24/quelques-retours-sur-lutilisation-dangularjs/
+  [114]: http://www.atinux.fr/2011/08/28/tutoriel-socket-io-debutant/
+  [115]: http://www.atinux.fr/2012/10/20/tutoriel-socket-io-intermediaire/
+  [116]: http://stackoverflow.com/questions/1530324/ruby-xml-to-json-converter
+  [117]: http://vim.wikia.com/wiki/Moving_lines_up_or_down
+  [118]: http://www.blogduwebdesign.com/vim/5-hacks-pour-rendre-votre-utilisation-de-vim-plus-agreable/683
