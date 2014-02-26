@@ -1928,6 +1928,140 @@ Bouger des lignes sous vim swap lines
 Rendre l'utilisation de Vim plus agréable
 [Petits outils pour Vim et astuces][118]
 
+"Eviter l'évitable"
+"Concours de la motivation"
+"autonomie, j'appuie sur un bouton et je suis autonome"
+
+Présentation sur les enjeux de santé <br>
+Ingénieur, codeur, architecte et parties.<br>
+Nouvelle porte en France est celle du numérique. Profession qui est assez négative dans le numérique.<br>
+Idée de comment créer de la valeur dans leur métier.<br>
+Nous sommes tous des patients.<br>
+Dans la vie il suffit d'avoir un porte clé et oser<br>
+Applications crées et utilisés pour les projets.<br>
+
+COBTEC
+
+Santé se cache derrière des tas de concepts<br>
+Travailler sur la poste et docapost<br>
+Travail sur le nouveau domaine de la santé qui est la poste.<br>
+Sphère domestique = sujet majeur
+Croissance à deux chiffre = allergie + qualité de l'air.<br>
+
+Vitesse de marche = indicateur de l'indice de vie d'une personne
+
+[Rake article test][119]
+[Rake example test][120]
+
+
+
+La voix est de retour
+Série Black mirror
+
+[Ruby on rails et redmine][121]
+[Autotest getting started][122]
+
+
+Voxer applications
+
+Continuer a fonctionner chez soi<br>
+Absence de fonctionnement du chez soi => problème futur
+
+
+Blog intéressant
+http://www.mickgenie.com/tag/shell-run/
+
+Codewars
+Achieving mastery through challenge
+[Codewars][123]
+
+Creation blog en sinatra<br>
+[Danneu bLOG][124]
+
+Gem protected_attributes gère problème du require params
+Gem nifty-generators qui aide au scaffold de meilleures formes
+
+ TutoUT 
+Doctorant informatique qui donne des conseils sur rails
+[UT BLOG][127]
+
+Pry show models
+
+
+```
+npm install -g typescript
+```
+L'option -g semble générer l'executable en plus de l'installation du paquet par node. Cette option peut nécessiter une installation par l'utilisation de sudo.
+
+```
+sudo npm install -g typescript
+
+```
+
+Geddy a micro javascript framework same as rails 
+Existence de express pour le même travail
+
+[Article about microFramework][128]
+
+http://blog.evantahler.com/
+
+[Blog de programmeur][129]
+
+
+Cours Vincent
+Serveur = Ordinateur distant 
+Configuration via Ubuntu serveur.
+
+Heroku s'occupe tout de l'administration systeme
+Digital Ocean
+
+HEBERGEMENT 3 GRANDS TYPE
+=DEDIE
+=VPS
+=PATH =par l'issue des vps et dédié il mettre une couche supplémentaire pour gestion.
+
+Apache server = logiciel
+	reprend les requêtes et gère les données
+Cuma
+ 
+Serveur n'est jamais parfait => si arrêt => plantage
+
+Limité => on veut aller plus loin.
+Travail sur la machine distante en ssh.
+
+On est des touristes
+
+Serveur d'applications => fait du Reverse-Proxy
+Question du cache
+	2 grosses manières
+		Reponses au niveau du serveur web. Mettre en ressources tout ce qui est statique.
+		Préciser les zones
+
+Avantage = 5$ par mois
+
+
+REMY
+Méthode de classe
+
+```
+class Car
+  def self.example()
+  end
+```
+
+Fin de notes
+
+Pousser des gem tutoriels interessant
+Gem cutter gem qui s'occupe du push sur rubygems.
+Le paquet a utiliser pour faire sa gem est dans le dossier pkg/
+
+gem push nom de la gem
+
+Lien interressnats
+[Rails cast sur rubygem][130]
+[Ruby learning blog][131]  A observer de plus près
+
+
 
   [1]: www.rubymonk.com
   [2]: www.codeacademy.com
@@ -2035,3 +2169,16 @@ Rendre l'utilisation de Vim plus agréable
   [116]: http://stackoverflow.com/questions/1530324/ruby-xml-to-json-converter
   [117]: http://vim.wikia.com/wiki/Moving_lines_up_or_down
   [118]: http://www.blogduwebdesign.com/vim/5-hacks-pour-rendre-votre-utilisation-de-vim-plus-agreable/683
+  [119]: http://jasonseifer.com/2010/04/06/rake-tutorial
+  [120]: http://docs.rubyrake.org/tutorial/chapter01.html
+  [121]: http://www.mickgenie.com/tag/shell-run/
+  [122]: http://ph7spot.com/musings/getting-started-with-autotest
+  [123]: http://www.codewars.com
+  [124]: http://www.danneu.com/posts/15-a-simple-blog-with-sinatra-and-active-record-some-useful-tools/
+  [125]: http://asanderson.org/
+  [126]: http://www.honeybadger.io/blog/page2
+  [127]: http://www.schneems.com/ut-rails/
+  [128]: http://www.fleegix.org/articles/2010-03-15-geddy-web-framework-for-node-js
+  [129]: http://blog.realstuffforabstractpeople.com/post/43558580442/typescript-definitions-package-manager
+  [130]: http://help.rubygems.org/kb/gemcutter/publishing-your-own-rubygem
+  [131]: http://rubylearning.com/blog/how-do-i-create-and-publish-my-first-ruby-gem/
