@@ -2408,6 +2408,14 @@ gem passenger
 gem paperclip
 => gestion des images
 
+gem wheneverize
+=> repetition et cron 
+
+gem clockwork
+=> repetiotion et cron
+
+gem devise
+=> Authentification
 
 J'ai trouvé d'autres gem intéressantes à creuser soit 
 [CodeBeerStartup][143]
@@ -2676,6 +2684,882 @@ Mozilla learning javascript
 
 +P2PU.org javascript
 
+Cours Erwann
+Sautage de verrou et electrochoc
+
+Concept qui permet d'avancer => remuage de plusieurs concepts.
+GROSS RAKING
+
+Marketing web
+Bootstraper definition => Commencer démarrer entreprise, création de son outil. Création d'un mvp d'abord acquérir des résultats avant de chercher de l'argent.
+Création d'un produit qui fait ses preuves.
+
+300 utilisateurs actifs.
+Faire la preuve que son produit marche avant les fonds.
+
+Eviter la "vanities", toutes ses victoires qui ne donnent pas de résultats.
+
+Pire des vanities est de réver son projet.
+
+Etat de lieux a faire de ce qu'on sait faire.
+
+=> Idée du super projet. On est pas dans l'entrepreunariat traditionnel.
+
+Valeur lucrative => questionnement et modèle économique. Rare qu'il connaissent leur économie.
+
+FRAMEWORK AARRGH
+
+Aquisition 
+Activation
+Retention
+Refferal 
+Revenue
+
+Acquisition = metrics <=>Tous les gens qui viennent sur votre site et votre landing page.
+
+Activation = Nbre de personnes qui vont s'inscrire dans votre service.
+
+Retention = Nbre de personnes qui vont devenir des utilisateurs actifs, Taux de rétention dépend vraiment de votre app
+
+Refferal = Tous les users qui vont devenir ambassadeurs. Utilisateurs qui attire d'autres utilisateurs.
+
+Revenue = Pricing
+
+SEO, SIM, RELATIONS PUBLIQUES, CAMPAGNES
+Idée du + tu publies et plus c'est ok
+
+Faire plus de CRM 
+Question du vous ne pouvez pas tout gérer
+La traction = qd le produit est bon => trop de sollicitations, idée est de faire des sauts.
+
+Important est de gérer les datas.
+
+mesure - learn - refactoring
+
+A/B Testing
+
+Version A et Version B d'un même site pour faire du test 
+
+Ce qui est en jeu est la cognition
+
+Automatiser un max
+Rechercher des utilisateurs
+
+podio.com
+
+google recherche utiliser le moins 
+-alterné -droit
+
+Gross hacking
+
+growth hacking
+
+Utiliser quora
+
+Thank you economy
+
+ycombinator
+
+spullrocket
+
+producthunt.co 
+
+Algolia hackernews
+= Recherche sur hacker news
+
+Cloudflare
+= ajout de script analytics
+
+Medium.com
+
+Kissmetrics
+
+EMBER
+Existence de EMBER Data pour gestion des Apis
+NB pour Ember application
+
+Creation de notre application dans app.js
+```
+var App= Ember.Application.create({});
+//Existence d'options 
+
+var App= Ember.Application.create({
+	LOG_TRANSITIONS: true
+});
+```
+Mettre les templates dans des div handlebars
+
+```
+  <script type="text/x-handlebars" id="index">
+```
+Varibles en handlebars
+
+```
+<h1>Welcome to {{handlebars}}</h1> // Varible en handlebars
+
+<script type="text/x-handlebars" data-template-name="index"> //nomination nom template
+
+{{outlet}} // Indique ou le template doit être rendu
+
+
+```
+
+
+Routeur
+<=>Tronc
+Travail dans app.js
+
+```
+App.Router.map(function(){
+	this.route('about');
+});
+
+//Aller dans des chemins de chemins
+
+App.Router.map(function(){
+	this.route('about',{path: '/aboutus'});
+});
+```
+
+Créer un modèle en Ember
+
+```
+Todos.Todo=DSModel.extend{
+	title: DSattr('string'),
+	}
+```
+
+Emberjs 
+Tutoriel intéressant
+[Coding smashing][156]
+[Ember and rails ][157]
+[devomynd][158]
+[hashrocket][159]
+[blog dxn][160]
+[Collective ideas][161]
+
+Existence des embercasts et ember101
+https://speakerdeck.com/raycohen/ember-views
+https://www.youtube.com/watch?v=1QHrlFlaXdI
+A voir
+
+Spinejs autre framework javascript
+
+Test avaec jasmine 
+= 2 gems
+jasmine 
+jasmine-jquery-rails
+Gem rb fs-event pour faire les automatismes
+friendly id = mettre des noms de modeles dans le browser
+
+trello.com
+
+codetutsplus -rails
+
+Lien sur des screencast interessants
+[DevBlogs avdi][162]
+
+Cosy.io 
+Cosycloud
+
+si yen a qui veulent jouer avec un cozycloud (cf https://www.cozycloud.cc/ ), on en a installé un sur un PC à simplon => http://192.168.1.95:9104
+password: simplonco
+
+cc @emilien
+
+si quelqu'un sait comment lui donner une ip fixe aussi, ça peut m'intéresser :) @yan @andrei 
+
+Notes developpement word mesh ou mashup
+
+SEO Cours
+Travail dans le SEO. 
+SEO(Fravia search engine optimizer =  spammeur est de travailler sur ces points)
+But de tout SEO est de mettre un site bien positionné.
+
+Intérêt = obtenir du traffic de qualité.
+
+Adword vs adsense
+Publicité classique vs publicité de masse
+Traffic search
+
+Comment avoir du traffic gratuit ?
+Traffic du qualité == €€€
+
+Pyramides
+Architecture
+=> d'abord le rendu final du site, le html, code HTTP. Header HTTP.
+Envoyer du 200. eviter les codes d'erreurs.
+
+Notamment les codes erreurs côtés serveurs.
+
+
+
+## SQL ##
+```
+USE movie1_db
+
+SELECT * FROM movies WHERE year >=2009
+SELECT * FROM movies WHERE year BETWEEN 1999 AND 2004
+SELECT name FROM actors WHERE name LIKE "%Tom%"
+SELECT * FROM movies ORDER BY year ASC, title DESC // peut être mis en DESC
+
+
+SELECT * FROM movies LIMIT 10 OFFSET 20
+
+//SQL statement which we can create database
+CREATE SCHEMA movie_db
+
+CREATE SCHEMA IF NOT EXISTS movie_db
+CREATE DATABASE IF NOT EXISTS movie2_db
+
+//SQL statement that's allow database structure
+CREATE TABLE actors(name VARCHAR(50))
+
+//Creation d'engines
+CREATE TABLE actors(name VARCHAR(50)) ENGINE InnoDb
+
+
+//CREATE
+//Inserer de l'information
+
+INSERT INTO movies (title,year) VALUES ("Aliens",1986);
+//Syntaxe alternative
+INSERT INTO movies  SET title="Back to future", year=1985;
+
+//UPDATE
+SET SQL_SAFE_UPDATES = 0; //eviter les réecritures
+UPDATE movies SET year="1985" WHERE title="Avatar 2";
+
+//DELETE
+DELETE FROM movies WHERE title="Avatar reloaded" AND year=2016;
+SQL_SAFE_UPDATES=1;
+
+//RENAME TABLE
+RENAME TABLE movies TO movie_table
+
+//DROP TABLE
+DROP TABLE actors
+
+//TRUNCATE 
+TRUNCATE actors
+
+//MODIFY COLUMN SCHEMA
+//ADD COLUMNS
+ALTER TABLE movies ADD genre VARCHAR(25);
+
+//CHANGE COLUMNS
+ALTER TABLE movies CHANGE COLUMN year release_year YEAR ;
+
+//REMOVE COLUMN
+ALTER TABLE actors DROP place_of_birth
+
+
+//REMOVE DATABASE
+DROP DATABASE movie_db3
+//safer
+DROP DATABASE IF EXISTS movie_db3
+```
+Normalization
+
+Type of keys
+Primary keys
+Unique keys
+Foreign keys
+
+
+
+```
+//primary KEY
+CREATE TABLE t_genres (pk_id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY , uk_name VARCHAR(4
+5) NOT NULL UNIQUE);
+
+//alter key
+ALTER TABLE t_movies ADD pk_id INTEGER AUTO_INCREMENT PRIMARY KEY FIRST ;
+
+//alter a foreign key - a creuser
+ALTER TABLE t_movies ADD fk_genre_id INTEGER NULL, ADD CONSTRAINT  FOREIGN KEY (t_genres) REFERENCES t_genres(pk_id)
+
+```
+
+Modification 
+JOindre des tables 
+
+```
+//INNER JOIN
+> SELECT * FROM movies INNER JOIN genres ON movies.genre_id = genres.id
+
+//OUTER JOIN LEFT
+SELECT * FROM movies LEFT OUTER JOIN genres ON movies.genre_id = genre.id
+//un peu mieux
+SELECT movies.title, genre.name FROM movies LEFT OUTER JOIN genres ON movies.genre_id = genre.id
+
+Nom b AS Alias b
+
+```
+
+
+## COURS SEO ##
+
+Extension chrome pour verification redirect path, hurl.it
+Code d'entête
+Regle fondamentale soit 
+
+1Url = 1 contenu et 1 contenu=1url
+
+ht acces => deplacement
+
+Google bot n'a pas de javascript
+Prefère des site internet peu gourmand et très rapides
+Cache qui est important
+
+Architecture => Contenu de qualité
+
+Navigateur Lynx <=> a ce que voit google
+Javascript est en surcouche
+
+Plus proche est plus vu , le plus loin est eloigné.
+Fond blanc sur fond blanc
+
+Backlinks = Lien entrants
+
+Thématique moz => Travail sur les backlinks 
+Je regarde comment font les autres et j'effectue.
+Google webmasters tools.
+
+Communiqués de presse. Echanges de lien
+
+Google + = impact indirect
+
+Aspect porte avion 
+Aspect pirate somalien
+
+Unleash the monster 
+
+Verifier son architecture
+
+Google Penguin et Panda
+
+Google Bombing
+
+Page rank 1+>10, 10sup Google pageRank
+
+Utilisateur qui gère leur contenu, le plus possible.
+
+little snitch
+
+Epic
+
+Wildcard DNS
+
+## VIDEO ANDRE ##
+
+UTILISER DES VERSIONS PAR DEFAUT
+Outils rails 
+=logger
+
+gem 'quiet_assets' 
+=> log propre
+
+Affichage dans le logger
+```
+logger.debug"text logger"
+```
+Utiliser la rails console
+Utiliser cette console le plus souvent possible
+Tester des méthodes
+Creation de fausses données.
+
+```
+# encoding: utf-8
+
+namespace :dev_data do 
+	desc "Fill database with sample data"
+	task create: :environment do 
+		Challenge.delete_all
+		Challenge.create!(
+			title:"cloche pide",
+			description:"Faite 2à fois",
+		)
+	end
+end
+```
+Faire un rake personnalisé avec des fausses données.
+dev data a mettre a jour.
+
+Différents controller pour différents modèles.
+
+Nested routes 
+pour les formulaires existence d'un trick
+
+```
+<%= form_for [@challenge, @participation] do |f| %>
+
+<% end %>
+
+```
+
+existence de commandes rakes personnalisé et à reflechir 
+```
+rake db:drop
+
+Rake::Task['db:drop'].invoke 
+Rake::Task['db:reset'].invoke
+Rake::Task['db:migrate'].invoke  
+
+#Mise en forme   
+ strftime("%d %b %Y")
+```
+Gravatar pour faire des liens
+Existence de scope = filtrage des données en statique ma  is aussi en dynamique
+
+Pages dynamiques
+```
+#Scope statique
+scope :high_points , -> {where("points > ?", 50)}
+
+#scope dynamique
+scope :above_points, ->(min_points) { where("points > ?",min_poijnts)}
+
+#Travail au niveau des routes
+
+resources :challenges do 
+	resources :participations
+		collection do 
+			get 'running'
+
+	end
+end
+ 
+```
+
+HOOKS
+
+```
+after_create
+before_create
+```
+
+Modele lui même doit s'occuper de lui même
+
+Controller a faire le plus minimaliste possible et mettre nos données dans le modèle
+
+[Selenium vs capybara][163]
+
+
+## Ember js ##
+
+tutoriels
+[Lost techies blog Ember][164]
+[InfoQ ember][165]
+[Ember js missing tutorial][166]
+[ArtistTutorialEmber][167]
+[Wanna start emberjs][168]
+[EMberjs beginner tutorial][169]
+
+
+Faire un workflow sur sublime plus elaboré
+[Sublime ultime workflow ][170]
+
+
+## Cours Sur le Ruby ++ ##
+
+
+http://simplon.rocknroot.org/ruby_poo/index.html#/9
+
+self.langage
+
+Monkey patching
+
+## Hackathon Cartoviz ##
+Forme de narration et forme de  visualisation => innnover
+Numeric facet = distribution de données
+
+Open facet
+
+Datagouv = pages ressources interessantes
+Problème d'encodage
+
+Facet et gestion
+Utilisation de geocoder pour préparer le creation des points
+Toujours traitement à faire
+
+Attention au geocoder
+=> être sensible à ce point
+
+Cartoviz - Outils
+Sélection d'outils utiles pour les participants au concours
+http://cartoviz.lafonderie-idf.fr/
+Géocodage, nettoyage et conversion
+Visualiseur d'adresses : http://logiciels.ign.fr/?Visualiseur-d-adresses
+BatchGeo : http://batchgeo.com/
+Batch Geocodeur : http://www.batchgeocodeur.mapjmz.com/
+Batch Geocode : http://www.findlatitudeandlongitude.com/batch-geocode/
+OpenRefine : http://openrefine.org/
+Play With Data : http://jeanabbiateci.fr/play-with-data/
+MyGeodata Converter : http://converter.mygeodata.eu/
+Géocodeur mondial unitaire et batch: http://www.arcgis.com
+GeoDesign
+Mapbox : https://www.mapbox.com/
+TileMill : https://www.mapbox.com/tilemill/
+Map Stack : http://mapstack.stamen.com/
+Snazzy Maps : http://snazzymaps.com/
+MapStylr : http://www.mapstylr.com/
+Tilesets : http://www.pinterest.com/loichay/design-de-tuiles/
+ColorBrewer : http://colorbrewer2.org/
+Maki : https://www.mapbox.com/maki/
+Map Icons : http://mapicons.nicolasmollet.com/
+Narration spatialisée
+Story Maps : http://storymaps.arcgis.com/
+Tour Builder : https://tourbuilder.withgoogle.com/
+Geonef : http://www.geonef.fr/
+StoryMap JS : http://storymap.knightlab.com/
+TimeMapper : http://timemapper.okfnlabs.org/
+Searchable Map Template : http://derekeder.com/searchable_map_template/
+JEO WP Theme : http://cardume.github.io/jeo/
+CartoSet : http://www.vizzuality.com/products/cartoset
+Map Tales : http://maptal.es/
+Infoviz et graphiques
+Datawrapper : https://datawrapper.de/
+Google Charts : https://google-developers.appspot.com/chart/
+Many Eyes : http://www-958.ibm.com/
+Raw : http://raw.densitydesign.org/
+Quadrigram : http://www.quadrigram.com/
+Infoactive : https://infoactive.co/
+Datavisual : http://datavisu.al/
+Infogram : http://infogr.am/
+The Data Visualisation Catalogue : http://www.datavizcatalogue.com/
+Dataviz Tools : http://selection.datavisualization.ch/
+Edition cartographique et géovisualisation
+ArcGIS Online: http://www.arcgis.com/
+QGIS : http://www.qgis.org/
+CartoWeb : http://cartoweb.org/
+CartoDB : http://cartodb.com/
+GeoCommons : http://geocommons.com/
+ViziCities : http://vizicities.com/
+StatSilk : http://www.statsilk.com/
+DataAppeal : http://www.dataappeal.com/
+Tableau : http://www.tableausoftware.com/fr-fr
+Google Fusion Tables : http://www.google.com/fusiontables/
+Google Maps : http://www.google.com/enterprise/mapsearth/
+Umap : http://umap.openstreetmap.fr/
+Geojson.io : http://geojson.io/
+ZeeMaps : http://www.zeemaps.com/
+Click2map : http://www.click2map.com/
+MangoMap : https://mangomap.com/
+MapsData : http://www.mapsdata.co.uk/
+Mapline : http://mapline.com/
+Librairies de développement et APIs cartographiques
+Leaflet : http://leafletjs.com/
+OpenLayers : http://openlayers.org/
+D3 - Data Driven Documents : http://d3js.org/
+Kartograph : http://kartograph.org/
+Modest Maps : http://modestmaps.com/
+rMaps : http://rmaps.github.io/
+Crosslet : http://sztanko.github.io/crosslet/
+DataMaps : http://datamaps.github.io/
+Unfolding : http://unfoldingmaps.org/
+Polymaps : http://polymaps.org/
+amMaps : http://www.amcharts.com/javascript-maps/
+API Geoportail : http://professionnels.ign.fr/api-web
+ArcGIS JavaScript API: https://developers.arcgis.com/javascript/
+Bing Maps API : http://www.bing.com/dev/en-us/dev-center
+Google Maps API : https://developers.google.com/maps/?hl=FR
+
+
+Ign a publié pac de données
+openDataSoft - bibliothèques qui sont présentes
+Grace a google analytics possibilité de faire du json.
+
+data.iledefrance.fr.api
+
+ArcGis online
+leafleet
+bbotstrap-map
+jo - json
+rich documentation
+
+3 niv description sous open streetmap
+
+
+IGN Webservices disponibles
+
+Geoportail javascript qui permet de superposer avec les données de l'iGn - Bibliothèque open source.
+Dvelopppement de nombreux outils
+114 couches et mise à jour quasi continuelle
+
+Principale fonctionnalités = visualisateur de touche , geometrie
+Openlayers
+
+Api standard
+
+Api étendue
+
+Api haut niveau (AHN)
+
+Visualisation des données sur la base nationale
+
+Utilisation en user agent
+
+Developpez.com est partenaire de l'ign
+
+Ubimix
+Initiation a Leaflet
+Ecosysteme de leaflet
+
+ALTIC
+Bi en open source - a creuser
+talend
+altic search
+
+Youmap 
+Bi en open source
+
+
+Open street map 
+Application sur les bancs publics
+=> possibilité sociale et autre
+
+Faire un hackhaton interne
+Bancs public qui disparaissent
+
+Telephone portable et tout ce qui est mobile .
+Les villes devienne de plus en plus lisse
+
+Résistance Theâtre 
+
+Bancs est un enjeu politique 
+Commentaire et avis 
+
+Projet roxanna
+
+Question de la réunion
+
+Vraie utilité d'application
+
+Nb lien à faire entre site et application mobile
+
+Travail sur cartodb a faire, qui est la jointure et gère sur l'ensemble
+
+Faire listes des données possibles.
+Penser a la mise en forme
+Utilisation de différentes couches
+
+Utilisation de tables 
+CartoDb = aspire la donnée pour utilisation
+Voir comment cartoDb marche
+
+=> comment utiliser votre service
+
+Afficher certain couches
+
+Fond utilisé par MapBox
+
+Attention a la mise en point et des noeuds
+=> attention à la quantité de données
+
+Ce que vous voulez afficher et comment 
+
+
+Journalisme++ = société = mettre de nouvelles manières de faire du journaliste
+Utilisation de Datawrapper
+
+Mettre de la donnée rapidement effets +
+Kartograph.js et .py
+
+Il est facilement optimisable
+
+Kartograph = librairie qui utilise la visualisation + TECHNIQUE
+Pourquoi ? 
+A partir d'un Gegfile => remise des points
+
+
+Geoloc et openStreeMap en ruby = ROSEMARY
+gem rosemary
+=> gem pour openstreetmap
+
+http://overpass-turbo.eu/
+
+Talend data LOGICIEL OPEN SOURCE analyse données.
+
+Langage programmation clojure
+
+Toro builder
+Geonef
+
+gem pour tester deux types de pages d'accueil a essayer
+
+
+%y et %Y (prise de début et de fin de chiffre)
+
+
+Probleme avec postgresql = installer libpq-dev en apt-get
+
+Site qui references les framework javascript pour faire des applications mobiles
+
+
+Idt Intel sdk
+
+Nb subtilité pour l'installation sous ubuntu = 
+utiliser install.sh et ensuite recherche de l'application par le home
+motclé = xdk
+
+FAIRE INSCRIPTION PAR L'INTERMEDIAIRE DU LOGICIEL
+keitamori@gmail.com
+@LordOfWar87
+
+Site ressources interessant
+[Source forge HTML5 ressources][181]
+
+
+Outil de mockup Mockingbird
+Kinetic js librairie javascript a creuser et étudier sur openclassroom	
+
+Logiciel Ubuntu SoX qui permet la lecture de fichier mp3
+
+Application pour apprentissage des langues sur le chrome store
+language immersion
+
+Modele pour le css 
+Topcoat[Topcoat][182]
+
+[Nodejs and rails][183]
+
+## Sublime text - Vintage mode ##
+
+```
+Choisir une ligne 
+Ctrl + l
+
+Choisir occurence d'un mot
+Ctrl + d 
+Choisir les occurences une a une
+Ctrl + d + d
+Choisir toutes les occurences
+Alt + F3
+Sélectionner tout entre les parenthèses/accolades
+Ctrl + Shift + M 
+Accès au numero par ligne 
+Ctrl + G taper numero de ligne
+
+Package pour Sublime K
+Pretty task management
+Utilisation 
+Ctrl + D // tache terminee - done
+
+test
+
+Normal mode 
+ci" //Choisir un texte - choose inner ""
+Shift+Ctrl+w // chose a word
+c2w //choose two word to edit
+v5W // visually choose 5words 
+vt, //visually choose to ,
+V //choisir 1 ligne
+y // yank
+p // paste
+d // delete
+vv //select line
+vw // select a word
+. //repete la derniere instruction connue
+
+
+```
+
+
+Notes blog sur serveur
+http://blog.mmlac.com/log-transport-with-apache-kafka/
+
+
+Sublime config
+[Developer poland sublime configuration][183]
+[Blog developper][184]
+
+
+## Rails ##
+Passing values to javascript from rails.
+[Railscast][185]
+
+Firefox
+Aller page précédente ou suivante 
+Alt + fleche droite ou gauche
+
+gesgse@gesgqs.com
+
+
+
+## INTEL GALILEO - Internet of the things ##
+
+Internet des objets
+	Smart like a computer
+	Intercation Natural interface only.
+
+Why Intelligent Object 
+1. Optimiser l'existant. (réduire les frais, rendre la vie plus facile )
+2. Difference sur objet connecté et non connecté ex: Médecin. tension 24h/24 vs tension au repos
+
+Objets extremes dans leurs capacités 
+=> Concepts bizarres
+=> Non adéquation au besoin
+
+Exemples	 
+Nike air + iPod
+Parrot Flower power
+Nest -google
+Google glasses
+Sen se
+jawbone
+Basis science
+Smokio
+Peeble
+Motorola montre
+
+-Où vont les données ? 
+=> Question de la propriété. 
+
+
+Probleme n'est pas tant de coder mais de trouver des idées.
+Different cultures de développement 
+Electronicien 
+Developpeur 
+Bricoleur
+
+Intel system Studio
+Embedded with windriver vxWorks
+
+Yocto - Os Linux
+
+Security with McAfee
+
+Port JTAG = Vie ou de mort
+
+
+LANGAGE DE PROGRAMMATION METHODE B
+
+2/3 IDEE ET LE RESTE = côté technique
+
+
+
+Notes interressantes =
+Le cdn est un serveurs qui donne les liens sur les librairies de javascript les plus courantes. L'idée est de ne plus avoir a les inclure au niveau du header
+[Cdn-Librairies javascript][186]
+
+
+Lien videos sur le jSON a creuser 
+http://www.youtube.com/watch?v=6LMVOTfp2SI
+http://www.youtube.com/watch?v=9xXr2EZfDPQ
+http://www.youtube.com/watch?v=_HmtDTWc3iY
+http://www.youtube.com/watch?v=pe6keTE9LbE
+
+
+jQuery permet une meilleure manipulation du jSON
+http://json.parser.online.fr/
+Json lint pour vérifier le style du json
+
+
+Site internet a creuser HTML5 rocks
+www.html5rocks.com/en/tutorials
+codecombat.com
+
   [1]: www.rubymonk.com
   [2]: www.codeacademy.com
   [3]: http://railscasts.com/
@@ -2819,3 +3703,26 @@ Mozilla learning javascript
   [153]: http://muffinlabs.com/chatterbot.html
   [154]: http://sebastiandahlgren.se/2013/07/20/add-routing-to-meteor-js/
   [155]: https://developer.mozilla.org/en-US/learn/javascript
+  [156]: http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/
+  [157]: http://www.railsonmaui.com/blog/2013/06/11/emberjs-rails4-tutorial/
+  [158]: http://www.devmynd.com/blog/2013-3-rails-ember-js
+  [159]: http://hashrocket.com/blog/posts/setting-up-an-ember-app-with-a-rails-backend
+  [160]: http://blog.dcxn.com/2013/03/23/getting-started-with-ember-js-on-rails/
+  [161]: http://collectiveidea.com/blog/archives/2013/06/13/building-awesome-rails-apis-part-1/
+  [162]: http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/
+  [163]: http://www.opinionatedprogrammer.com/2011/02/capybara-and-selenium-with-rspec-and-rails-3/
+  [164]: http://lostechies.com/ryanrauh/2013/10/08/emberjs-beyond-the-tutorials/
+  [165]: http://www.infoq.com/fr/articles/emberjs
+  [166]: https://www.openshift.com/blogs/day-19-ember-the-missing-emberjs-tutorial
+  [167]: http://www.toptal.com/javascript/a-step-by-step-guide-to-building-your-first-ember-js-app
+  [168]: http://elweb.co/want-to-learn-ember-js-start-here/
+  [169]: http://www.williamhart.info/an-emberjs-beginners-tutorial.html
+  [170]: https://tutsplus.com/course/improve-workflow-in-sublime-text-2/
+  [180]: http://www.webdesignerdepot.com/2012/11/10-javascript-frameworks-to-improve-your-mobile-development/
+  [181]: http://html5center.sourceforge.net/blogs/Installing-the-Intel-XDK-on-Linux
+  [182]: http://topcoat.io/
+  [183]: http://www.perfectline.co/blog/2011/02/optimizing-ruby-on-rails-application-with-nodejs/
+  [183]: http://idered.pl/archive/my-sublime-text-setup
+  [184]: http://blog.alexmaccaw.com/sublime-text
+  [185]: http://railscasts.com/episodes/324-passing-data-to-javascript?view=asciicast
+  [186]: http://cdnjs.com/
