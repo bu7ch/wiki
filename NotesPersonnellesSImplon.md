@@ -3562,6 +3562,151 @@ Site internet a creuser HTML5 rocks
 www.html5rocks.com/en/tutorials
 codecombat.com
 
+
+Gem excon 
+=> permet de faire des requêtes HTTP
+
+JSONparse()parse =  cconversion en JSON - Présent en javascript autant qu'en Ruby
+```
+response = Excon.get(url)
+JSON.pase responde.body
+```
+Zeal pour documentation	
+
+vim FX Plugin firefox pour navigation en mode vim
+
+clipit = Logiciel pour buffer et copy paste
+ni.com/labview
+
+Prototypage rapide 
+
+http://tenmiles.com/blog/2012/06/25-ruby-on-rails-gems-for-rapid-prototyping/
+
+http://mattsears.com/articles/2011/12/10/minitest-quick-reference
+
+```
+git log -p = commit précédents
+```
+
+Existence de webrick reload
+code and conquer  jeu pour apprendre a coder
+
+Generation d'un rake personnalisé, exemple tiré d'un railscast
+
+```
+namespace :pick do
+  desc "Pick a random user as the winner"
+  task :winner => :environment do
+    puts "Winner: #{pick(User).name}"
+  end
+
+  desc "Pick a random product as the prize"
+  task :prize => :environment do
+    puts "Prize: #{pick(Product).name}"
+  end
+  
+  desc "Pick a random prize and winner"
+  task :all => [:prize, :winner]
+  
+  def pick(model_class)
+    model_class.find(:first, :order => 'RAND()')
+  end
+end
+```
+
+## Yannick cours sur le responsive design ##
+
+Cours sur le responsive design
+
+responsive.rga.com
+alistapart.com
+opquast.com/fr
+alsacreations.com
+css-tricks.com
+openweb.eu
+pompage.net
+w3c
+schema.org
+pxtoem
+
+
+Firefox OS simulator // Simulator de telephone portable
+Opera Mobile classic Emulator 
+Chrome = Outils pour changer la taille
+
+Manipulation du css directement si temps
+
+HTML5 Possibilité de mettre de la sémantique
+Google utilisation des éléments sémantiques
+
+Metatags
+
+Sémantique est à mettre a part
+Lancer page dans serveur
+
+Responsive => toujours utiliser des em
+
+	rEm => absolu par rapport a em qui est relatif
+
+Peut pas être responsive et pixels perfect
+
+Opera mini
+
+Composant HTML
+Contexte vs Controle pixel
+
+Javascript = une surcouche, penser le site sans javascript
+
+=> utiliser sélénium
+
+
+Wordwrap => utilisation des césures
+Gérer des débordements sur css
+Raphael Goetter
+
+bookinity
+
+
+startiorDev.com
+
+Mode Attilla
+Travail élément par éléments
+=> revoir les balises puis ce qui est en face
+
+
+Framework javascript => Beaucoup d'actions de la part de l'utilisateur
+
+html moteur de rendu par
+block = ht vers bas
+autre = gauche vers droite
+
+
+why the lucky stiff
+
+
+Javascript ressources a creuser
+http://www.alsacreations.com/astuce/lire/1436-console-javascript.html
+http://moox.io/blog/coder-en-javascript-dans-une-console/
+
+
+```
+console.dir(variable);
+// Affiche les informations de base sur la variable au niveau des consoles
+
+//Calcul de performance
+console.time("test1");
+//Instructions javascript
+console.timeEnd("test1");
+
+//Tout le code javascript entre ses deux instructions sera evalué au niveau du temps
+
+```
+
+Existence balise Html Autorefresh qui permet de recharger la page
+
+redis 
+
+
   [1]: www.rubymonk.com
   [2]: www.codeacademy.com
   [3]: http://railscasts.com/
