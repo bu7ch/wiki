@@ -164,6 +164,12 @@ gem 'faker'
 => generer de la fausse donnee
 
 
+Gem ffi = ruby en c
+
+Rubinius = autre version de ruby
+
+
+
 Existence de la gem 'RubyInline' qui permet d'introduire du code de d'autre langages en ruby
 
 Autres liste de gem utiles
