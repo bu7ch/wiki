@@ -163,6 +163,9 @@ gem bb-code
 gem 'faker'
 => generer de la fausse donnee
 
+
+Existence de la gem 'RubyInline' qui permet d'introduire du code de d'autre langages en ruby
+
 Autres liste de gem utiles
 
 [codetuts gem utiles developpement rails](http://code.tutsplus.com/articles/24-extremely-useful-ruby-gems-for-web-development--net-23863)
