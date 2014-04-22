@@ -1,5 +1,14 @@
 ## ViM TIPS
 
+
+Astuce Vim <br>
+Ouverture de plusieurs fichiers avec une syntaxe intérieure
+```
+vim $("ARGS".) 
+```
+
+
+
 mouvements :
 
 - f<caractere> aller sur le caractère
