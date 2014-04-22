@@ -82,9 +82,12 @@ git push origin :NomBrancheDist_a_Effacer
 ```
 Existence d'un programme git flow qui gère les branches.<br>
 C'est un processus particulier mais intéressant.
-[TutorielSurGitFlow][9]<br>
-[TutorielInteressant sur le gitFlow][10]<br>
-[ATLASSIAN GIT Tutoriel][11]
+
+[TutorielSurGitFlow](http://yakiloo.com/getting-started-git-flow/)
+
+[TutorielInteressant sur le gitFlow](http://labs.grupow.com/blog/2011/07/05/getting-started-with-git-flow)
+
+[ATLASSIAN GIT Tutoriel](https://www.atlassian.com/fr/git/workflows#!workflow-gitflow)
 
 Autres commandes destinées dans git.
 
@@ -95,4 +98,9 @@ git diff --cached // Affichage des differences en lignes
 Indiquer parfois la commande pour le commit exemple
 ```
 git commit -m "$rails g controller welcome"
+```
+Faire des commits selectionnés
+
+```
+--patch
 ```
