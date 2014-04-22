@@ -1,6 +1,3 @@
-Documentation Apprentissage programmation
-
-Accueil
 
 # Programmation
 
