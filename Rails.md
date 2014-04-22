@@ -205,3 +205,9 @@ Mode en rails
 ```
 RAILS_ENV=production rails s #passage en mode production
 ```
+
+Rails Prompt utile
+```
+Rails.logger.debug("message")
+Rails.logger.warn("message")
+```
