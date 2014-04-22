@@ -104,3 +104,12 @@ Faire des commits selectionnés
 ```
 --patch
 ```
+
+Commande git a revoir 
+
+```
+git checkout -f 'Sha1 ou tag'
+```
+
+Force le retour a une modification locale
+NB Dans un commit possibilité de faire plusieurs saut à la ligne.
