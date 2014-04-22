@@ -121,3 +121,16 @@ git flow
 Git instaweb affiche les informations des commits sur un navigateur
 Git flow permet de faire la gestion des commits
 Tutoriel git flow [GIt flow tutorial](http://danielkummer.github.io/git-flow-cheatsheet/)
+
+La possibilité de faire des pages projets dans github.
+
+[Créer des pages projets manuellement](https://help.github.com/articles/creating-project-pages-manually)
+
+Nouvelle fonctionnalité apprise
+
+```
+git checkout --orphan gh-pages
+git rm -rf
+```
+Création de branche orphelines (sans lien avec d'autres branche)
+Suppression en git
