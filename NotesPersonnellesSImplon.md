@@ -3700,7 +3700,23 @@ console.timeEnd("test1");
 
 //Tout le code javascript entre ses deux instructions sera evalué au niveau du temps
 
+//Autre mots clés javascript pour le debug
+
 ```
+
+Page internet de mozilla qui regroupe ces méthodes pour le debuggage
+
+https://developer.mozilla.org/fr/docs/Web/API/console#Using_groups_in_the_console
+
+
+Comment les navigateurs internet marchent - article à creuser 
+
+http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+
+
+Modern Development web
+http://jtaby.com/blog/2012/04/23/modern-web-development-part-1
+
 
 Existence balise Html Autorefresh qui permet de recharger la page
 
@@ -3709,6 +3725,680 @@ redis
 SURF logiciel minimaliste - Browser internet
 
 ghi outil pour la gestion des projets sur github et tracking des issues
+
+
+Astuce Unix pour trouver des elements précis 
+/*mot_a_trouver*/
+
+
+## Notes sur NODEJS ##
+
+Node est un technologie qui permet au javascript de s'executer du coté serveur et non plus client.
+Nous créons un serveur dans lequel nous pouvons faire nos pages html.
+Le code pour créer un serveur minimal nodejs est le suivant.
+
+```
+//Chargement de modules a la maniere d'un ruby
+var http = require("http");
+var url = require("url");
+var fs = require("fs");
+var event = require("events");
+var querystring = require("querystring");
+//Creation du serveur et actions associes
+
+var server = http.createServer(function(req,res){
+
+    res.writeHead(200);
+    res.write("bonjour");
+    res.end();
+});
+```
+server.listen(8808); //Ecoute le port localhost:8808
+
+Nb astuce pour le javascript et sa lecture.
+Faire une bonne indentation et regarder le code par les closures sur les plus fréquentes. En l'occurence celle ci : });
+
+Le node est orienté gestion évenements soit 
+1. Ecoute du systeme en attente d'un evenement
+2. Un évènement se produit
+3. Le code agit sur cet évènement
+
+
+
+```
+
+
+```
+Manipulation des querystring
+```
+var http = require('http');
+var url = require('url');
+var querystring = require('querystring');
+
+var server = http.createServer(function(req, res) {
+        var params = querystring.parse(url.parse(req.url).query);
+            res.writeHead(200, {"Content-Type": "text/plain"});
+                if ('prenom' in params && 'nom' in params) {
+                            res.write('Vous vous appelez ' + params['prenom'] + ' ' + params['nom']);
+                                }
+                                    else {
+                                                res.write('Vous devez bien avoir un prénom et un nom, non ?');
+                                                    }
+                                                        res.end();
+});
+server.listen(8080);
+
+```
+
+Pour require un fichier sans le chemin absolu et ou relatif => mettre notre module dans le dossier node_modules.
+C'est une convention.
+
+Equivalent en ruby du gemspec est le package.json.
+
+```
+{
+    "name": "mon-app",
+        "version": "0.1.0",
+            "dependencies": {
+                    "markdown": "~0.4"
+                        }
+                        }
+            }
+}
+```
+
+Routes statiques en nodejs
+
+```
+var express = require("express");
+var app = express();
+
+app.get('/', function(req, res) {
+    res.setHeader('Content-Type', 'text/plain');
+        res.end('Vous êtes à l\'accueil, que puis-je pour vous ?');
+        });
+
+        app.get('/sous-sol', function(req, res) {
+            res.setHeader('Content-Type', 'text/plain');
+                res.end('Vous êtes dans la cave à vins, ces bouteilles sont à moi !');
+                });
+
+                app.get('/etage/1/chambre', function(req, res) {
+                    res.setHeader('Content-Type', 'text/plain');
+                        res.end('Hé ho, c\'est privé ici !');
+                        });
+                })
+        })
+})
+```
+
+Routes dynamiques
+
+
+```
+var express = require("express");
+var app = express();
+
+app.get('/etage/:etagenum/chambre', function(req, res) {
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Vous êtes à la chambre de l\'étage n°' + req.params.etagenum);
+});
+```
+Possibilite de faire du javascript embedded avec EJS a ranger dans un dossier nommé views
+Nb express n'est pas le seul framework node, il en existe d'autre tels que fab.js
+
+CALLBACK PATTERN
+
+```
+var fs= require("fs");
+
+function callback(err, results){
+	if (err) return handleError(err);
+	console.log('File content:', results);
+}
+
+var result = fs.readFile('/etc/passwd',callback);
+```
+
+Callback last
+
+Callback err 
+
+
+Node js have specials emitter and listeners called streams
+
+
+
+http://hndr.me/blog/
+
+transform your restful rails app in a realtime app 
+http://liamkaufman.com/blog/2013/02/27/adding-real-time-to-a-restful-rails-app/
+http://liamkaufman.com/blog/2012/02/25/adding_real-time_to_rails_with_socket.IO_nodejs_and_backbonejs_with_demo/
+
+
+Ressources pour node js via stackoverflow
+http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js
+
+## RSPEC ##
+http://stackoverflow.com/questions/201385/getting-started-with-rspec-looking-for-tutorials
+https://makandracards.com/makandra/topics/rspec
+http://pure-rspec-rubynation.herokuapp.com/#1
+http://kerryb.github.io/iprug-rspec-presentation/#1
+http://testerstories.com/automated-testing-with-watir-and-rspec-part-1/
+https://leanpub.com/everydayrailsrspec
+
+Ember links
+http://www.railsonmaui.com/blog/2013/06/11/emberjs-rails4-tutorial/
+http://www.devmynd.com/blog/2013-3-rails-ember-js
+https://www.youtube.com/watch?v=vVDQY7kYV_8#t=5420
+
+Article about rails
+```
+
+```
+http://metaskills.net/2013/10/03/using-dotenv-in-rails/
+http://railsapps.github.io/rails-environment-variables.html
+
+
+jsdoc pour faire la documentation en javascript
+
+xUnit pattern => livre sur le test unitaire
+
+
+## Linux - shell ##
+
+at [heure minutes ...]
+>Instructions
+>Ctrl + D
+
+Crontab 
+crontab -l
+crontab -e 
+crontab -r
+
+
+```
+//Utilisation du grep
+$ grep ’197.$’ fichier.dat
+Jimi Hendrix 1970
+Jim Morrison 1971
+$
+ $ grep ’^Ji’ fichier.dat
+Jimi Hendrix 1970
+Jim Morrison 1971
+$
+$ grep ’^J.*1970’ fichier.dat
+Jimi Hendrix 1970
+$
+$ grep -E ’Jimi?’ fichier.dat
+Jimi Hendrix 1970
+Jim Morrison 1971
+$
+$ grep -i jimi fichier.dat
+Jimi Hendrix 1970
+$
+
+```
+Existence de sed et awk pour analyse
+Existence de zip pour le compression etc
+
+
+Outil pour le réseau 
+ping
+host 
+traceroute
+nslookup
+dig
+
+Methode uniq sur les tableaux
+
+Principe :  toute variable doit être initialisée avant son utilisation
+
+Benchmark en ruby Test perf
+http://www.revision-zero.org/benchmarking
+
+
+COOL FEATURES ON GITHUB
+https://github.com/tiimgreen/github-cheat-sheet
+
+
+Virtual reality - Cry engine
+http://vrwiki.wikispaces.com/Theory+%26+practice
+
+
+Cryengine
+Crytek
+
+## Mettre projet open source - Yannick ##
+
+CodeClimate = Outil opensource et gratuit pour analyse du code 
+Ressources 
+Moyen de communication
+Report bug  => github issues
+
+Important est de donner un truc qui tourne et qui respecte les conventions.
+Idée = de travailler et comment on participe
+
+Pull request avec README 
+
+TODOLIST
+Comment on installe
+A quoi ça sert 
+Convention code
+Participant
+
+Ne jamais laisser des pull requests en souffrance. Ex de l'ukrainien "Je ne peux pas répondre j'ai une révolution en cours"
+
+Gestion dans les issues
+
+Enlever plus de code que d'en rajouter
+Travail de jardinier
+
+Parler en anglais
+
+
+Pull request merge => remercier de l'acceptation de notre branche
+
+Blue Griffon
+
+Difference libre - opensource
+
+Free speech vs free beer
+
+Site internet producingross.com
+
+OpenCOmpute
+
+tmuxline
+Base16 
+
+http://producingoss.com/
+Producing Open Source Software
+How to Run a Successful Free Software Project
+
+Emilien Ah-Kiem
+	
+
+11:22 AM
+
+https://github.com/chriskempson/base16
+
+
+ http://www.crazyegg.com/
+
+
+Herbier de l'electronique
+
+Theremine
+MOOg
+
+Application qui se passe des écrans
+
+Fairphone
+
+
+Possibilité de faire template en rails
+
+mandrill pour mail
+
+owlgraphic.com
+
+http://www.sitepoint.com/ember-todomvc-rails/
+http://blog.jasonkriss.com/building-an-app-with-ember-app-kit-part-1/
+
+
+touch !!
+
+
+## PRINCIPE D'ARCHITECTURE ##
+Quentin Adam 
+Clever Cloud CEO
+
+Appli qui scale => 2 vision possible
+Grossir
+Ou
+Splitter
+
+Scale up vs scale out
+
+Scale out = ce qui est à faire 
+
+Separer les process et Storage
+=> Application doit être statelessness
+
+Deux requêtes doivent être propres
+
+Chaque instance doit être la même qui est à côté .
+
+=> Choisir les points
+
+=> Choisir les databases online
+MONGO , S3
+
+Jamais utiliser une techno qui est hype mais adaptée à notre problème.
+
+Ne pas créer des monstres.
+
+Ne pas utiliser la mémoires comme database
+
+HTTP = 2+2=4
+Même input => même output
+Utiliser S3 en 
+
+Code will fail and data will be lost
+
+JAMAIS UTILISER LE FILESYSTEM POUR SAUVEGARDER LA DONNES
+Zro
+Splitter => plus base de code est grosse => plus source d'erreurs 
+
+Modulariser
+
+
+EventBroker
+
+RABBIT AND VIEWS
+Celery
+Redis 
+JMS
+Iron and q
+Some case : Hadoop, akka 
+
+
+
+Se demerder pour temps de calcul plus rapide
+Mettre un reverse proxy pour une application rails
+
+Logs a mettre
+
+Scalabilité  principes = fin
+
+
+http://petewarden.com/2010/10/01/how-i-ended-up-using-s3-as-my-database/
+
+
+24h/24h - 7j/7j
+
+Developpement et production ne doit pas être la même.
+
+
+DSI : OPS/DEV Battle
+
+zero downtime
+
+Autoscability 
+Ajustement des ressources en temps réel
+
+clever-cloud.com
+
+
+Le monde comme un seul langage de programmation
+Portabilité
+Tes premiers clients sont les développeurs
+Au niveau du marché, dans 5 10 ans il y aura plus de javascript
+
+
+## ANGULAR ##
+
+Angular est un framework javascript.
+Il s'inclut au sein d'un fichier unique par le script.
+
+Le point le plus important est qu'au niveau de la vue tout fonctionne par data-binding
+
+```
+
+<button ng-click="Action()">Action</button>
+
+
+//Declaration des controller
+
+var ListCtrl  = function($scope){
+	$scope.name ="Bonjour"; // equivalent a un this.name = "bonjour';
+};
+
+
+Vue - Handlebars
+{{ name | filter }}
+
+Toute application angular doit commencer par ng-app
+
+Possibilité de filtre en angular assez développez
+
+
+Tout est variable y compris les model par
+
+ng-model="name"
+
+
+$routeParams <=> params en ruby
+
+
+Create a route in angular
+
+.config(function($routeProvider){
+
+	$routeProvider
+		.when('/contact/:index',{
+			templateUrl: 'edit.html',
+			controller: 'Edit'
+		})
+		.when
+
+	
+
+```
+
+Partiels en angular se trouvent dans le dossiers partials
+
+Possibilité de les inclure par <divng-include src= 'variableUrl$scope'></div>
+Dans le js 
+$variableUrl$scope='partials/fichier.html'
+
+Autre approche
+<ng-include></ng-include>
+
+Nb pourquoi utiliser un et non autre ? resp = 2ème manière plus récente et 1ère = markup a réutiliser
+
+Structure de l'application
+Affichage des vue en fonction du router
+
+Dans vue principale
+<div ng-view></ng-view>
+
+Créer un app.js =>
+Création d'un module
+
+angular.module('airline',[])
+  .config(airlineRouter);
+
+function airlineRouter(){
+  $routeProvider
+    .when('/',{templateUrl: 'partials/destinations.html'});
+    .when('/flights', {template: '<h3>Vols</h3>'});
+}
+
+mise dans la vue
+ng-app='airline'
+
+Accès aux urls
+= '/#flights'
+
+Use controller to change navigation state and views to show direction
+
+Liste déroulante en angular
+<select ng-model="orderProp">
+    <option value="name">Alphabetical</option>
+    <option value="age">Newest</option>
+</select>
+
+
+NESTING SCOPES in Angular.js
+$scope.setActive
+
+
+ANGULAR SERVICES
+
+Use in order to save data or manipulate data
+
+Angular Batarang = aide pour debuggage Angular js application
+
+http://omarriott.com/aux/angularjs-html5-routing-rails/
+
+
+
+ANGULAR TEST
+
+installer utilitaire de test npm install karma puis lancer les test par npm test
+
+
+
+
+Angular and rails 
+http://www.dillonbuchanan.com/programming/ruby-on-rails-angularjs-resources/
+http://blog.berylliumwork.com/2012/09/tutorials-on-angularjs-and-rails-2.html
+http://stackoverflow.com/questions/13269882/angularjs-resource-restful-example
+http://www.partage-it.com/comment-utiliser-les-services-resource-avec-angularjs/
+http://kvz.io/blog/2010/09/21/ruby-with-nginx-on-ubuntu-lucid/
+
+http://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails
+http://blog.berylliumwork.com/2012/09/tutorials-on-angularjs-and-rails-2.html
+
+
+//Use front end for our app
+http://rockyj.in/2013/10/24/angular_rails.html
+
+##Create your server ##
+Article in order to do that
+
+http://www.webmonkey.com/2010/02/set_up_a_home_server/
+http://lifehacker.com/turn-an-old-computer-into-a-do-anything-home-server-wit-510023147
+http://www.webmonkey.com/2010/02/apache_for_beginners/
+http://www.wikihow.com/Run-A-Webserver-From-Your-Computer
+
+http://blog.berylliumwork.com/2012/09/tutorials-on-angularjs-and-rails-2.html
+http://www.dillonbuchanan.com/programming/ruby-on-rails-angularjs-resources/
+
+http://rockyj.in/2013/10/24/angular_rails.html
+
+https://shellycloud.com/blog/2013/10/how-to-integrate-angularjs-with-rails-4
+
+http://www.webmonkey.com/2010/02/apache_for_beginners/
+
+postman extension chrome 
+
+Wunderground
+
+
+Paquet node 
+npm install http-server
+
+Utilise le dossier public pour servir de serveur de fichiers statiques = à creuser
+http://www.sitepoint.com/serving-static-files-with-node-js/
+http://www.senchalabs.org/connect/
+https://github.com/cloudhead/node-static
+
+## Recherche sur Oculus et javascript ##
+http://blogs.infinitesquare.com/b/simon/archives/oculus-rift-et-babylon-js#.U1IsgKZ3QYw
+http://www.babylonjs.com/
+http://krpano.com/stereo3d/
+http://www.zaphoyd.com/websocketpp
+https://github.com/Instrument/oculus-bridge
+
+https://docs.google.com/document/d/1qICpwaL8WoJFxkXsSIJOcBZ9lnnNQvd_wYTYUMxPVjQ/edit#
+Pris d'un document perdu
+Oculus Rift on HTML5 using Node.js
+Information
+git repo: https://github.com/rocky1138/voxel-painter.git
+Node.js modules used: connect, voxel.js, browserify
+Voxel-painter licensed using BSD-2-Clause license (please fork and help!)
+Required Software for Windows
+git bash - http://windows.github.com/
+nodejs - http://nodejs.org/dist/v0.10.23/node-v0.10.23-x86.msi
+Oculus Bridge - https://github.com/Instrument/oculus-bridge
+
+Instructions
+Install node.js, github for windows, and Oculus Bridge
+Open git bash
+Clone git repo (git clone https://github.com/rocky1138/voxel-painter.git) on your desktop (or wherever you want, really.. it’s YOUR hard drive after all)
+In the directory where you cloned the project, run npm install
+run npm install -g browserify
+run browserify index.js -o bundle.js
+run node server.js
+Connect Oculus Rift to your USB and HDMI output
+Run Oculus Bridge
+Open Chrome or Firefox and navigate to http://localhost:3000/index.html
+Play! Left click breaks blocks, shift-left places them.
+To turn off Oculus Stuff just comment out the “var effect = new oculus” line in index.js
+
+http://www.slashgear.com/webgl-plants-game-in-oculus-rift-with-one-line-of-code-03323659/
+
+
+A unit test must be A-TRIP
+Automatic 
+Unitaire
+Recursive
+Programmable
+
+Existence librairie 
+three.js
+
+## NODE JS WEB APP ##
+http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
+http://expressjs.com/guide.html
+
+
+<h2>Proxy server</h2>
+http://www.commentcamarche.net/contents/610-serveur-proxy-et-reverse-proxy
+http://fr.wikipedia.org/wiki/Proxy
+
+## META PROGRAMMING ##
+
+http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/
+
+## RUBY PROGRAMMING ##
+https://www.dropbox.com/sh/exvm7ljrvi5n5xa/4pAT6z0Fa5/imperative-to-oo-to-functional.mov
+
+Ratchet = Components for mobile
+
+http://www.vincentabry.com/voici-a-quoi-ressemblaient-les-sites-internet-en-1995-36740
+
+## Sublime tip ##
+
+Ctrl + E = duplication
+Ctrl + l = selection ligne
+
+
+Script emmet
+#page>div.logo+ul#navigation>li*5>a{Item $}
+
+
+Artilce
+http://www.cbinsights.com/blog/startup-failure-post-mortem
+
+http://prog21.dadgum.com/140.html
+
+https://www.simonsfoundation.org/quanta/20140416-times-arrow-traced-to-quantum-source/
+
+
+TEST WITH qUnit
+http://code.tutsplus.com/tutorials/how-to-test-your-javascript-code-with-qunit--net-9077
+
+
+https://pages.github.com/
+https://help.github.com/articles/creating-project-pages-manually
+
+
+
+## JEKYLL ##
+Generate a website Really fast
+
+
+http://deveiate.org/projects/
+
+
+Formations css
+tinyurl.com/bmfkg6j
+tinyurl.com/b7d54x5
+tinyurl.com/aqeg9mc
 
 
   [1]: www.rubymonk.com

@@ -2,3 +2,8 @@ source "https://www.rubygems.org"
 gem 'rdoc'
 gem 'RedCloth'
 gem 'rake'
+gem 'smeagol'
+gem 'gollum'
+gem 'github-markup'
+gem 'markup'
+gem 'redcarpet'
