@@ -164,5 +164,7 @@ gem 'faker'
 => generer de la fausse donnee
 
 Autres liste de gem utiles
+
 [codetuts gem utiles developpement rails](http://code.tutsplus.com/articles/24-extremely-useful-ruby-gems-for-web-development--net-23863)
+
 [10gems to use](http://blog.teamtreehouse.com/10-must-have-ruby-gems)
