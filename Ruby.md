@@ -5,8 +5,8 @@
 
 L’apprentissage du ruby s’est fait par plusieurs ressources
  
- - [RubyMonk](www.rubymonk.com)
- - [CodeAcademy](www.codeacademy.com)
+ - [RubyMonk](http://rubymonk.com)
+ - [CodeAcademy](http://codeacademy.com)
 
 
 
