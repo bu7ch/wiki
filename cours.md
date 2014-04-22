@@ -1,5 +1,5 @@
 ## Cours SIMPLON ##
 
-[Cours Thibault](thibault_cours)
+[Cours Thibault](thibault)
 
 [Cartoviz-hackathon](cartoviz)
