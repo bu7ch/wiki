@@ -10,7 +10,7 @@ Accueil
 
 [Javascript basis](/Javascript)
 
-[SQl](/Sql)
+[SQL](/Sql)
 
 # Framework 
 
