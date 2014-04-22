@@ -113,3 +113,11 @@ git checkout -f 'Sha1 ou tag'
 
 Force le retour a une modification locale
 NB Dans un commit possibilité de faire plusieurs saut à la ligne.
+
+```
+git instaweb
+git flow
+```
+Git instaweb affiche les informations des commits sur un navigateur
+Git flow permet de faire la gestion des commits
+Tutoriel git flow [GIt flow tutorial](http://danielkummer.github.io/git-flow-cheatsheet/)
