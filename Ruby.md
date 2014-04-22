@@ -307,3 +307,8 @@ Polymorphisme avec super
 Getter et Setter
 
 Attribut self
+
+
+Avance Creation et destruction d'objets
+
+[Classes avancées en ruby](http://pleac.sourceforge.net/pleac_ruby/classesetc.html)
