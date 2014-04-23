@@ -211,3 +211,9 @@ Rails Prompt utile
 Rails.logger.debug("message")
 Rails.logger.warn("message")
 ```
+
+Dans sqlite3 possibilité de faire des requêtes en ligne de commandes de manière directe. 
+```
+"select * from users"
+
+```
