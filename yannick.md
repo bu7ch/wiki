@@ -42,3 +42,5 @@ git add -p // Option patch
 ```
 
 YAF
+
+Aller plus lentement
