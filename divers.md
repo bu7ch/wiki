@@ -1,0 +1,1 @@
+Quand une condition de code est supérieure a plus de 5 lignes alors refactorer
