@@ -5,3 +5,5 @@
 [Cartoviz-hackathon](cartoviz)
 
 [Cours Yannick](/yannick)
+
+[Notes diverses](/divers)
