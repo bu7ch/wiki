@@ -43,3 +43,5 @@
 # Articles à creuser
 
 [Articles](/articles)
+
+[divers](/divers)
