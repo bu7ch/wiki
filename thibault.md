@@ -13,3 +13,11 @@ redo = faire repasse l'itération courante de la boucle = gestion des erreurs
 ||= eviter les if
 
 &= inverse
+
+
+Tricks Ruby 
+
+```
+puts `ls` #Effectue une commande système
+```
+
