@@ -1,3 +1,41 @@
+# JAVASCRIPT BASIS
+
+## VARIABLES
+
+### Variables de bases
+
+### Types avancés
+
+## FONCTIONS
+
+## STRUCTURE DECISIONNELLES
+
+### if
+
+### case
+
+## BOUCLES
+
+### FOR 
+
+### FOR IN
+
+## CLASSES
+
+### DECLARATION D'UN OBJET
+
+### CREATION D'UN OBJET
+
+### HERITAGE
+
+### METHODES
+
+## METHODES
+
+
+
+
+
 Cours sur le javascript
 
 http://code.tutsplus.com/articles/17-hours-of-javascript-from-the-masters--net-7615
