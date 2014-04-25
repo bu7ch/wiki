@@ -217,3 +217,7 @@ Dans sqlite3 possibilité de faire des requêtes en ligne de commandes de maniè
 "select * from users"
 
 ```
+
+```
+remote :true // permet d'effectuer des requetes ajax
+```
