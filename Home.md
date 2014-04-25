@@ -1,5 +1,4 @@
 
-
 # Programmation
 
 [Ruby basics](/Ruby)
@@ -9,6 +8,10 @@
 [Javascript basis](/Javascript)
 
 [SQL](/Sql)
+
+[C/C++ basis](/cpp)
+
+[Python](/python)
 
 # Framework 
 
