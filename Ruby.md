@@ -312,3 +312,6 @@ Attribut self
 Avance Creation et destruction d'objets
 
 [Classes avancées en ruby](http://pleac.sourceforge.net/pleac_ruby/classesetc.html)
+
+Métaprogrammation en Ruby 
+[Metaprogramming in ruby exercices](http://ruby-metaprogramming.rubylearning.com/)
