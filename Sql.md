@@ -100,3 +100,11 @@ SELECT movies.title, genre.name FROM movies LEFT OUTER JOIN genres ON movies.gen
 Nom b AS Alias b
 
 ```
+
+```
+
+// Possibilité de faire du sql en ligne de commande - Commande trouvé après quelques essais
+
+sqlite3 -line development.sqlite3 'select * from user;'
+sqlite3 -line development.sqlite3 'SELECT * FROM user;'
+```
