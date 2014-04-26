@@ -12,6 +12,15 @@ Possibilité d'user de blender et de l'oculus rift
 
 [Graphikart threejs](http://www.grafikart.fr/tutoriels/javascript/three-js-3d-289)
 
+Lier oculus bridge et javascript
+
+[Oculus and javascript](http://paddytherabbit.com/set-web-based-oculus-rift-world/)
+
 Rappel puredata pour faire un peu de programmation visuelle
 
 [Puredata](http://puredata.info/)
+
+Cake php
+Equivalent ruby on rails chez php à creuser
+
+
