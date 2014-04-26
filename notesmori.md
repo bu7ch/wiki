@@ -34,3 +34,5 @@ Equivalent ruby on rails chez php à creuser
 Framework pour artisans en php
 Laravelle
 
+Pour construction application mobile alors utiliser une construction de phonegap directement en ligne sans utiliser le compilateur de l'ordinateur qui semble pas trop au top.
+Note bien qu'il faudra un jour ou l'autre passer a du linux arch, voire autre.
