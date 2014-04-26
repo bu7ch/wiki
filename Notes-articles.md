@@ -31,3 +31,7 @@ c. Expose-t-il un formulaire pour créer ou modifier une ressources ?
 
 
 Faire un diagramme de flux de controle (suggestion du livre)
+
+Existence de ROS.org 
+
+Librairies en C et autres pour tout ce qui est robotique
