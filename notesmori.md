@@ -12,6 +12,14 @@ Possibilité d'user de blender et de l'oculus rift
 
 [Graphikart threejs](http://www.grafikart.fr/tutoriels/javascript/three-js-3d-289)
 
+Un Blog sur threejs qui est sympa
+
+[Blog](http://learningthreejs.com/)
+
+Alsacreations
+
+[Alsacreation threejs](http://www.alsacreations.com/tuto/lire/1572-webgl-3d-three-canvas-threejs.html)
+
 Lier oculus bridge et javascript
 
 [Oculus and javascript](http://paddytherabbit.com/set-web-based-oculus-rift-world/)
