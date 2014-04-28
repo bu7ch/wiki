@@ -38,6 +38,8 @@
 
 [Gems](/gems)
 
+[Developpement-Outils](/devutilitaires)
+
 # Interventions et notes de cours
 
 [Cours](/cours)
