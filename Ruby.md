@@ -315,3 +315,21 @@ Avance Creation et destruction d'objets
 
 Métaprogrammation en Ruby 
 [Metaprogramming in ruby exercices](http://ruby-metaprogramming.rubylearning.com/)
+
+## METAPROGRAMMATION
+
+Tout en Ruby est en objet y compris la classe elle même. 
+Ainsi quelques point sont a prendre en compte 
+
+La classe suprème en Ruby est ainsi le basic object
+
+Le polymorphisme est inclus en ruby. Le polymorphisme peut s'appliquer au niveau des classes.
+
+Faire la différenciation entre méthodes d'instances, variables d'instances et classes.
+
+Les noms de classes et autres sont des constantes, qui servent d'espaces de noms à Ruby.
+
+```
+"hello".class # renvoie String
+String.class # renvoie Class
+```
