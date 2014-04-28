@@ -334,3 +334,25 @@ Les noms de classes et autres sont des constantes, qui servent d'espaces de noms
 String.class # renvoie Class
 String.instance_methods
 ```
+
+Possibilité de faire des splat
+```
+[1,2,3] = 1, *2 # renvoie 1=[1], 2* = [2,3]
+
+```
+
+Travail sur le benchmark 
+Rappel fichier bench_calcul.rb
+Dans le fichier inclure require 'benchmark'
+
+### RECURSION
+
+```
+def test(nombre)
+  return 0 if nombre == 0
+  test(nombre -1)
+end
+
+```
+
+```
