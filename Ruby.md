@@ -332,4 +332,5 @@ Les noms de classes et autres sont des constantes, qui servent d'espaces de noms
 ```
 "hello".class # renvoie String
 String.class # renvoie Class
+String.instance_methods
 ```
