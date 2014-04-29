@@ -134,3 +134,7 @@ git rm -rf
 ```
 Création de branche orphelines (sans lien avec d'autres branche)
 Suppression en git
+
+Astuces cool en git et github
+
+[Timgreen github cool features](https://github.com/tiimgreen/github-cheat-sheet)
