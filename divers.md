@@ -12,6 +12,8 @@ Flow programming
 
 [meemoo - exemple](http://meemoo.org/iframework/#example/cam2gif)
 
+Le site graphikart a un tutoriel sur l'utilisation du localstorage
+
 Mean Io autre sorte de framework javascript
 
 [Mean.io](http://mean.io)
