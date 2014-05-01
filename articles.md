@@ -25,3 +25,7 @@ Famo.us Plateforme de développement 3d et autres
 CodePen un equivalent a surveiller
 
 [CodePen](http://codepen.io/)
+
+Asynchronous programming - Article que je consulte pour comprendre la programmation asynchrone
+
+[Html5 rocks async programming](http://www.html5rocks.com/en/tutorials/async/deferred/)
