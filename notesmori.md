@@ -53,3 +53,6 @@ db-engines.com est un site qui regroupe et classe les bases de données.
 Clegg Outil open source pour créer des réseaux sociaux rapidement en php 
 
 Payname
+
+
+Google App engine = équivalent de S3 chez google.
