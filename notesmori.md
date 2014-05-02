@@ -38,3 +38,18 @@ Pour construction application mobile alors utiliser une construction de phonegap
 Note bien qu'il faudra un jour ou l'autre passer a du linux arch, voire autre.
 
 [Phonegap](http://build.phonegap.com)
+
+
+Librairie en javascript nommée flow.js en angular qui permet de gérer l'upload de fichier plus facilement.
+
+[Flowjs](http://flowjs.github.io/ng-flow/)
+
+Hoodie une autre librairie javascript qui permet la gestion de base de données internes
+
+[Hoodie](http://hood.ie/intro)
+
+db-engines.com est un site qui regroupe et classe les bases de données.
+
+Clegg Outil open source pour créer des réseaux sociaux rapidement en php 
+
+Payname
