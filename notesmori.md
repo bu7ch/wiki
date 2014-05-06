@@ -56,3 +56,32 @@ Payname
 
 
 Google App engine = équivalent de S3 chez google.
+
+
+Python et Ruby permettent au moyen de quelques commandes en ligne de commande de créer son serveur.
+Voici les commandes 
+
+
+```
+python -m SimpleHttpServer 5000
+
+// equivalent en ruby 
+
+ruby -run -e httpd . -p 5000
+
+```
+
+
+
+Sources 
+
+[Benjamin moakes](http://www.benjaminoakes.com/2013/09/13/ruby-simple-http-server-minimalist-rake/)
+
+[BLog sasmonis](http://blog.samsonis.me/2010/02/rubys-python-simplehttpserver/)
+
+
+
+Site internet sur les instructions sur les lignes de commandes les plus folles
+
+[Commandlinefu](http://www.commandlinefu.com/commands/browse)
+
