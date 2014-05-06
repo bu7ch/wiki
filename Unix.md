@@ -1,4 +1,3 @@
-
 Filtrer un processus
 
 ```
@@ -55,4 +54,24 @@ Nb pour faire le set up d'une variable d'environnement.<br>
 ```
 echo 'export CHROME_BIN="/usr/bin/chromium-browser"' >> ~/.bashrc && source ~/.bashrc
 
+```
+
+Travail sur le shell et l'execution de scripts shell permet d'accélerer le processus de développement.
+Rappel sur le shell
+
+```
+basehtml='Bonjour le monde'
+
+echo " $basehtml"
+
+```
+
+Changer le mode du fichier par chmod +x exemple.sh
+
+Execution du fichier par ./exemple.sh
+
+Création de dossier parenté.
+
+```
+mkdir -p app/views
 ```
