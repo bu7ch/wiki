@@ -29,3 +29,8 @@ CodePen un equivalent a surveiller
 Asynchronous programming - Article que je consulte pour comprendre la programmation asynchrone
 
 [Html5 rocks async programming](http://www.html5rocks.com/en/tutorials/async/deferred/)
+
+
+Existence future de Lotus, un autre framework en ruby 
+
+[](http://lotusrb.org)
