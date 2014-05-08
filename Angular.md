@@ -12,3 +12,7 @@ Autre possible solution
 
 [Js fiddle example](http://jsfiddle.net/ricardohbin/E3YEt/)
 
+Angular CORS and authentification 
+
+[Stack overflow](http://stackoverflow.com/questions/21455045/angularjs-http-cors-and-http-authentication)
+
