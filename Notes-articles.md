@@ -35,3 +35,13 @@ Faire un diagramme de flux de controle (suggestion du livre)
 Existence de ROS.org 
 
 Librairies en C et autres pour tout ce qui est robotique
+
+
+Notes discussion avec Yannick
+
+Différences entre les serveurs ainsi que les objectifs que l'on s'assigne à ceux ci.
+
+1.Serveur d'application
+2.Serveur Web
+3.Serveur Proxy
+4.Serveur Cache
