@@ -33,4 +33,4 @@ Asynchronous programming - Article que je consulte pour comprendre la programmat
 
 Existence future de Lotus, un autre framework en ruby 
 
-[](http://lotusrb.org)
+[Lotus](http://lotusrb.org)
