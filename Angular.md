@@ -7,3 +7,8 @@ Probleme d'angular par rapport au source mapping //# => Une des résolutions du 
 Probleme angular est sur le CORS -> Solution probable par cet article
 
 [make a better web](http://better-inter.net/enabling-cors-in-angular-js/)
+
+Autre possible solution 
+
+[Js fiddle example](http://jsfiddle.net/ricardohbin/E3YEt/)
+
