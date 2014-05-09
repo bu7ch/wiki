@@ -12,4 +12,6 @@ Informations sur le protocole HTTP
 
 [Http protocol](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
 
+[Http facile](http://www.jmarshall.com/easy/http/)
+
 
