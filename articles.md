@@ -39,3 +39,7 @@ Asynchronous programming - Article que je consulte pour comprendre la programmat
 Existence future de Lotus, un autre framework en ruby 
 
 [Lotus](http://lotusrb.org)
+
+Probleme des CORS
+
+[Stack overflow Cors problem](http://stackoverflow.com/questions/10710635/how-does-firebase-handle-cross-origin-issues)
