@@ -221,3 +221,5 @@ Dans sqlite3 possibilité de faire des requêtes en ligne de commandes de maniè
 ```
 remote :true // permet d'effectuer des requetes ajax
 ```
+
+RakeCors gem qui en ruby gère les problèmes de CORS
