@@ -12,6 +12,10 @@ Autre possible solution
 
 [Js fiddle example](http://jsfiddle.net/ricardohbin/E3YEt/)
 
+Travail au niveau d'angular est de mélanger les frameworks - tutoriel assez interressant avec résolution de probleme sur les CORS.
+
+[ANgular and Sinatra](http://thibaultdenizet.com/tutorial/cors-with-angular-js-and-sinatra/)
+
 Angular CORS and authentification 
 
 [Stack overflow](http://stackoverflow.com/questions/21455045/angularjs-http-cors-and-http-authentication)
