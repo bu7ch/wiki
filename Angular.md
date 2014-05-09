@@ -18,6 +18,11 @@ Travail au niveau d'angular est de mélanger les frameworks - tutoriel assez int
 
 Angular CORS and authentification 
 
+Toujours sur le sujet des Cors
+
+[Blog bulte](http://blog.bulte.net/12-24-2013/angular-wordpress-cors.html)
+
+
 [Stack overflow](http://stackoverflow.com/questions/21455045/angularjs-http-cors-and-http-authentication)
 
 Angular js et node Tutoriel en 5 parties
@@ -25,4 +30,6 @@ Angular js et node Tutoriel en 5 parties
 [Jm Marshall](http://www.jmarshall.com/easy/http/)
 
 Librairie Restangular qui permet de mieux gérer les requêtes api
+
+
 
