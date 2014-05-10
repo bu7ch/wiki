@@ -175,5 +175,6 @@ Tutoriel avec 5 cas pratique en Angular
 
 [Tutorial avec 5 example pratique en Angular](http://tutorialzine.com/2013/08/learn-angularjs-5-examples/)
 
+Tutoriel avec Angular et des ressources et liens
 
-
+[Github angular ressources](https://github.com/jmcunningham/AngularJS-Learning)
