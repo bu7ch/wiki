@@ -178,3 +178,5 @@ Tutoriel avec 5 cas pratique en Angular
 Tutoriel avec Angular et des ressources et liens
 
 [Github angular ressources](https://github.com/jmcunningham/AngularJS-Learning)
+
+[Js fiddle - Utilisation des ressources](http://jsfiddle.net/ricardohbin/E3YEt/)
