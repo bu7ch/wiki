@@ -1,0 +1,175 @@
+## APPROCHE ANGULAR Notes personnelles
+
+Angular est un framework javascript.
+Il s'inclut au sein d'un fichier unique par le script.
+
+Le point le plus important est qu'au niveau de la vue tout fonctionne par data-binding
+
+```
+<button ng-click="Action()">Action</button>
+
+
+//Declaration des controller
+
+var ListCtrl  = function($scope){
+	$scope.name ="Bonjour"; // equivalent a un this.name = "bonjour';
+};
+
+// Notation alternative
+
+angular.module('myApp',[])
+  .controller('myCtrl', function($scope){
+     $scope.name  = "Bonjour";
+  });
+```
+
+Vue - Handlebars
+{{ name | filter }}
+
+Toute application angular doit commencer par ng-app
+
+Possibilité de filtre en angular assez développez
+
+
+Tout est variable y compris les model par
+
+ng-model="name"
+
+
+$routeParams <=> params en ruby
+
+
+Create a route in angular
+
+.config(function($routeProvider){
+
+	$routeProvider
+		.when('/contact/:index',{
+			templateUrl: 'edit.html',
+			controller: 'Edit'
+		})
+		.when
+``` 
+	
+
+```
+
+Partiels en angular se trouvent dans le dossiers partials
+
+Possibilité de les inclure par <divng-include src= 'variableUrl$scope'></div>
+Dans le js 
+$variableUrl$scope='partials/fichier.html'
+
+Autre approche
+<ng-include></ng-include>
+
+Nb pourquoi utiliser un et non autre ? resp = 2ème manière plus récente et 1ère = markup a réutiliser
+
+Structure de l'application
+Affichage des vue en fonction du router
+
+Dans vue principale
+<div ng-view></ng-view>
+
+Créer un app.js =>
+Création d'un module
+
+```
+angular.module('airline',[])
+  .config(airlineRouter);
+
+
+function airlineRouter(){
+  $routeProvider
+    .when('/',{templateUrl: 'partials/destinations.html'});
+    .when('/flights', {template: '<h3>Vols</h3>'});
+}
+
+```
+
+mise dans la vue
+ng-app='airline'
+
+Accès aux urls
+= '/#flights'
+
+Use controller to change navigation state and views to show direction
+
+Liste déroulante en angular
+<select ng-model="orderProp">
+    <option value="name">Alphabetical</option>
+    <option value="age">Newest</option>
+</select>
+
+
+NESTING SCOPES in Angular.js
+$scope.setActive
+
+
+ANGULAR SERVICES
+
+Use in order to save data or manipulate data
+
+Angular Batarang = aide pour debuggage Angular js application
+
+http://omarriott.com/aux/angularjs-html5-routing-rails/
+
+
+
+ANGULAR TEST
+
+installer utilitaire de test npm install karma puis lancer les test par npm test
+
+
+
+
+Angular and rails 
+
+[DillonBuchanan](http://www.dillonbuchanan.com/programming/ruby-on-rails-angularjs-resources/)
+[Beryllium Work](http://blog.berylliumwork.com/2012/09/tutorials-on-angularjs-and-rails-2.html)
+[StackOVerflow questions](http://stackoverflow.com/questions/13269882/angularjs-resource-restful-example)
+[PartageIt](http://www.partage-it.com/comment-utiliser-les-services-resource-avec-angularjs/)
+[Kvz](http://kvz.io/blog/2010/09/21/ruby-with-nginx-on-ubuntu-lucid/)
+
+[HOney Badger](http://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails)
+[Beryliumm](http://blog.berylliumwork.com/2012/09/tutorials-on-angularjs-and-rails-2.html)
+
+
+//Use front end for our app
+[Rockyj](http://rockyj.in/2013/10/24/angular_rails.html)
+
+Différents modules pour Angular 
+
+VOir le tutoriel graphikart avec utilisation d'angular et de rails.
+
+Probleme d'angular par rapport au source mapping //# => Une des résolutions du problème est passé par le chargement de script non minifiés.
+
+Probleme angular est sur le CORS -> Solution probable par cet article
+
+[make a better web](http://better-inter.net/enabling-cors-in-angular-js/)
+
+Autre possible solution 
+
+[Js fiddle example](http://jsfiddle.net/ricardohbin/E3YEt/)
+
+Travail au niveau d'angular est de mélanger les frameworks - tutoriel assez interressant avec résolution de probleme sur les CORS.
+
+[ANgular and Sinatra](http://thibaultdenizet.com/tutorial/cors-with-angular-js-and-sinatra/)
+
+Angular CORS and authentification 
+
+Toujours sur le sujet des Cors
+
+[Blog bulte](http://blog.bulte.net/12-24-2013/angular-wordpress-cors.html)
+
+
+[Stack overflow](http://stackoverflow.com/questions/21455045/angularjs-http-cors-and-http-authentication)
+
+Angular js et node Tutoriel en 5 parties
+
+[Jm Marshall](http://www.jmarshall.com/easy/http/)
+
+Librairie Restangular qui permet de mieux gérer les requêtes api
+
+
+
