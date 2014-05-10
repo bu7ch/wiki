@@ -171,5 +171,7 @@ Angular js et node Tutoriel en 5 parties
 
 Librairie Restangular qui permet de mieux gérer les requêtes api
 
+[Tutorial avec 5 example pratique en Angular](http://tutorialzine.com/2013/08/learn-angularjs-5-examples/)
+
 
 
