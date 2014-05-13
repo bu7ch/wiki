@@ -77,5 +77,7 @@ bdelete // Effacer le buffer
 
 Ctrl+Alt droite gauche => Utilisation des bureaux pour organiser son travail
 
+Raccourcir les boucles de feedback, deux branches demo et production => livrer le plus vite possible.
 
+Bitbucket 
 
