@@ -109,3 +109,17 @@ Sérif plus sympa à lire
 [CSS tricks](http://css-tricks.com/), faire des listes pour au cas ou une est absente
 
 Utilisation de font-family, par défaut utiliser Sérif
+
+```
+apt-cache search paquet
+
+```
+
+Text to speech gem
+
+```
+gem 'speechtotext'
+
+```
+Pocket sphinx  => logiciel linux pour synthèse vocale
+
