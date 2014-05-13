@@ -81,3 +81,19 @@ Raccourcir les boucles de feedback, deux branches demo et production => livrer l
 
 Bitbucket 
 
+
+dotenv => Attention aux variables environnements
+
+```
+
+gem 'dotenv'
+
+require 'dotenv'
+
+Dotenv.load
+
+user = ENV[USER_NAME]
+
+
+config:set KEY // config:set REMI_PASSWORD=postant
+```
