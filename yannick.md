@@ -123,3 +123,7 @@ gem 'speechtotext'
 ```
 Pocket sphinx  => logiciel linux pour synthèse vocale
 
+```
+vim : possibilite de faire une commande saveas
+```
+
