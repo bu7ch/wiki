@@ -100,3 +100,12 @@ config:set KEY // config:set REMI_PASSWORD=postantRack
 
 Chapeau pour faire Tabulation Vim
 ```
+
+[CSS font stack](http://cssfontstack.com/) Css et ensemble
+
+Pas plus de 2,3 fontes par pages,
+Sérif plus sympa à lire
+
+[CSS tricks](http://css-tricks.com/), faire des listes pour au cas ou une est absente
+
+Utilisation de font-family, par défaut utiliser Sérif
