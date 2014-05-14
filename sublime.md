@@ -1,5 +1,14 @@
 # Ressources sur l'utilisation de Sublime 
 
+## Features importantes pour Sublime
+
+Package control
+
+Multi edit 
+
+Contrallable
+
+
 [LevelTutsPlus](http://leveluptuts.com/tutorials/sublime-text-2-tutorials/4-how-change-and-add-color-schemes)
 
 [Sam and Max](http://sametmax.com/10-astuces-pour-sublime-text-2/)
