@@ -38,6 +38,8 @@
 
 [Gems](/gems)
 
+[Sublime2](/sublime)
+
 [Developpement-Outils](/devutilitaires)
 
 # Interventions et notes de cours
