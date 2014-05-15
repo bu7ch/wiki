@@ -20,4 +20,6 @@ Geany - Editeur developpement web
 
 [Http facile](http://www.jmarshall.com/easy/http/)
 
+Principe SOLID fait pour le développement en objet, bonnes pratiques de programmation
 
+[SOLID](http://fr.wikipedia.org/wiki/SOLID_%28informatique%29)
