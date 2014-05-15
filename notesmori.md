@@ -88,3 +88,7 @@ Site internet sur les instructions sur les lignes de commandes les plus folles
 Bootstrap Zero 
 
 [Bootstrap zero](http://bootstrapzero.com/)
+
+Hackety Hack - Outil pour apprendre la programmation en Ruby de manière intéractive
+
+[Hackety hack](http://hackety.com/)
