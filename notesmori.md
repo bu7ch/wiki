@@ -96,3 +96,5 @@ Hackety Hack - Outil pour apprendre la programmation en Ruby de manière intéra
 Zepto librairie js semblabe à jQuery en plus léger.
 
 []Zepto(http://zepto.com)
+
+FeedLy  - gestion de flux RSS
