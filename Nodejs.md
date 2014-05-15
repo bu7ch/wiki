@@ -133,3 +133,8 @@ Callback err
 
 
 Node js have specials emitter and listeners called streams
+
+
+Node Async in order to make or callback simpler
+
+[Node Asyn](http://www.befundoo.com/blog/different-uses-node-async-library/)
