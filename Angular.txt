@@ -180,3 +180,15 @@ Tutoriel avec Angular et des ressources et liens
 [Github angular ressources](https://github.com/jmcunningham/AngularJS-Learning)
 
 [Js fiddle - Utilisation des ressources](http://jsfiddle.net/ricardohbin/E3YEt/)
+
+Angular se compose en plusieurs niveaux en ce qui concerne son architecture
+
+1.Provider
+2.Services
+3.Factory
+4.Filtres
+5.Values
+6.Modules
+7.Constants
+
+[ANgular - Info provider](http://www.mikeobrien.net/blog/angular-consts-values-services-factories-and-providers-oh-my/)
