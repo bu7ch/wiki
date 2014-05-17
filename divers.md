@@ -21,3 +21,7 @@ Mean Io autre sorte de framework javascript
 Edition d'emojis
 
 [Emoji](http://www.emoji-cheat-sheet.com/)
+
+Showcase d'emojis sur Github et vim 
+
+[Github showcase emojis](https://github.com/showcases/emoji)
