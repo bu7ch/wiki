@@ -24,3 +24,8 @@ Commoditisation -> Weblee -> ce qui était une difficulté devient une facilité
 
 Meteor js - offline est par défaut. Temps réel.
 
+Choix de la techno est impactant - democratisation.
+
+Programmation is happiness. - Hacker news
+
+Important économiquement
