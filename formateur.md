@@ -35,3 +35,6 @@ Langage = langage + culture - = Coder speak
 Framework = Cadre et logique 
 
 Essais de programmation
+
+Ne pas se presser - Le but est de comprendre jusqu'au bout.
+
