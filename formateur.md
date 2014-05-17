@@ -29,3 +29,9 @@ Choix de la techno est impactant - democratisation.
 Programmation is happiness. - Hacker news
 
 Important économiquement
+
+Langage = langage + culture - = Coder speak
+
+Framework = Cadre et logique 
+
+Essais de programmation
