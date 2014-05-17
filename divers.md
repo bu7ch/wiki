@@ -17,3 +17,7 @@ Le site graphikart a un tutoriel sur l'utilisation du localstorage
 Mean Io autre sorte de framework javascript
 
 [Mean.io](http://mean.io)
+
+Edition d'emojis
+
+[Emoji](http://www.emoji-cheat-sheet.com/)
