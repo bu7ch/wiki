@@ -268,6 +268,24 @@ Tableaux
 Parcourir un tableau
 
 Hash
+Les hash sont des collections de données de manière non ordonnée, dont chacun des éléments est accessible par un indice.
+Les Hash sont à différencier des structures de tableaux. Ils sont fixes et on une syntaxe particulère.
+
+```
+
+person = { :first_name => 'Brian', :last_name => 'Lobster' ,  :age => 44}
+person2 = {fist_name: 'Brisco', last_name: 'Final', age: 44}
+
+```
+L'accès aux paramètres des hash se fait de la manière suivante:
+
+```
+puts person
+puts person[:first_name]
+person2[:last_name] = 'Moloch'
+
+```
+
 
 Symboles
 
