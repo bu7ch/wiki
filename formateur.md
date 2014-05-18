@@ -41,3 +41,7 @@ Ne pas se presser - Le but est de comprendre jusqu'au bout.
 plus d'espace pour se déplacer
 
 Notion de legacy coding
+
+Product Hunt.co = Recherche et idée de startup
+
+[Product hunt.co](http://www.producthunt.co/)
