@@ -112,3 +112,5 @@ Actualites
 aPIdAYS - Journée de découverte d'APi
 
 [APIDAYS](http://apidays.io/)
+
+Hacker Manifesto - Point sur le code a voir et à lire
