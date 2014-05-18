@@ -98,3 +98,13 @@ Zepto librairie js semblabe à jQuery en plus léger.
 []Zepto(http://zepto.com)
 
 FeedLy  - gestion de flux RSS
+
+MASHAPE
+
+Outil pour browser les API
+
+[Mashape](https://www.mashape.com)
+
+Actualites 
+
+[Mashable](http://mashable.com/)
