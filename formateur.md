@@ -39,3 +39,5 @@ Essais de programmation
 Ne pas se presser - Le but est de comprendre jusqu'au bout.
 
 plus d'espace pour se déplacer
+
+Notion de legacy coding
