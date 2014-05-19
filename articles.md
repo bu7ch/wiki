@@ -43,3 +43,19 @@ Existence future de Lotus, un autre framework en ruby
 Probleme des CORS
 
 [Stack overflow Cors problem](http://stackoverflow.com/questions/10710635/how-does-firebase-handle-cross-origin-issues)
+
+Websockets.org - Presence d'exemples sur les websockets Nb voir la definition du w3c
+
+[Websockets.org](http://www.websocket.org/)
+
+Websockets and others technologies
+
+[Net tuts websockets](http://code.tutsplus.com/tutorials/start-using-html5-websockets-today--net-13270)
+
+Mozilla developpers networks - Websockets
+
+[Mozilla developpers websockets](https://developer.mozilla.org/fr/docs/WebSockets)
+
+Websockets infos supplementaires
+
+[Developer fusion](http://www.developerfusion.com/article/143158/an-introduction-to-websockets/)
