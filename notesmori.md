@@ -118,3 +118,7 @@ Hacker Manifesto - Point sur le code a voir et à lire
 Test possible avec jasmine - utiliser la librairie et coder 
 
 [Tutoriel Jasmine](http://evanhahn.com/how-do-i-jasmine/)
+
+Test pour Qunit - Diapos de présentation et précisions
+
+[Testing Qunit](http://benalman.com/talks/unit-testing-qunit.html)
