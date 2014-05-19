@@ -114,3 +114,7 @@ aPIdAYS - Journée de découverte d'APi
 [APIDAYS](http://apidays.io/)
 
 Hacker Manifesto - Point sur le code a voir et à lire
+
+Test possible avec jasmine - utiliser la librairie et coder 
+
+[Tutoriel Jasmine](http://evanhahn.com/how-do-i-jasmine/)
