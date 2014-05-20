@@ -122,3 +122,5 @@ Test possible avec jasmine - utiliser la librairie et coder
 Test pour Qunit - Diapos de présentation et précisions
 
 [Testing Qunit](http://benalman.com/talks/unit-testing-qunit.html)
+
+Apprendre a lire un synopsis informatique et de commande
