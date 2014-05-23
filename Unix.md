@@ -75,3 +75,9 @@ Création de dossier parenté.
 ```
 mkdir -p app/views
 ```
+
+#### VI commands in your shell
+
+```
+set -o vi
+```
