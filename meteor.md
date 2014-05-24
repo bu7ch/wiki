@@ -8,3 +8,16 @@ Extension meteor pour le debug: meteor Console
 Possibilité d'user du node inspector pour aider au débuggage.
 
 [Node inspector and debug](http://stackoverflow.com/questions/14909610/how-to-debug-server-side-code-in-a-meteor-app)
+
+Existence de bootswatch pour faire des modifications et themes bootstrap
+
+
+[Youtube specialiste meteor](http://www.youtube.com/channel/UC4-DIsbr23Z-rPe_F4JAH9w)
+
+
+Meteor Cheatsheet
+
+[Meteor cheat sheet](http://journal.gentlenode.com/meteor-5-cheatsheet/)
+
+
+Meteor with Matt Debergalis = screencast youtube a consulter

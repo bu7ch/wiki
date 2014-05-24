@@ -81,3 +81,15 @@ mkdir -p app/views
 ```
 set -o vi
 ```
+
+##  Grep and filtres
+
+cat pour concaténation
+
+wc = word count + number of lines
+
+split -l 2 file2
+
+cat *x affichage d'un tout
+
+

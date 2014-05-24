@@ -48,3 +48,37 @@ Librairies en C et autres pour tout ce qui est robotique
 3.Serveur Proxy
 
 4.Serveur Cache
+
+
+## UDACITY
+
+Le deboggage est important 
+
+Processsus de recherche lent et imprévisible.
+
+Le debuggage coute la moitié du cout d'un logiciel
+
+
+The devils guide of debugging
+
+Steve McConnel
+
+DO NOT 
+
+1.Scatter output statement everywhere
+2.Debug the program into existence
+3.Never back up earlier versions
+4.Don't try understand what's the program should do
+5.Use the most obvious fix
+
+So understand what the program should do and what the problem is and be able to predict future result
+
+Break the cause effect chain)
+
+Methode et modèle scientifique
+
+Observation initiale -> Hypothese -> Prédiction -> Experiment -> Observation ...
+
+Bug like an hyphotesis
+
+input - expected - output
