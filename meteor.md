@@ -21,3 +21,7 @@ Meteor Cheatsheet
 
 
 Meteor with Matt Debergalis = screencast youtube a consulter
+
+Meteor Cookbook - Outil pour la cuisine de programme
+
+[Meteor Cookbook](https://github.com/awatson1978)
