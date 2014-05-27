@@ -93,3 +93,14 @@ split -l 2 file2
 cat *x affichage d'un tout
 
 
+
+
+Recherche et grep de fichier
+
+```
+
+find --name "*android*"
+
+grep ri dependencies
+
+```
