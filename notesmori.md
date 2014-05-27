@@ -128,3 +128,5 @@ Apprendre a lire un synopsis informatique et de commande
 Cours sur Udemy a propos de Webgl 
 
 [Cours washington programmation a creuser](https://courses.cs.washington.edu/courses/cse190m/12su/lectures/slides/lecture23-cookie-session-localstorage.shtml#slide35)
+
+Request Pulling = technique consistant pour faire des requetes toutes les n-secondes à la recherche d'informations
