@@ -134,3 +134,7 @@ Request Pulling = technique consistant pour faire des requetes toutes les n-seco
 Exercism.io - Kata sur les langages de programmation
 
 [Exercism.io](http://exercism.io)
+
+Site sur le developpement d'applications
+
+[Wildly innacurate](http://wildlyinaccurate.com/projects)
