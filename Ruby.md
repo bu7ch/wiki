@@ -374,3 +374,9 @@ end
 ```
 
 ```
+
+Gestion exeptions article
+
+[phrogz - Gestion exeption Ruby](http://phrogz.net/programmingruby/tut_exceptions.html)
+
+[Execption raising](http://rubylearning.com/satishtalim/ruby_exceptions.html)
