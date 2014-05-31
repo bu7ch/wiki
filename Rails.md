@@ -223,3 +223,7 @@ remote :true // permet d'effectuer des requetes ajax
 ```
 
 RakeCors gem qui en ruby gère les problèmes de CORS
+
+RAILS POUR AJAX tutoriel a explorer
+
+[Rails ajax](http://www.codebeerstartups.com/2012/12/ajaxify-your-site-with-remote-true)
