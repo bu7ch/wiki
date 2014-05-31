@@ -104,3 +104,14 @@ find --name "*android*"
 grep ri dependencies
 
 ```
+
+Ultimate installation from Okhin
+
+```
+#!/bin/sh
+ 
+apt-get install -y tmux zsh python3 git build-essential htop iotop saidar iftop lolcat grc moc ncmpcpp \
+ sysv-rc-conf ncurses-term locate dcfldd nmap tree netcat acpitool bastet apt-file ntpdate libssl-dev python3-pip\
+ python-virtualenv virtualenvwrapper mosh ffmpeg2theora pastebinit curl tsocks libncurses5-dev nmap 
+
+```
