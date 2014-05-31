@@ -82,3 +82,15 @@ Observation initiale -> Hypothese -> Prédiction -> Experiment -> Observation ..
 Bug like an hyphotesis
 
 input - expected - output
+
+### Explicit debugging 
+
+Mettre dans le commentaires les informations d'hypothèse 
+
+input - expected - output
+
+Format aussi de log - le but est d'éviter de mémoriser
+
+Write things down
+
+Speak to a bear = explicit debugging
