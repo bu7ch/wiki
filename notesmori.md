@@ -142,3 +142,21 @@ Site sur le developpement d'applications
 Api Spark - Créer son API 
 
 [Api Spark](https://apispark.com/)
+
+Existence de divers chatterbot en Ruby
+
+Lita
+
+[Litat](www.lita.io)
+
+Muffinista 
+
+[Muffinista](https://github.com/muffinista/chatterbot)
+
+ProgrammR
+
+[ProgramR](http://aiml-programr.rubyforge.org/)
+
+[Stack overflow](http://stackoverflow.com/questions/55042/how-can-i-program-a-simple-chat-bot-ai)
+
+[H3manth](http://h3manth.com/content/xmpp-ruby-chat-bot)
