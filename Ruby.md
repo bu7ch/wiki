@@ -380,3 +380,7 @@ Gestion exeptions article
 [phrogz - Gestion exeption Ruby](http://phrogz.net/programmingruby/tut_exceptions.html)
 
 [Execption raising](http://rubylearning.com/satishtalim/ruby_exceptions.html)
+
+Gestion des execptions - a creuser par le ruby bastard book
+
+[Ruby bastard book execption handling](http://ruby.bastardsbook.com/chapters/exception-handling/)
