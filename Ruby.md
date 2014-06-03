@@ -384,3 +384,8 @@ Gestion exeptions article
 Gestion des execptions - a creuser par le ruby bastard book
 
 [Ruby bastard book execption handling](http://ruby.bastardsbook.com/chapters/exception-handling/)
+
+
+Gem pour la genération d'un site en statique 
+
+gem middleman
