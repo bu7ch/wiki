@@ -94,3 +94,24 @@ Format aussi de log - le but est d'éviter de mémoriser
 Write things down
 
 Speak to a bear = explicit debugging
+
+Existence dans la STL de la librairie assert.h qui permet de faire des assertions
+
+## Fonctionnement et refining des assertions
+
+1.TESTER L'INPUT
+2.PRECONDITIONS
+3.POSTCONDITIONS
+
+
+Concept du TIMEBOMB
+
+Verifier les checkrep - Faire les invariants dans notre code
+
+### RED BLACK TREES
+
+### Tao de la simplification
+
+Get relevant informations
+
+Steve McConnel Code Complete
