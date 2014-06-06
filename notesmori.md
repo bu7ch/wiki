@@ -160,3 +160,7 @@ ProgrammR
 [Stack overflow](http://stackoverflow.com/questions/55042/how-can-i-program-a-simple-chat-bot-ai)
 
 [H3manth](http://h3manth.com/content/xmpp-ruby-chat-bot)
+
+Faire de l'electronique
+
+[123circuits.io](http://123d.circuits.io/)
