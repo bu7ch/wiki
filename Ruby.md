@@ -389,3 +389,7 @@ Gestion des execptions - a creuser par le ruby bastard book
 Gem pour la genération d'un site en statique 
 
 gem middleman
+
+Gestion des regexp site internet
+
+[Regexp - Tutorials pionts](http://www.tutorialspoint.com/ruby/ruby_regular_expressions.htm)
