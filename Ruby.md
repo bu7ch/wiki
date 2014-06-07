@@ -393,3 +393,21 @@ gem middleman
 Gestion des regexp site internet
 
 [Regexp - Tutorials pionts](http://www.tutorialspoint.com/ruby/ruby_regular_expressions.htm)
+
+## GESTION DES EXCEPTIONS
+
+```
+class KasayaError < StandardError
+end
+
+def robe(type)
+  ke = KasayaError.new
+  begin
+    raise ke if type.class != String && type != "Kasaya"
+    rescue TypeError => error
+      p error.message
+    end
+  return "Dharmaguptaka's Kasaya Robe"
+end
+
+```
