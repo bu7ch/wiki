@@ -125,3 +125,11 @@ Workflow intéressant avec Tmux est d'organiser son travail à la manière d'une
 |   RACKUP        |   GIT/TIG     |
 |                 |               |
 ```
+
+### tmux copy and paste
+
+[jasonwryan blog](http://jasonwryan.com/blog/2011/06/07/copy-and-paste-in-tmux/)
+
+[Copy and paste in tmux ahwan](http://awhan.wordpress.com/2010/06/20/copy-paste-in-tmux/)
+
+[dudenbostel - style épuré](http://dudenbostel.leanside.com/2014/01/copy-paste-in-tmux/)
