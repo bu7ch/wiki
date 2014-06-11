@@ -27,3 +27,7 @@ Principe SOLID fait pour le développement en objet, bonnes pratiques de program
 Brunch - Initialiser ses applications rapidement
 
 [Brunch](http://brunch.io/)
+
+IDE LightTable pour javascript 
+
+[LightTable](www.lightable.com)
