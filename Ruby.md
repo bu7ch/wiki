@@ -411,3 +411,8 @@ def robe(type)
 end
 
 ```
+
+
+Nb un site très utile en ce qui concerne les test et assertions en Ruby 
+
+[MattSears](http://mattsears.com/articles/2011/12/10/minitest-quick-reference)
