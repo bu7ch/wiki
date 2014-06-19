@@ -138,3 +138,13 @@ Node js have specials emitter and listeners called streams
 Node Async in order to make or callback simpler
 
 [Node Asyn](http://www.befundoo.com/blog/different-uses-node-async-library/)
+
+Concept d'application MEAN (Mongoose, Express, Angular et Node ) 
+
+Ce sont des applications ultra-reactives qui ne se base que sur le javascript, d'ailleurs un site d'entreprise sur le sujet.
+
+[sCOTCH.io](http://scotch.io/tutorials/javascript/creating-a-single-page-todo-app-with-node-and-angular)
+
+[BrianFord Blog](http://briantford.com/blog/angular-express.html?utm_source=javascriptweekly&utm_medium=email)
+
+D'ailleurs tester MEAN.io pour être au point et voir ce que peut faire Node*.js
