@@ -209,3 +209,6 @@ filter->	ValueConverter->	Modifies data before it reaches the view
 directive->	Component->	Re-usable UI element
 
 factory, service->	Utility classes	Provide services to other module elements
+
+
+Existence en angular du service $log qui permet d'afficher des informations au niveau de la console
