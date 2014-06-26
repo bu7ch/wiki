@@ -164,3 +164,5 @@ ProgrammR
 Faire de l'electronique
 
 [123circuits.io](http://123d.circuits.io/)
+
+Ce n'est pas idiot si ça marche
