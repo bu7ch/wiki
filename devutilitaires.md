@@ -44,3 +44,5 @@ Blog Ruby intéressant
 
 [blitztheory](http://www.blitztheory.com/zip-file-downloads-rails-rubyzip/)
 
+Compass Gem pour faire de la configuration en Sinatra ou rails.
+
