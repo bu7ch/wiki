@@ -49,3 +49,7 @@ Compass Gem pour faire de la configuration en Sinatra ou rails.
 API pour les console.log dans chrome
 
 [google developper tools api](https://developer.chrome.com/devtools/docs/console-api)
+
+PageSpeed GoogleChrome extension to see how we can speed up our app our javascript
+
+Clojure Google compiler - reduce and minifying our javascript
