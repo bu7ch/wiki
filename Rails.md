@@ -231,3 +231,7 @@ RAILS POUR AJAX tutoriel a explorer
 Rails pour verifier des infos
 
 raise(params)
+
+Mailman tutorial 
+
+[dansowter](http://dansowter.com/mailman-guide/)
