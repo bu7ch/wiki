@@ -40,6 +40,7 @@ Existence de DOKKU un heroku like mais personnalisé
 
 Github Elixir Erlang
 
-RUNNABLE - Exemple de code sympathique
+Blog Ruby intéressant
 
-[RUnnable](http://runnable.com/)
+[blitztheory](http://www.blitztheory.com/zip-file-downloads-rails-rubyzip/)
+
