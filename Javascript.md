@@ -4,6 +4,10 @@
 
 ### Variables de bases
 
+```
+var maVariable = 5;
+```
+
 ### Types avancés
 
 ## FONCTIONS
@@ -63,6 +67,15 @@ http://www.createjs.com/#!/EaselJS
 http://melonjs.org/
 
 http://www.lafermeduweb.net/billet/melonjs-un-moteur-de-jeux-2d-melant-javascript-et-html5-1159.html
+
+## SUPERHEROJS - articles sur le javascript
+
+[superherojs](http://superherojs.com/)
+
+[javascript is sexy](http://javascriptissexy.com/how-to-learn-javascript-properly/)
+
+[Learning ressources yauh for javascript](http://yauh.de/best-learning-resources-for-meteorjs/)
+
 
 
 Code School javascript
