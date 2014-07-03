@@ -67,3 +67,9 @@ CSS RESSOURCES OFFICIELLES
 [STACK OVERFLOWN](http://stackoverflow.com/questions/811367/how-to-build-a-css-template-from-scratch)
 
 [ZEN CSS](http://www.csszengarden.com/)
+
+### Nobackend 
+
+Concepts intéressant
+
+[No backend](http://nobackend.org/)
