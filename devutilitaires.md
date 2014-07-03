@@ -53,3 +53,5 @@ API pour les console.log dans chrome
 PageSpeed GoogleChrome extension to see how we can speed up our app our javascript
 
 Clojure Google compiler - reduce and minifying our javascript
+
+[Css Layout informations](http://designshack.net/articles/css/715-awesomely-simple-and-free-css-layouts/)
