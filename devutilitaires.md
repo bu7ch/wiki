@@ -59,3 +59,11 @@ Clojure Google compiler - reduce and minifying our javascript
 Informatiosn supplémentaires sur le css
 
 [Devmoose](http://devmoose.com/coding/6-css-tutorials-that-take-you-from-beginner-to-expert)
+
+CSS RESSOURCES OFFICIELLES
+
+[W3C](http://www.w3.org/Style/CSS/)
+
+[STACK OVERFLOWN](http://stackoverflow.com/questions/811367/how-to-build-a-css-template-from-scratch)
+
+[ZEN CSS](http://www.csszengarden.com/)
