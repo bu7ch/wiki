@@ -416,3 +416,32 @@ end
 Nb un site très utile en ce qui concerne les test et assertions en Ruby 
 
 [MattSears](http://mattsears.com/articles/2011/12/10/minitest-quick-reference)
+
+
+### PARSING XML ET JSON EN RUBY 
+
+```
+require "rexml/document"
+
+file = File.open("pets.txt")
+doc = REXML::Document.new file
+file.close
+
+doc.elements.each("pets/pet/name") do |element|
+  puts element
+end
+```
+
+```
+require 'json'
+
+pets = File.open("pets.txt", "r")
+
+doc = ""
+pets.each do |line|
+  doc << line
+end
+pets.close
+
+puts JSON.parse(doc)
+```
