@@ -115,3 +115,8 @@ apt-get install -y tmux zsh python3 git build-essential htop iotop saidar iftop 
  python-virtualenv virtualenvwrapper mosh ffmpeg2theora pastebinit curl tsocks libncurses5-dev nmap 
 
 ```
+
+Trucs et astuces en linux (interessant)
+
+[Tech bar ](http://www.techbar.me/linux-shell-tips/)
+
