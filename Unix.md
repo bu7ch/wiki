@@ -120,3 +120,7 @@ Trucs et astuces en linux (interessant)
 
 [Tech bar ](http://www.techbar.me/linux-shell-tips/)
 
+[Linux mag astuces](http://www.linuxjournal.com/article/7385)
+
+[Linux academy](https://linuxacademy.com/blog/linux/tutorial-the-best-tips-tricks-for-bash-explained/)
+
