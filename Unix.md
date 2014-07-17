@@ -124,3 +124,7 @@ Trucs et astuces en linux (interessant)
 
 [Linux academy](https://linuxacademy.com/blog/linux/tutorial-the-best-tips-tricks-for-bash-explained/)
 
+`̀ `
+mv nomfichier (,{.conf})
+
+```
