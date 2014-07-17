@@ -445,3 +445,5 @@ pets.close
 
 puts JSON.parse(doc)
 ```
+
+Possibilité de & en ruby -> transmission de paramètres
