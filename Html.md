@@ -27,3 +27,12 @@ Bloc.io/rubywarrior
 PlaceKitten - Création d'image de test
 
 [Place kitten](http://placekitten.com/)
+
+Information sur le css - Blog d'un designer
+
+[456 beareastreet](http://www.456bereastreet.com/lab/developing_with_web_standards/csslayout/2-col/)
+
+px => valeur en absolute
+% => relative
+
+existence de rem pour la gestion des positions en css3
