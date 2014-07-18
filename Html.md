@@ -23,3 +23,7 @@ Bourbon css leger avec sass
 [BOurbon.io](http://bourbon.io/)
 
 Bloc.io/rubywarrior
+
+PlaceKitten - Création d'image de test
+
+[Place kitten](http://placekitten.com/)
