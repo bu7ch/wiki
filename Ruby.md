@@ -454,3 +454,5 @@ require ap
 [Ruby reloaded](http://rubyreloaded.com/trickshots/)
 
 LIbrary Fiddle pour tout ce qui est d'intégration du c ou ffy
+
+Ripper pour faire evaluation de code
