@@ -452,3 +452,5 @@ gem awesome_print pour l'affichage meilleur des infos
 require ap 
 
 [Ruby reloaded](http://rubyreloaded.com/trickshots/)
+
+LIbrary Fiddle pour tout ce qui est d'intégration du c ou ffy
