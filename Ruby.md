@@ -474,3 +474,20 @@ Hash[name.zip(age)]
 ```
 
 Possibilite de faire des if suivis en ruby
+
+```
+
+Range in array
+
+[*10..20]
+
+```
+
+```
+
+require 'json'
+
+j hash_variable
+jj hash_variables
+
+```
