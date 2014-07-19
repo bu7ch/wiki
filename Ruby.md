@@ -460,3 +460,17 @@ Ripper pour faire evaluation de code
 upto()
 
 Ruby expression
+
+
+RUBY CODE TRICK
+
+```
+names= %{fred jones mark}
+age =[12,20,54]
+
+name.zip(age)
+Hash[name.zip(age)]
+
+```
+
+Possibilite de faire des if suivis en ruby
