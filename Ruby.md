@@ -451,3 +451,4 @@ Possibilité de & en ruby -> transmission de paramètres
 gem awesome_print pour l'affichage meilleur des infos
 require ap 
 
+[Ruby reloaded](http://rubyreloaded.com/trickshots/)
