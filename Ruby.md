@@ -508,3 +508,29 @@ puts "this is a test".scan(/\w+/).map(&:upcase)
                                  .to_s
 ```
 
+_ permet dans l'irb d'avoir la dernière valeur
+
+Existence en ruby de parametre pour les proc
+
+```
+
+a = 5 
+a -> {}
+a.source_location
+
+#Existence de prepend
+a = 'world'
+a.prepend('hello')
+
+#Fin d'un fichier source ruby
+
+__END__
+
+DATA.read
+DATA.rewind
+
+regexp trick
+
+/(?<a>\w+)(?<b>\w+)/ =~ str
+```
+
