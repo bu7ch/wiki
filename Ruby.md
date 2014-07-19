@@ -491,3 +491,20 @@ j hash_variable
 jj hash_variables
 
 ```
+
+Methods informations
+```
+
+p __method__
+p __callee__
+
+```
+
+Convention d'écriture et passage par référence
+
+`̀ `
+puts "this is a test".scan(/\w+/).map(&:upcase)
+                                 .map(&:reverse)
+                                 .to_s
+```
+
