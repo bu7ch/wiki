@@ -456,3 +456,7 @@ require ap
 LIbrary Fiddle pour tout ce qui est d'intégration du c ou ffy
 
 Ripper pour faire evaluation de code
+
+upto()
+
+Ruby expression
