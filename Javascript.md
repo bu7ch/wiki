@@ -148,3 +148,7 @@ Implied global
 
 Javascript and the DOM
 http://code.tutsplus.com/tutorials/javascript-and-the-dom-series-lesson-1--net-3134
+
+Livre assez intéressant de tim wright sur la programmation
+
+[Learning js ](http://learningjsbook.com/)
