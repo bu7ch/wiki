@@ -152,3 +152,9 @@ http://code.tutsplus.com/tutorials/javascript-and-the-dom-series-lesson-1--net-3
 Livre assez intéressant de tim wright sur la programmation
 
 [Learning js ](http://learningjsbook.com/)
+
+Possibilité d'utiliser en Jquery le script $getScript pour charger un script présent sur le serveur, plusieurs solution à l'ancienne était de créer une balise script via le javascript et de l'évaluer. 
+
+Utilisation aussi de callbacks
+
+[Unix papa](http://unixpapa.com/js/dyna.html)
