@@ -158,3 +158,5 @@ Possibilité d'utiliser en Jquery le script $getScript pour charger un script pr
 Utilisation aussi de callbacks
 
 [Unix papa](http://unixpapa.com/js/dyna.html)
+
+Existence des instruction import et export en javascript pour importer objet et fonctions
