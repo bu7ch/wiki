@@ -39,3 +39,7 @@ Google kEEP -> A TESTER
 Export de css et googlemap
 
 [map embed](http://www.map-embed.com/)
+
+Unit testing videos 
+
+[Youtube unit test](http://www.youtube.com/watch?v=dJUVNFxrK_4&list=PLJWbyYSUTZ2BWkvn9D2BLG_UmliiAbOZA)
