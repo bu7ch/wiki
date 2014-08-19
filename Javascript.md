@@ -160,3 +160,5 @@ Utilisation aussi de callbacks
 [Unix papa](http://unixpapa.com/js/dyna.html)
 
 Existence des instruction import et export en javascript pour importer objet et fonctions
+
+[Stack overflow include javascript in other javascript file](http://stackoverflow.com/questions/950087/how-to-include-a-javascript-file-in-another-javascript-file)
