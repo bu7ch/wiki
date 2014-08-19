@@ -534,3 +534,36 @@ regexp trick
 /(?<a>\w+)(?<b>\w+)/ =~ str
 ```
 
+Possibilité de faire des closures et l'utilisation du & pour faire des références.
+Voiçi quelques trucs
+
+```
+array.each(&method(:foo))
+// equivaut à 
+array.each{|element| foo(element)}
+
+// Autre exemple 1
+["1", "2", "3"].map{ |string| string.to_i }
+=> [1, 2, 3]
+["1", "2", "3"].map(&:to_i)
+=> [1, 2, 3]
+
+//autre exemple 2 avec X comme element
+# when you want to pass an argument to a method
+[10, 11, 12].map(&X.to_s(16))
+=> ["a", "b", "c"]
+
+# when you want to parse some JSON
+owners = [{'name' => 'Fred', 'dog' => 'Fido'},
+          {'name' => 'Ron', 'dog' => 'Rex'}];
+owners.map(&X['name'])
+=> ["Fred", "Ron"]
+
+```
+Les exemples utilisent la gem ampex
+Existence de ruby underscore avec les mêmes qualités
+
+[Ruby underscore](https://github.com/danielribeiro/RubyUnderscore)
+
+References
+[conrad Irwin](http://cirw.in/blog/ampex)
