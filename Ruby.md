@@ -567,3 +567,9 @@ Existence de ruby underscore avec les mêmes qualités
 
 References
 [conrad Irwin](http://cirw.in/blog/ampex)
+
+Ruby weekly 
+
+Application open source
+gitlab 
+discourse
