@@ -29,3 +29,7 @@ Meteor with Matt Debergalis = screencast youtube a consulter
 Meteor Cookbook - Outil pour la cuisine de programme
 
 [Meteor Cookbook](https://github.com/awatson1978)
+
+Meteor tips - Site internet d'un passioné de meteor qui en a même fait un livre
+
+[Meteor tips](http://meteortips.com/book/)
