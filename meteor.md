@@ -12,6 +12,10 @@ Possibilité d'user du node inspector pour aider au débuggage.
 Existence de bootswatch pour faire des modifications et themes bootstrap
 
 
+Meteor Livres
+
+[Meteor livres](https://leanpub.com/meteortutorial)
+
 [Youtube specialiste meteor](http://www.youtube.com/channel/UC4-DIsbr23Z-rPe_F4JAH9w)
 
 
