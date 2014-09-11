@@ -243,3 +243,10 @@ Dans views
 ```
 @user[:name]
 ```
+
+Possibilité de faire passer des champs cachés (formulaire qui possèdent des champs noté bien avant le forms)
+
+```
+f.hidden_field :champ => :value => ...
+
+```
