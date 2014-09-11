@@ -235,3 +235,11 @@ raise(params)
 Mailman tutorial 
 
 [dansowter](http://dansowter.com/mailman-guide/)
+
+Possibilité d'écrire en rails une notation en tableau pour avoir des données d'une varible d'instance 
+
+Dans views
+
+```
+@user[:name]
+```
