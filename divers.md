@@ -43,3 +43,9 @@ Export de css et googlemap
 Unit testing videos 
 
 [Youtube unit test](http://www.youtube.com/watch?v=dJUVNFxrK_4&list=PLJWbyYSUTZ2BWkvn9D2BLG_UmliiAbOZA)
+
+Pepin os => créer un os de zero 
+
+[Pepin Os](http://a.michelizza.free.fr/pmwiki.php?n=Main.HomePage)
+
+[Temple OS](http://www.templeos.org/)
