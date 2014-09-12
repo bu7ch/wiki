@@ -46,6 +46,14 @@ Unit testing videos
 
 Pepin os => créer un os de zero 
 
+###Pepin Os
+
 [Pepin Os](http://a.michelizza.free.fr/pmwiki.php?n=Main.HomePage)
 
+###TempleOs
+
 [Temple OS](http://www.templeos.org/)
+
+Multics - Unix ancestor
+
+[Multics info](http://www.multicians.org/multics.html)
