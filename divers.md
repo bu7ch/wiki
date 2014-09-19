@@ -57,3 +57,12 @@ Pepin os => créer un os de zero
 Multics - Unix ancestor
 
 [Multics info](http://www.multicians.org/multics.html)
+
+Outil pour le test de compétences
+
+Smarterer
+
+[Smarterer](http://smarterer.com/)
+
+
+Pole emploi à un emploiStore à la apple
