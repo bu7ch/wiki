@@ -140,4 +140,9 @@ watch -d ip n
 
 Existence de mrt pour les recherches et watch
 
-OLPC
+OLPC pc couleur verte 100$
+
+Searxks meta moteur en python 
+
+m.al-f.net
+
