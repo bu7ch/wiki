@@ -128,3 +128,14 @@ Trucs et astuces en linux (interessant)
 mv nomfichier (,{.conf})
 
 ```
+
+Commande Watch pour avoir des informations
+
+```
+watch -d ip r 
+watch -d ip a  s wlan0
+watch -d ip n 
+
+```
+
+Existence de mrt pour les recherches et watch
