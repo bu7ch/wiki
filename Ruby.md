@@ -272,7 +272,7 @@ Les hash sont des collections de données de manière non ordonnée, dont chacun
 Les Hash sont à différencier des structures de tableaux. Ils sont fixes et on une syntaxe particulère.
 
 ```
-
+Hash
 person = { :first_name => 'Brian', :last_name => 'Lobster' ,  :age => 44}
 person2 = {fist_name: 'Brisco', last_name: 'Final', age: 44}
 
@@ -282,6 +282,7 @@ L'accès aux paramètres des hash se fait de la manière suivante:
 ```
 puts person
 puts person[:first_name]
+puts person.[] = ("first_name")
 person2[:last_name] = 'Moloch'
 
 ```
@@ -559,6 +560,12 @@ owners = [{'name' => 'Fred', 'dog' => 'Fido'},
 owners.map(&X['name'])
 => ["Fred", "Ron"]
 
+
+Existence dans les array de la propriété reject
+
+a = [1,2,3,4,5,6,7,8]
+a.reject{|e| e > 5}
+
 ```
 Les exemples utilisent la gem ampex
 Existence de ruby underscore avec les mêmes qualités
@@ -573,3 +580,123 @@ Ruby weekly
 Application open source
 gitlab 
 discourse
+
+Différences Ruby avancées
+
+
+Différences entre require et load!
+
+load peut faire du chargement multiple - actualisation ainsi du code dès qu'il est modifié
+
+Programme CGI 
+
+```
+ruby -rdebug nom_programme.rb # debugger
+Utilisation de step pour passer au suivant
+
+```
+
+Erb est aussi une commande
+
+```
+$ erb erbdemo.rb
+
+```
+
+Méthodes utiles en ruby 
+
+```
+# Méthodes utiles en ruby
+
+respond_to?(ARG) #Verifie que l'argument est bien implanté dans l'objet dans lequel la méthode est appellée
+object_id        #Indique l'id unique de l'objet
+send             #
+
+```
+
+respond_to? est une méthode d'introspection et de réflexion -> examen de l'état d'un programme pendant son éxecution.
+
+####Setter en ruby ancienne mode
+
+```
+
+Class Stupid
+   def prix=(x)
+     puts "le prix est #{x}"
+   end
+end
+
+s = Stupide.new
+s.prix = 5
+
+Différences entre require et load!
+
+load peut faire du chargement multiple - actualisation ainsi du code dès qu'il est modifié
+
+Programme CGI 
+
+```
+
+En ruby les classes sont également des objets on peut ainsi avoir des structures sympatiques
+Exemple simple
+
+```
+
+def Billet.plusonéreux(*billets)
+   billets.sort_by {|t| t.prix }.last
+end
+
+``̀`
+C'est une méthode de classe
+Méthode qui s'applique à l'ensemble des objets et non un objet en particulier
+
+
+Nb pour rajouter des options à une méthodes alors passer par un hash est une meilleure solution.
+
+Lever des exceptions et warnings en ligne de commandes
+
+```
+ruby -cw test.rb
+
+```
+
+###Gestion des exceptions
+
+```
+# Mettre le code à risque dans un bloc begin rescue end - Possibilité de préciser les exception
+
+def reraise(nomFichier)
+  begin
+    fichier_handle = Fichier.new(nomFichier)
+  rescue Errno::ENOENT => e
+    puts "Erreur"
+    raise e
+  end 
+end
+
+```
+
+Utilisation aussi de la syntaxe alternative
+
+``̀`
+
+raise ArgumentError, "Il me faut un chiffre inférieur à 10"
+unless x<10
+
+```
+
+###Surdéfinition d'opérateurs
+
+```
+
+#def %(x) travaille sur obj%x
+#def []=(x,y) travaille sur obj[x]=y
+
+```
+NB possibilité d'avoir des infors en mode pry
+```
+
+obj.public_methods
+obj.instance_methods(false).sort
+
+```
