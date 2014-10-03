@@ -115,3 +115,32 @@ Verifier les checkrep - Faire les invariants dans notre code
 Get relevant informations
 
 Steve McConnel Code Complete
+
+##Ruby et rails - Le guide ruby des développeurs rails David A Black
+
+1.Décrire et modéliser le domaine de l'application (univers de l'application  ex:Carnet d'adresses - detérmination des modèles)
+2.Spécifier ce qui peut se produire au sein du domaine( Ajouter des adresses - Supprimer des adresses... - détermination des actions)
+3.Choisir et concevoir les vues du domaine présentées aux utilisateurs(vues du carnet d'adresses)
+
+Modéliser le domaine 
+
+Faire une liste des ensembles, de ce qui le compose
+Faire les liens
+
+Cycle de vie d'une application rails
+
+Notion de domaine CGI - Variables CGI à voir et explorer
+
+Helper accès aux autres méthodes par cette syntaxe
+
+```
+class MainController < ApplicationController
+
+helper :composer
+
+#Helper de la classe
+end
+
+```
+
+
