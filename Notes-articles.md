@@ -119,7 +119,9 @@ Steve McConnel Code Complete
 ##Ruby et rails - Le guide ruby des développeurs rails David A Black
 
 1.Décrire et modéliser le domaine de l'application (univers de l'application  ex:Carnet d'adresses - detérmination des modèles)
+
 2.Spécifier ce qui peut se produire au sein du domaine( Ajouter des adresses - Supprimer des adresses... - détermination des actions)
+
 3.Choisir et concevoir les vues du domaine présentées aux utilisateurs(vues du carnet d'adresses)
 
 Modéliser le domaine 
