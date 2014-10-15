@@ -250,3 +250,9 @@ Possibilité de faire passer des champs cachés (formulaire qui possèdent des c
 f.hidden_field :champ => :value => ...
 
 ```
+
+En rails possibilité existence de la garberish technique qui permet de charger du code javascript séléctif en prenant en compte des éléments du DOM.
+
+Article intéressant sur le sujet.
+
+[Viget Garberish techinque](http://viget.com/inspire/extending-paul-irishs-comprehensive-dom-ready-execution)
