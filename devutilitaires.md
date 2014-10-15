@@ -73,3 +73,7 @@ CSS RESSOURCES OFFICIELLES
 Concepts intéressant
 
 [No backend](http://nobackend.org/)
+
+LayoutIt -> Outil pour la mise en forme sous bootstrap 
+
+[Layout It](http://www.layoutit.com)
