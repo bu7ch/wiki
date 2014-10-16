@@ -162,3 +162,7 @@ Utilisation aussi de callbacks
 Existence des instruction import et export en javascript pour importer objet et fonctions
 
 [Stack overflow include javascript in other javascript file](http://stackoverflow.com/questions/950087/how-to-include-a-javascript-file-in-another-javascript-file)
+
+JQUERY et utilisateion des requetes ajax 
+
+[Tuts plus requete ajax](http://code.tutsplus.com/tutorials/5-ways-to-make-ajax-calls-with-jquery--net-6289)
