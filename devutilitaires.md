@@ -81,3 +81,7 @@ LayoutIt -> Outil pour la mise en forme sous bootstrap
 Labs.Online.net
 
 [Labs online](labs.online.net)
+
+Existence du logiciel POSTMAN pour faire des requêtes http personnalisés
+
+Utilisation de git-extras pour rajouter des fonctionnalités supplémentaires à git
