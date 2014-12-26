@@ -79,10 +79,43 @@ La capacité de javascript et d'angular est de gérer les évènements asynchron
 Existence dans les routes d'un attribut defer et resolve.
 On utilise lorsqu'un ensemble d'élément prendra un temps énorme.
 "When everything have been taken care of then you can render the view" -> explication des promises - Programmation asynchrone.
+No garanty
+resolve with controller or routes
 ```
-E
-```
+app.controller("AppCtrl", function ($scope, $q) {
 
+  var defer = $q.defer();
+
+  defer.promise.then(function () {
+    alert("I promised I would show up");
+  });
+
+  defer.resolve();
+
+  $scope.model = {
+    message: "This is my app!!!"
+  }
+});
+
+
+```
+Possibilité de chainer les instructions.
+
+```
+  defer.promise
+    .then(function () {
+      alert("I promised I would show up");
+    })
+    .then(function () {
+      alert("me too");
+    })
+    .then(function () {
+      alert("and I");
+    });
+
+  defer.resolve();
+
+```
 ```
 
 Partiels en angular se trouvent dans le dossiers partials
