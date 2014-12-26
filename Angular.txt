@@ -51,6 +51,30 @@ Create a route in angular
 		.when
 ``` 
 	
+Possibilité de faire des routes paramétrés en angular soit 
+
+```
+app.controller('MainController', function($scope, $routeParams){
+   console.log($routeParams)
+   $scope.somedata = $routeParams.myparam
+})
+
+app.config(function($routeProvider){
+  $routeProvider
+    .when('/',{templateUrl:'view.html'})
+    .when('/test',{ redirectTo: 'view.html' })
+    .when('/test/:myparam',{templateUrl:'view2.html'})
+    .otherwiser({template: 'Error 404'})
+})
+
+//VUES
+<script type="text/ng-template" id="view2.html">
+  <div ng-controller="MainCtrl">
+     THis is {{ somedata }}
+  </div>
+</script>
+```
+
 
 ```
 
