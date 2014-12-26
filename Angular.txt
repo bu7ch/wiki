@@ -75,6 +75,13 @@ app.config(function($routeProvider){
 </script>
 ```
 
+La capacité de javascript et d'angular est de gérer les évènements asynchrones:
+Existence dans les routes d'un attribut defer et resolve.
+On utilise lorsqu'un ensemble d'élément prendra un temps énorme.
+"When everything have been taken care of then you can render the view" -> explication des promises - Programmation asynchrone.
+```
+E
+```
 
 ```
 
