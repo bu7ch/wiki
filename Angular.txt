@@ -116,6 +116,7 @@ Possibilité de chainer les instructions.
   defer.resolve();
 
 ```
+$location.path('/nouvelleroute') -> changement de route pour le projet Possibilité d'associer à des clicks
 ```
 
 Partiels en angular se trouvent dans le dossiers partials
