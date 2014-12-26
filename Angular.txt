@@ -277,3 +277,7 @@ factory, service->	Utility classes	Provide services to other module elements
 
 
 Existence en angular du service $log qui permet d'afficher des informations au niveau de la console
+
+Lien pour un tutoriel angular qui me semble intéressant
+
+[Thinkster.io](https://thinkster.io/angulartutorial/a-better-way-to-learn-angularjs/)
