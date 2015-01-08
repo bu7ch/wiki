@@ -38,3 +38,37 @@ px => valeur en absolute
 existence de rem pour la gestion des positions en css3
 
 css3Creator site internet tipst
+
+Ressources sur le css 
+
+(Khoi Vinh)[www.substraction.com)
+
+Consours sur le css avec des maquettes et explications
+
+(CSS Reboot)[www.cssreboot.com]
+
+Faire vos propres grids et choisir des colonnes simples 
+
+4 colonnes etc ...
+
+Possibilités de faire des micro-grilles dans des grilles
+
+Idées possibles
+
+(NewsMuseum)[www.newsmuseum.com]
+
+Collages css - Envisager le css comme un design et non une fin  alors s'inspirer du graphique et se demander comment on peut l'implémenter
+
+Prendre des pallettes de couleurs 
+Pas plus de deux ou trois couleurs
+
+LE POSITIONNEMENT EST IMPORTANT 
+
+FAIRE LE DESIGN EN LIVERELOAD
+
+span equivalent à des varibles
+div à des ensembles
+
+Faire des coupes de projets
+Sublimez le design Web
+Transcender css Andy Clarke
