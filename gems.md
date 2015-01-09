@@ -178,3 +178,5 @@ Autres liste de gem utiles
 [10gems to use](http://blog.teamtreehouse.com/10-must-have-ruby-gems)
 
 [CodeBeerStartup](http://www.codebeerstartups.com/2013/04/must-have-gems-for-development-machine-in-ruby-on-rails/#.UxEzqNuRA5Y)
+
+Swagger - UI- gem pour generer documentation d'api
