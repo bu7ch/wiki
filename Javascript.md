@@ -166,3 +166,7 @@ Existence des instruction import et export en javascript pour importer objet et 
 JQUERY et utilisateion des requetes ajax 
 
 [Tuts plus requete ajax](http://code.tutsplus.com/tutorials/5-ways-to-make-ajax-calls-with-jquery--net-6289)
+
+Ressource quotidienne sur le javascript
+
+[Daily js](www.dailyjs.com)
