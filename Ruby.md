@@ -700,3 +700,14 @@ obj.public_methods
 obj.instance_methods(false).sort
 
 ```
+
+Possibilité en Ruby de lancer des Process - C'est une commande particulière - exemple de code.<br>
+Exemple en sinatra tiré de stackOverflow<br>
+
+```
+get '/start_process'
+  @@pid = Process.spawn('external_command_to_run')
+end
+```
+
+Existence de webmock pour gérer les test en requêtes http

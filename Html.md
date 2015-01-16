@@ -72,3 +72,9 @@ div à des ensembles
 Faire des coupes de projets
 Sublimez le design Web
 Transcender css Andy Clarke
+
+## CSS
+
+Media queries = expression limitant la portée des déclarations css.
+
+Gère la partie responsive d'une application
