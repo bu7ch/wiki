@@ -155,3 +155,10 @@ Tink - Utilisation d'un VPN
 Note-X - batterie portable vente sur paris 
 
 [Note-x](http://www.note-x.com/index.php)
+
+Pour connexion à un serveur 
+
+```
+ssh remote_user@adresse_ip
+
+```
