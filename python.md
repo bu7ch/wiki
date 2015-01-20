@@ -51,7 +51,15 @@ for key in d:
 
 for letter in "Eric":
     print letter,  # note the comma!
+```
 
+Python possibilité de créer des list comprehensions. Des listes qui sont créer selon une logique incluse
+
+Syntaxe
+
+```
+new_list = [x for x in range(1,6)]
+# => [1, 2, 3, 4, 5]
 
 ```
 
