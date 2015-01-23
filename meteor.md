@@ -33,3 +33,11 @@ Meteor Cookbook - Outil pour la cuisine de programme
 Meteor tips - Site internet d'un passioné de meteor qui en a même fait un livre
 
 [Meteor tips](http://meteortips.com/book/)
+
+Paquets intéressants pour la conceptions d'applications meteor 
+
+aldeed:collection2  => génération de schema pour bases de données mongo
+aldeed:autoform => gestion des formulaires
+
+
+
