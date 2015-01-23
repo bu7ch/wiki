@@ -40,4 +40,4 @@ aldeed:collection2  => génération de schema pour bases de données mongo
 aldeed:autoform => gestion des formulaires
 
 
-
+meteor reset pour effacer la base de données avant il faut arreter le serveur.
