@@ -41,3 +41,8 @@ aldeed:autoform => gestion des formulaires
 
 
 meteor reset pour effacer la base de données avant il faut arreter le serveur.
+
+Formation dossier lib/router.js
+
+client/application/layout.html
+client/posts/post_index.html
