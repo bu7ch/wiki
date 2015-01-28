@@ -78,3 +78,39 @@ Transcender css Andy Clarke
 Media queries = expression limitant la portée des déclarations css.
 
 Gère la partie responsive d'une application
+
+Gestion du texte en css
+ 
+Propriétés spéciales
+appearance => donner à un élément l'apparence d'un autre élément
+text-overflow => Gestion du débordement texte
+word-break => gestion de la coupure des mots
+
+existence de border-image
+
+Existence de la propriété resize
+
+Propriete pour le css3 
+autres
+
+background-attachment
+background-origin
+
+
+Propriété transition pour tout ce qui est de gérer l'animation et effets
+
+Propriété @keyframes pour effectuer l'animation
+
+```
+@keyframe nomAnimation {
+   //animatiosn a faire
+}
+
+div {
+   animation: nomAnimation;
+   0% { proprietes de l'animation}
+   20% { proprietes de l'animation}
+   50% { proprietes de l'animation}
+   100% { proprietes de l'animation}
+}
+```
