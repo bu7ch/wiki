@@ -114,3 +114,8 @@ div {
    100% { proprietes de l'animation}
 }
 ```
+
+Livre intéressants:
+
+Les fondamentaux de l'animation Paul Wells ed Pyramid - Chapitre feuille tournage intéressant
+***
