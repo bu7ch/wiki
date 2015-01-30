@@ -119,3 +119,8 @@ Livre intéressants:
 
 Les fondamentaux de l'animation Paul Wells ed Pyramid - Chapitre feuille tournage intéressant
 ***
+
+
+CSS pour faire des formes (shapes)
+
+[A list Appart](http://alistapart.com/article/css-shapes-101)
