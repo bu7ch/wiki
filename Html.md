@@ -37,6 +37,11 @@ px => valeur en absolute
 
 existence de rem pour la gestion des positions en css3
 
+Site sur le createur de ShapeCSS - createur de forme et generation du css
+
+[Samuel rossile](http://www.samuelrossille.com/)
+
+
 css3Creator site internet tipst
 
 Ressources sur le css 
