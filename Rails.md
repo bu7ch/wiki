@@ -256,3 +256,8 @@ En rails possibilité existence de la garberish technique qui permet de charger 
 Article intéressant sur le sujet.
 
 [Viget Garberish techinque](http://viget.com/inspire/extending-paul-irishs-comprehensive-dom-ready-execution)
+
+
+Envoi de mail en rails 
+
+[Handling mail in rails](http://www.gotealeaf.com/blog/handling-emails-in-rails)
