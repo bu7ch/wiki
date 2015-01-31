@@ -120,6 +120,10 @@ div {
 }
 ```
 
+Références sur la création de formes en css
+
+[Css-tricks shapes](http://css-tricks.com/examples/ShapesOfCSS/)
+
 Livre intéressants:
 
 Les fondamentaux de l'animation Paul Wells ed Pyramid - Chapitre feuille tournage intéressant
