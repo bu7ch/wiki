@@ -261,3 +261,7 @@ Article intéressant sur le sujet.
 Envoi de mail en rails 
 
 [Handling mail in rails](http://www.gotealeaf.com/blog/handling-emails-in-rails)
+
+Livre ressource sur la création d'application en rails
+
+[API ON rails ](http://apionrails.icalialabs.com/book/chapter_one#cid3)
