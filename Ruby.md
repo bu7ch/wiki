@@ -711,3 +711,15 @@ end
 ```
 
 Existence de webmock pour gérer les test en requêtes http
+
+Pour la manipulation de fichier Ruby possède quelques methodes qu'il est indispensable de connaître
+
+```
+
+File.join # Joindre des fichier
+File.expand_path # Trouve le chemin relatif 
+File.dirname # Nom du dossier courant
+__FILE__ #Constante pour la gestion des fichier
+"./fichier.rb" #Peut renvoyer au dossier précédent
+
+```
