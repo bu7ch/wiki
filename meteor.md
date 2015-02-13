@@ -46,3 +46,7 @@ Formation dossier lib/router.js
 
 client/application/layout.html
 client/posts/post_index.html
+
+Cheatsheet Geniale sur meteor a consulter
+
+[Meteor Cheatsheet](https://gentlenode.com/journal/meteor-11-iron-router-cheatsheet/18)

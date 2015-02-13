@@ -24,3 +24,6 @@ imaging
 Existence de tweetdeck - outils pour visualiser les tweets
 
 NB existence d'ansible qui permet de gérer le déploiement de serveurs
+
+[Outil pour faire des factures](http://www.bonnefacture.com/fr/devisVatFrEdition.php5)
+[lecodeur independant](http://www.codeur.com/blog/outils-facture-freelance)

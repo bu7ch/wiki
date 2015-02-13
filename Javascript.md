@@ -122,13 +122,13 @@ Javascript
 MODULE PARTTERN
 ```
 var simpleton = function(){
-  var privateVriabel
+  var privateVariable;
   function privateFunction(x) {
-	priveteVar
+	privateVar;
   }
     return {
        firstMethod: function(a,b){
-	  privateVaribale
+	  privateVariable
        },
        secondMethod: function(c) {
   	   privateFunction
@@ -170,3 +170,16 @@ JQUERY et utilisateion des requetes ajax
 Ressource quotidienne sur le javascript
 
 [Daily js](www.dailyjs.com)
+
+
+Clever solution to map an object// parcourir un objet
+
+```
+
+function solution(pairs){
+  return Object.keys(pairs)
+    .map(function(k) { return k + ' = ' + pairs[k] })
+    .join(',');
+}
+
+```
