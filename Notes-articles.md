@@ -241,3 +241,203 @@ Digital Web
 
 WEB STANDARD BUZZ
 [WEB STANDARD BUZZ](www.webstandards.org/buzz)
+
+
+##Javascript le guide Complet, Olivier Hondermarck
+
+Nb faire des Règles de nommage
+
+Existence de l'opérateur with qui permet accès au propriétés et méthodes d'un objet:
+
+```
+with(document){
+   write("title =", title, "<br />");
+   write("locuste =", locuste, "<br />");
+}
+```
+
+Tableaux Spéciaux par adressage associatif
+
+```
+var tableau = new Array();
+tableau['un'] = "Chaine de caractères" ;
+tableau['deux'] = 2 ; 
+
+document.write(tableau["deux"] + "<br />");
+
+```
+
+Méthodes tableau
+1.concat
+2.push
+3.pop
+4.join
+5.reverse
+6.shift
+7.unshift
+8.sort
+9.splice
+
+Méthodes String(Regexp avancées)
+1.test (Verifier une regexp)
+2.exec
+3.match (extraire des données)
+4.split
+5.replace
+
+
+Popup en javascript autre que alert
+
+```
+var winPopup = window.open(txtUrl, txtName, txtOptions);
+
+<a href="javascript:openPopup("popup.html")>Cliquez ici</a>
+
+Nb sur txtOptions
+propriete1 = valeur1, propriete2 = valeur2
+
+```
+
+Existence propriété windows.onerror
+
+
+##Jquery Simplifiez vos développements Javascript, J Chaffer K SwedBerg ed Pearson 
+
+Annexe sur le test en jQuery avec Qunit
+Possibilité de faire des tests asynchrones en utilisant deux fonction asyncTest et start
+
+Lecture sur les fermetures en javascript
+
+```
+//Fonctions internes algorithmes récursif et Apis
+
+function outerFn(){
+  console.log('Fonction externe');
+  function innerFn() {
+    console.log('Fonction interne')
+  }
+  innerFn();
+};
+console.log("OuterFn:\n");
+outerFn();
+
+//Appel d'une fonction interne de manière globale
+
+var globalVar ; 
+
+function outerFn(){
+  console.log('Fonction externe');
+  function innerFn() {
+    console.log('Fonction interne')
+  }
+  globalVar = innerFn;
+};
+console.log("OuterFn:\n");
+globalVar();
+
+//Ecriture par référence "Meilleur pour le ramasse miettes" prise intérieur de innerFn
+
+function outerFn(){
+  console.log('Fonction externe');
+  function innerFn() {
+    console.log('Fonction interne')
+  }
+  return innerFn;
+};
+console.log("var fnRef = outerFn():\n");
+var fnRef = outerFn();
+console.log('fnRef():');
+fnRef();
+```
+
+Portée des variables
+
+```
+
+function outerFn(){
+  console.log('Fonction externe');
+  function innerFn() {
+    var innerVar = 0;
+    innerVar++;
+    console.log('InnerVar = ' + innerVar)
+  }
+  return innerFn;
+};
+console.log("OuterFn:\n");
+var fnRef = outerFn();
+fnRef();
+fnRef();
+var fnRef2 = outerFn();
+fnRef2();
+fnRef2();
+```
+
+Les variables renverons toujours 1
+Tandis que dans ce cas on a un compteur
+
+```
+var globaVar ;
+function outerFn(){
+  console.log('Fonction externe');
+  function innerFn() {
+    globalVar++;
+    console.log('globalVar = ' + globalVar)
+  }
+  return innerFn;
+};
+console.log("OuterFn:\n");
+var fnRef = outerFn();
+fnRef();
+fnRef();
+var fnRef2 = outerFn();
+fnRef2();
+fnRef2();
+```
+Nous avons la variable globalVar qui enregistrera les appels de cette fonction et ce qu'importe l'objet
+
+Dans cet exemple nous avons un mélange.
+
+``` 
+function outerFn(){
+  var outerVar = 0;
+  console.log('Fonction externe');
+  function innerFn() {
+    outerVar++;
+    console.log('outerVar = ' + outerVar)
+  }
+  return innerFn;
+};
+console.log("OuterFn:\n");
+var fnRef = outerFn();
+fnRef();
+fnRef();
+var fnRef2 = outerFn();
+fnRef2();
+fnRef2();
+```
+on obtient 1,2 1,2 en résultat - Il y a un scope.
+
+Interactions entre les fermetures
+
+```
+function outerFn(){
+  var outerVar = 0;
+  console.log('Fonction externe');
+  function innerFn1() {
+    outerVar++;
+    console.log('outerVar = ' + outerVar)
+  }
+  function innerFn2(){
+    outerVar += 2;
+    console.log('outerVar= ' + outerVar)
+  }
+  return {'fn1': innerFn1 , 'fn2': innerFn2 };
+};
+console.log("OuterFn:\n");
+var fnRef = outerFn();
+fnRef.fn1();
+fnRef.fn2();
+var fnRef2 = outerFn();
+fnRef2.fn1();
+fnRef2.fn2();
+```
