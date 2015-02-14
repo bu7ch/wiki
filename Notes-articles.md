@@ -145,4 +145,99 @@ end
 
 ```
 
+## Le Zen des CSS, Dave Shea et Molly Holzschlag
 
+Conseils pour l'utilisation des css 
+ 
+1.Utiliser un bon balisage
+2.Eviter l'excès de div
+3.Limiter le volume de code
+4.Exploiter les attributs class et id
+
+Possibilité de mettre un id a un body
+
+Metrre d'abord les id ensuite les classes sachant que les id sont les éléments fixes de notre page.
+
+Attention au jeu de caractères
+
+cf [Alist apart - article sur les carctères spéciaux du web](www.alistapart.com/articles/emen)
+
+Tester sous plusieurs navigateurs => browser Stack
+
+
+Structure Visuelle
+
+Flexibilité 
+
+Exemple de style css
+
+Exemple basé sur le minimalisme
+
+Idée principale est que le css doit être guidé sur 1 thème et ce "theme" est le design. Suivre tout le long du css cette idée et développer ne conséquence.
+
+Phénomène de fusion des marges en css
+
+Débordement du contenu
+Utiliser clear et overflown property
+
+Css est création d'environnements
+
+####Css Processus
+
+#####Fixer des frontières
+
+Mise en place d'un container et body avec les specs du design pricipale
+
+#####Construire des colonnes
+
+Mais aussi des rows composant ces colonnes
+
+#####Créer les illusions d'optiques
+
+Stylisation des éléments - la structure effectuée => travail sur les éléments de style
+
+Exemple de la radio zen garden
+
+Conseils
+
+1.Si vous utilisez des éléments flottants, assurez vous que le dégagement se fait correctement
+2.Problème de marge : appliquez un padding ou une bordure pour les éviter
+3.Eviter d'appliquer un padding ou des bordures à un élément dont on a spécifié la largeur et la hauteur
+4.Ne pas se fier a min-width et min-height
+5.En cas de doute diminuez les valeurs en pourcentage
+6.Verifier que les effets que vous voulez produire existent réelement
+7.Souvenez vous de LoVe/HAte (Link, Visited, Hover, Active -> et LVHFA (Link, Visited, Hover, Focus, Active)
+8.Mesures TRouBles - padding et margin ordre dans le sens des aiguilles d'une montre.
+9.Spécifiez des unités pour des valeurs non nulles - Le css aime le 0
+10.Essayer différentes taille de police
+11.Attention différence de casse html css
+12.CSS interne pour les test ; CSS externe pour la production
+13.Ajouter des bordures visibles pour aider à la correction des problèmes de mise en page.
+14.N'utiliser pas les guillements simple autour des chemins d'accès au images
+15.Attention au style des liens si on use des ancres
+
+Autres liens et ressources
+
+CSS discuss
+[Css discuss mailing list sur le css](www.css-discuss.org)
+
+CSS Max design
+[css max design](www.css.maxdesign.com.au)
+
+Andy budd  Références Css
+[Andy Budd](www.andybudd.com)
+
+Molly CSS Zeldman - Ressources css
+[Molly Css Zeldman](www.dezwozhere.com)
+
+Position is everything
+[Position is everything](www.positioniseverything.com)
+
+Magazine veteran designer web css
+[A list apart](www.alistapart.com)
+
+Digital Web
+[Digital web magazine](www.digital-web.com)
+
+WEB STANDARD BUZZ
+[WEB STANDARD BUZZ](www.webstandards.org/buzz)
