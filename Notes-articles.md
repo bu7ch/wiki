@@ -441,3 +441,5 @@ var fnRef2 = outerFn();
 fnRef2.fn1();
 fnRef2.fn2();
 ```
+
+Lecons inaugurales du college de france Gérard Berry, Penser Modéliser et maîtriser le calcul informatique
