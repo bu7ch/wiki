@@ -77,3 +77,5 @@ new_list = [x for x in range(1,6)]
 
 [Krondo](http://krondo.com/?p=1209)
 
+
+[Liste de livres sur le python consultables](http://pythonbooks.revolunet.com/)

@@ -27,3 +27,6 @@ NB existence d'ansible qui permet de gérer le déploiement de serveurs
 
 [Outil pour faire des factures](http://www.bonnefacture.com/fr/devisVatFrEdition.php5)
 [lecodeur independant](http://www.codeur.com/blog/outils-facture-freelance)
+
+
+Existence de git stat -> permet d'avoir un calendrier de ses commits sur la ligne de commande.

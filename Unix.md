@@ -162,3 +162,88 @@ Pour connexion à un serveur
 ssh remote_user@adresse_ip
 
 ```
+
+Outil pour le transfert de fichier. Utilisation possible de Samba mais aussi d'outils tiers tels que scp 
+
+[University of indiana knowledge base](https://kb.iu.edu/d/agye)
+
+[Blog guillerm Garon](http://www.garron.me/en/articles/scp.html)
+
+[Linux Academy](https://linuxacademy.com/blog/linux/ssh-and-scp-howto-tips-tricks/)
+
+[Faq Forge](http://www.faqforge.com/linux/how-to-copy-files-with-scp-between-linux-servers/)
+
+sudo fdisk -l => liste des medias connectés
+sudo apt-cache search | less 
+
+nb mori difference
+sudo apt-get update
+sudo apt-get upgrade
+
+
+Prise de notes d'un livre sur unix 
+Script Shell Entrainez vous a programmer sous Unix, Linux  Jean Marc Baranger Theo Schomaker
+
+Commandes importantes
+tee
+du (disk usage)
+df (disk file)
+find 
+locate (deux commandes précédentes pour trouver ses fichiers)
+
+alias 
+history 
+
+Nb possibilité de créer plusieurs dossier à la suite
+
+```
+
+mkdir  -p bonjour/{mori,benoit,mohammed}
+
+```
+
+Variables d'environnement obligatoires en Unix
+PATH
+PS1
+PS2
+PWD
+HOME
+LOGNAME
+TERM
+TMOUT
+
+Options du shell
+set -o 
+
+possibilité de les aciver en usant de set -o option ou set +o option
+
+Creation alias et suppression alias
+alias nomAlias=""
+unalias nomAlias
+
+Possibilité d'associer commandes et alias a des combinaisons de touches
+
+alias nomAlias= Ctrl+p
+
+Les test en bash s'effectuent par l'intermédiaire de la commande test 
+
+Syntaxe
+
+test [[condition][option]]
+
+Faire de l'arithmétique en Unix on use de expr
+
+possibilité d'user des doubles paranthèses en unix pour faire du bash
+
+mettre des infos de debug au niveau du shell utilisation de set 
+
+set -x ou set +x a l'intérieur du script ou exterieur du script de cette manières
+
+```
+
+$ksh -x affiche.sh
+
+```
+
+existence de la commande pr
+
