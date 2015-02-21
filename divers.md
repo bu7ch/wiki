@@ -66,3 +66,8 @@ Smarterer
 
 
 Pole emploi à un emploiStore à la apple
+
+Livre d'Eyrolles sur le Uml pas cher mais pratique 
+
+Pascal Roques Uml2 par la pratique ed Eyrolles
+
