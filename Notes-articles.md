@@ -442,4 +442,70 @@ fnRef2.fn1();
 fnRef2.fn2();
 ```
 
-Lecons inaugurales du college de france Gérard Berry, Penser Modéliser et maîtriser le calcul informatique
+Utilisation de json a but d'affichage
+
+```
+
+$(document).ready(function(){
+  $("#letter-b a").click(function(event){
+      event.preventDefault();
+      $.getJSON('b.json', function(data){
+         var html='';
+         $.each(data, function(entryIndex, entry) {
+           html += 'div class="entry">';
+           html += '<h3>'+entry.term+'</h3>';
+         });
+       $('#dictionnary').html(html);
+      });
+  });
+});
+
+```
+
+
+Ajout de fonctionnalités à jQuery
+
+```
+(function($){
+  $.sum = function(){
+    var total  = 0;
+    $.each(array, function(index, value){ value = $.trim(value) ; value = parseFlaot(value)||0 ; total += value;
+    });
+    return total;
+  };
+  $.average =  function(){
+     if $.isArray(array)) {
+        return $.sum(array) /array.length;
+     }
+     return '';
+  };
+})(jQuery);
+
+
+// Avec l'utilisation d'un espace de nom on opère de la même manière mais en faisant attention a commencer par un objet global.
+
+(function($){
+  $.mathUtils = {
+    sum: function(array) {
+      //fonction jquery sera dans le futur utilisé de cette manière
+      // $.mathUtils.sum(array); 
+    },
+    average: function(average){
+       //fonction jquery qui sera utilisée de cette manière
+       // $.mathUtils.average(average);
+    }
+  };
+})();
+
+//Methodes ajoutées a l'objet général jQuery
+
+jQuery.fn.maMethode = function(){
+   alert('Rien à signaler');
+};
+
+//En jquery il existe le mot clé extend pour aussi effectuer ses opération pour agrandir l'espace de nom.
+```
+
+
+##Lecons inaugurales du college de france Gérard Berry, Penser Modéliser et maîtriser le calcul informatique
+
