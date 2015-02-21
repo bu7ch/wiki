@@ -10,6 +10,16 @@ Measuring programming progress by lines of code is like measuring aircraft build
  - Bill Gates
 </blockquote>
 
+existe librairie sfmnl pour ecrire des programmes en c/c++
+
+
+sous linux existence de l'utilitaire purify pour verifier les fuites mémoires
+
+et process viewer windows
+
+
+
+
 
 
 Witty, un unit testting destiné à l'écriture de librairies en C++, framework de creation web
