@@ -391,6 +391,8 @@ Gem pour la genération d'un site en statique
 
 gem middleman
 
+gem emoji => création de d'émojis
+
 Gestion des regexp site internet
 
 [Regexp - Tutorials pionts](http://www.tutorialspoint.com/ruby/ruby_regular_expressions.htm)
@@ -723,3 +725,17 @@ __FILE__ #Constante pour la gestion des fichier
 "./fichier.rb" #Peut renvoyer au dossier précédent
 
 ```
+
+Existence en Ruby de ObjectSpace qui permet grace à des routines d'acceder à l'objet en mémoire.
+
+cd [ObjectSpace Ruby](http://ruby-doc.org//core-2.2.0/ObjectSpace.html)
+
+Nb la hierarchie des classes en ruby
+
+class herite de module
+
+Orientation de l'heritage des classes en ruby
+
+Object -> BasicObject 
+
+Existence de Artoo = framework ruby pour ce qui concerne la robotique

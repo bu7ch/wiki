@@ -183,3 +183,22 @@ function solution(pairs){
 }
 
 ```
+
+Utilisation du mot clé let pour bien spécifier au javascript de laisser la portée d'une variable à sa fonction. 
+
+### Recettes sur le javascript
+
+Nb existence d'une balise noscript qui dans le temps permettait au navigateur d'executer cette partie si le javascript était désactivé
+Gestion des erreurs
+
+Utilisation de try catch et finally pour gestion des erreurs pour erreurs courantes
+Initier des erreurs manageables par l'utilisation du mot clé throw
+
+```
+if typeof value == "number"
+    sum += number
+else
+    throw "Not a number"
+//possibilité de l'envoyer en objet
+```
+

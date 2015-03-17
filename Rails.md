@@ -265,3 +265,9 @@ Envoi de mail en rails
 Livre ressource sur la création d'application en rails
 
 [API ON rails ](http://apionrails.icalialabs.com/book/chapter_one#cid3)
+
+Existence d'une gem pour la gestion et le filtrage de base de données
+
+[Filterrific](http://filterrific.clearcove.ca/)
+
+Exitence de la gem sabisu pour rails avec une fonctionnalité semblabe a postman

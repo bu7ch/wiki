@@ -247,3 +247,7 @@ $ksh -x affiche.sh
 
 existence de la commande pr
 
+
+Site internet d'un codeur avec des références nombreuses au C et à VIm 
+
+[Site internet Derek Wyatt](http://derekwyatt.org/vim/tutorials/intermediate/#vimrc)
