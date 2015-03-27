@@ -30,3 +30,23 @@ NB existence d'ansible qui permet de gérer le déploiement de serveurs
 
 
 Existence de git stat -> permet d'avoir un calendrier de ses commits sur la ligne de commande.
+
+Lien pour un site de recenscement des sites avec screencasts
+
+[devblog.avdi.org](http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/)
+
+[James Shore](http://www.jamesshore.com/Blog/Lets-Play)
+
+Sam et max -> Outil de développement notes d'articles 
+
+Equivalent pour meteorjs en python = autobahn 
+Existence de geventsocketio
+Framework gevent
+
+
+Astuce sympa - créer un réseau ad hoc
+
+[Sam et max réseau ad hoc](http://sametmax.com/creer-un-reseau-ad-hoc-sous-windows-8/)
+[Sam et max pyp](http://sametmax.com/black-awk-down/)
+
+Sikka => outil pour gérer les attaques Ddos

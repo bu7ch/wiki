@@ -281,3 +281,35 @@ Existence en angular du service $log qui permet d'afficher des informations au n
 Lien pour un tutoriel angular qui me semble intéressant
 
 [Thinkster.io](https://thinkster.io/angulartutorial/a-better-way-to-learn-angularjs/)
+
+## Angular directives
+
+directives are functionnality that's program the dom 
+
+myDirective is name in camel case - stretchy components - program the DOM
+
+Best pratices 
+directives -> are use to be reusable
+
+Custom HTML
+
+Angular snippet usable avec sinatra
+
+```javascript
+//create your application module.
+var app = angular.module('myApp', []);
+
+//add a controller to it
+app.controller('MyCtrl', function($scope, $http) {
+
+   //a scope function to load the data.
+   $scope.loadData = function () {
+      $http.get('/Your/Sinatra/Route').success(function(data) {
+         $scope.items = data;
+      });
+   };
+
+});
+
+// nb au niveau du html charger jquery avant angular
+```

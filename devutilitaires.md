@@ -85,3 +85,11 @@ Labs.Online.net
 Existence du logiciel POSTMAN pour faire des requêtes http personnalisés
 
 Utilisation de git-extras pour rajouter des fonctionnalités supplémentaires à git
+
+Faire les calculs du SETI depuis son ordinateur en mode veille
+
+[BOINC](http://boinc.berkeley.edu/)
+
+Existence de l'association Paul Guinot - formation de personnes en handicap à l'informatique
+
+Eden Cast -> newsletter/RSS de format

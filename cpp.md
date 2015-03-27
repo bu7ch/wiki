@@ -31,3 +31,13 @@ Unit testing en C++ avec BOOST
 [Youtube unit testing C++](http://www.youtube.com/watch?v=JLTPCjRzetc)
 
 [Youtube Unit testing](http://www.youtube.com/watch?v=HhwElTL-mdI)
+
+Outils et ressources intéressantes en C++
+
+Outil Peano [Peano Framework](http://www.peano-framework.org/home.shtml)
+
+[get awesomeness](http://getawesomeness.com/get/cpp)
+
+Existence de proxigen un serveur HTTP cpp crée par Facebook
+
+[Proxigen](https://code.facebook.com/posts/1503205539947302/introducing-proxygen-facebook-s-c-http-framework/)

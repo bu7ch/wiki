@@ -202,3 +202,13 @@ else
 //possibilité de l'envoyer en objet
 ```
 
+Librairies js les plus intéressantes
+
+jQuery
+Underscore
+Sugar.js
+d3js
+threejs
+waypoints.js [Waypoints](http://imakewebthings.com/)
+
+

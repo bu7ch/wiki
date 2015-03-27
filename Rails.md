@@ -271,3 +271,5 @@ Existence d'une gem pour la gestion et le filtrage de base de données
 [Filterrific](http://filterrific.clearcove.ca/)
 
 Exitence de la gem sabisu pour rails avec une fonctionnalité semblabe a postman
+
+Formulaire avancés [Odin Project](http://www.theodinproject.com/ruby-on-rails/advanced-forms)

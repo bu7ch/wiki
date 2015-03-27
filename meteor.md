@@ -39,6 +39,14 @@ Paquets intéressants pour la conceptions d'applications meteor
 aldeed:collection2  => génération de schema pour bases de données mongo
 aldeed:autoform => gestion des formulaires
 
+possibilité de prendre la base de données Mongo en meteor par l'intermédiaire de la commande
+
+```
+
+$ meteor mongo --url
+
+```
+
 
 meteor reset pour effacer la base de données avant il faut arreter le serveur.
 
@@ -111,3 +119,18 @@ api.add_files
 api.exports // objet global pour utiliser les fonctions au sein du paquet
 
 Utilisation tableau
+
+Le point important à creuser sera de voir comment faire pour aller mettre l'infrastructure sur un serveur ou autre.
+
+NB Analyse de libreboard et comparaison pour voir les différences:
+
+Différence entre routage client et serveur à creuser
+
+
+Existence de l'application MeteorKitchen qui permet la création d'application meteor par l'intermédiaire du json
+
+[MeteorKitchen](http://www.meteorkitchen.com/)
+
+Existence du paquet <<b>Mongol</b> qui permet une  meilleure édition de meteor en incluant une fenêtre pour le test de javascript
+
+Meteor paquet pour faire des recherches en base de données => user du paquet easy-search
