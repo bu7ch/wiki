@@ -251,3 +251,12 @@ existence de la commande pr
 Site internet d'un codeur avec des références nombreuses au C et à VIm 
 
 [Site internet Derek Wyatt](http://derekwyatt.org/vim/tutorials/intermediate/#vimrc)
+
+Possibilité avec le shell de faire des commandes plus evolués tel que 
+
+pv (pipeviewer)
+
+nc (netcat)
+
+Sachant que l'on peut faire tourner un serveur avec netcat
+[Tutorial to try](http://www.catonmat.net/blog/unix-utilities-netcat/)

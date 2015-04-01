@@ -739,3 +739,6 @@ Orientation de l'heritage des classes en ruby
 Object -> BasicObject 
 
 Existence de Artoo = framework ruby pour ce qui concerne la robotique
+
+Something which seems to be khanacademy
+[Leaf academy](http://www.gotealeaf.com/books)

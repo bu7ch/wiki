@@ -273,3 +273,10 @@ Existence d'une gem pour la gestion et le filtrage de base de données
 Exitence de la gem sabisu pour rails avec une fonctionnalité semblabe a postman
 
 Formulaire avancés [Odin Project](http://www.theodinproject.com/ruby-on-rails/advanced-forms)
+
+Some solution about authentication and identification
+[fun on rails](http://funonrails.com/2014/03/api-authentication-using-devise-token/)
+[fun on rails](http://funonrails.com/2014/03/building-restful-api-using-grape-in-rails/)
+
+Ruby on rails architecture
+[Rails architecture - blog Adrian meja](http://adrianmejia.com/blog/2011/08/11/ruby-on-rails-architectural-design/)

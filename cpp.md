@@ -41,3 +41,16 @@ Outil Peano [Peano Framework](http://www.peano-framework.org/home.shtml)
 Existence de proxigen un serveur HTTP cpp crée par Facebook
 
 [Proxigen](https://code.facebook.com/posts/1503205539947302/introducing-proxygen-facebook-s-c-http-framework/)
+
+Existence de push une librairie pour créer des serveur de haute performance
+[Push framework](http://www.pushframework.com/)
+
+Cmake a make utility better 
+
+[Cmake official tutorial](http://www.cmake.org/cmake-tutorial/)
+[johnlamp](https://www.johnlamp.net/cmake-tutorial-1-getting-started.html)
+[mirkokiefer](http://mirkokiefer.com/blog/2013/03/cmake-by-example/)
+
+List of ressources about c++
+[Get Awesomeness](http://getawesomeness.com/get/cpp)
+[learncpp](http://www.learncpp.com/)

@@ -211,4 +211,14 @@ d3js
 threejs
 waypoints.js [Waypoints](http://imakewebthings.com/)
 
+[Javascript testing a reference site](http://www.letscodejavascript.com/)
 
+A blog about javascript by an engineer
+[Elegant code](http://elegantcode.com/2010/10/22/basic-javascript-part-1-functions/)
+
+Javascript namespacing theme
+[Javascript namespacing -blog addyosmani](http://addyosmani.com/blog/essential-js-namespacing/)
+[Thanpolas](http://thanpol.as/javascript/development-using-namespaces/)
+
+Websockets a introduction
+[html5rocks](http://www.html5rocks.com/en/tutorials/websockets/basics/#toc-introduction-lowlatency)
